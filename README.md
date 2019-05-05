@@ -1,1 +1,5 @@
-# Hackintosh Guide
+# Vanilla AMD Hackintosh Guide
+---
+
+
+
