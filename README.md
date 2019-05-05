@@ -1,5 +1,6 @@
-# Vanilla AMD Hackintosh Guide
+# Vanilla Intel & AMD Hackintosh Guide
 ---
 
-Testing
+### Introduction
 
+So, you want a working Hackintosh without any other extra trash in
