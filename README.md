@@ -12,5 +12,9 @@ This is a guide base on Intel Vanilla Hackintosh and there will be some more inf
 
 So, first of all, what is "Vanilla Hackintosh"? Vanilla Hackintosh means a hackintosh setup that is exclusive for you unique harware.
 
-What's the different between "Vanilla" and "Niresh"\(distros\)?
+**What's the different between "Vanilla" and "Niresh"\(distros\)?**
+
+Niresh\(distro\) is an all in one installer which runs on all hardware. Although it has the most compability, they don't teach you anything and hackintosh doesn't meant for this. Also 
+
+Vanilla, which means the most native method. In this way, you will
 
