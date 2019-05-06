@@ -3,4 +3,4 @@
 
 ### Introduction
 
-So, you want a working Hackintosh without any other extra trash in
+So, do you want a working Hackintosh without any other extra trash in your Hackintosh? Well, you have come to right place!
