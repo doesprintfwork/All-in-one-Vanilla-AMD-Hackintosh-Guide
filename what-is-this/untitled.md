@@ -2,7 +2,7 @@
 
 ### General
 
-So, first of all, what is "Vanilla Hackintosh"? Vanilla Hackintosh means a hackintosh setup that is exclusive for you unique harware.
+So, first of all, what is "Vanilla Hackintosh"? Vanilla Hackintosh means a hackintosh setup that is as close to a real mac install as possible and being exclusive for your unique hardware.
 
 **What's the different between "Vanilla" and "Niresh"\(distros\)?**
 
