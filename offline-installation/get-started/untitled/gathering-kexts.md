@@ -4,7 +4,7 @@
 
 ### **What is absolutely required?**
 
-[_VirtualSMC.kext_](https://github.com/acidanthera/VirtualSMC) or [FakeSMC.kext](https://github.com/RehabMan/OS-X-FakeSMC-kozlek) \(older\) is as aforementioned essential. This kext is what tells macOS "Yes this is a real Mac", emulating the functionality of the SMC on real Mac's. Without it, no Hackintosh.
+[_VirtualSMC.kext_](https://github.com/acidanthera/VirtualSMC) _\(use this\)_ or [FakeSMC.kext](https://github.com/RehabMan/OS-X-FakeSMC-kozlek) \(older, if VirtualSMC doesn't work, use this instead\) is as aforementioned essential. This kext is what tells macOS "Yes this is a real Mac", emulating the functionality of the SMC on real Mac's. Without it, no Hackintosh.
 
 ### Where can I find these kexts?
 
