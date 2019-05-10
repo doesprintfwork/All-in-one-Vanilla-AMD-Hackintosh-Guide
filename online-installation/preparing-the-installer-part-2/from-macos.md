@@ -19,7 +19,5 @@ description: Installing Clover by using the installer package.
 1. Open the Clover installer
 2. Install it to your USB with these settings \(choose Customize in the Installation Type\) `Clover for UEFI booting only Install Clover in the ESP UEFI Drivers:  - ApfsDriverLoader  - AptioMemoryFix  - HFSPlus (or VBoxHFS - 64) Install RC Scripts on target volume (or Install RC Scripts on other volumes)`More explanations [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/clover-setup).
 3. Time to edit the config.plist located in EFI/EFI/CLOVER . You can go to [this page ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics)to know what you need to edit. \(P.S.: There is a sample config.plist at the bottom of each config explanation. You can download it and use it\) If you have downloaded the config.plist, you can use it to replace the original one. **AMD Users, please continue reading.**
-4. Replace the original config.plist in EFI/EFI/CLOVER with the prepatched one \(mentioned [here](../get-started/untitled/amd-clover-config.plist.md)\)
-5. \*\*\*\*
-6. \*\*\*\*
+4. Replace the original config.plist in EFI/EFI/CLOVER with the prepatched one \(mentioned [here](../get-started/untitled/amd-clover-config.plist.md)\).
 
