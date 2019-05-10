@@ -15,3 +15,14 @@
 * Clover install package
 * Clover Configurator
 
+### From Windows
+
+* No other special things
+
+## Requirements
+
+* **Intel or AMD \(FX or Ryzen\) CPUs**
+* **A dedicated GPU.** Either nVidia or AMD will work. AMD GPUs are more recommended because of the native support from macOS Mojave. Most of the nVidia GPUs can only goes up to macOS High Sierra \(only Kepler GPUs are supported in Mojave\). [Here](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) is a compatible GPU list. _**Remember the highest supported verison.**_
+
+
+
