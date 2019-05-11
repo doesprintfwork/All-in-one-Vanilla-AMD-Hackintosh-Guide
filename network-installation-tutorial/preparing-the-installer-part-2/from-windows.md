@@ -1,5 +1,7 @@
 ---
-description: We'll use MakeInstall in gibMacOS folder.
+description: >-
+  We'll use MakeInstall in gibMacOS folder. Sorry for no pictures. Will add back
+  later.
 ---
 
 # From Windows
