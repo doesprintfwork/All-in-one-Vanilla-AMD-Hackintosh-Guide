@@ -17,4 +17,3 @@ description: Download the installer image.
 
 ![](../.gitbook/assets/gibmacos-macos-1.gif)
 
-1. 
