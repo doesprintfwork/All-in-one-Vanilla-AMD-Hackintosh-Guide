@@ -14,6 +14,10 @@ description: Installing Clover by using the installer package.
 6. Choose BaseSystem.dmg on desktop and press Restore.
 7. This should take some time depending on your USB speed.
 
+![Steps 1 - 3](../../.gitbook/assets/extract-resources-files.gif)
+
+![Steps 4 - 7](../../.gitbook/assets/restoring-to-usb.gif)
+
 ## Part - 2
 
 1. Open the Clover installer
