@@ -10,3 +10,5 @@ Niresh \(distro\) is an all in one installer which runs on all hardware. Althoug
 
 Vanilla, which means the most native method. In this way, you will learn how things work and that will be easier for debugging. And there will be less trash than Niresh \(distro\).
 
+**For multi-booting, read** [**this**](https://hackintosh-multiboot.gitbook.io/hackintosh-multiboot/) **first.**
+
