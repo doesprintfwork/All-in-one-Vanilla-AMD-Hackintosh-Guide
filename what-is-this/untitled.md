@@ -1,6 +1,6 @@
 # Introduction
 
-### General
+## General
 
 So, first of all, what is "Vanilla Hackintosh"? Vanilla Hackintosh means a hackintosh setup that is as close to a real mac install as possible and being exclusive for your unique hardware.
 

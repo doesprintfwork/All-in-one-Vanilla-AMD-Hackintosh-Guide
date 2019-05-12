@@ -15,9 +15,7 @@
 
 _**For AMD Users:**_ 
 
-* config.plist from AMD OSX Github \(more explanation [here](amd-clover-config.plist.md)\)
-* NullCPUPowerManagement.kext
-* > This kext disables CPU Power Management, as that is not supported on Pentium, Celeron, Atom &  AMD chips.
+* [config.plist](https://github.com/AMD-OSX/AMD_Vanilla) from AMD OSX Github \(more explanation [here](amd-clover-config.plist.md)\)
 
 ## Extra
 
@@ -34,7 +32,7 @@ _**For AMD Users:**_
 ## Requirements
 
 * **Intel or AMD \(FX or Ryzen or Zen Athlon\) CPUs**
-* **Intel iGPU \(except Pentium, Celeron & Atom\) or a dedicated GPU.** Either nVidia or AMD will work. **AMD GPUs are more recommended** because of the native support from macOS Mojave. **Most of the nVidia GPUs can only goes up to macOS High Sierra** \(only Kepler GPUs are supported in Mojave\). **Non native nVidia GPUs perform even worse than Intel iGPU \(i.e.: UHD630\) on AMD CPUs in my opinion.** [_**Here**_](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) is a compatible GPU list. _**Remember the highest supported verison.**_
+* **Intel iGPU \(except Pentium, Celeron & Atom\) or a dedicated GPU.** Either nVidia or AMD will work. **AMD GPUs are more recommended** because of the native support from macOS Mojave. **Most of the nVidia GPUs can only goes up to macOS High Sierra** \(only Kepler GPUs are supported in Mojave\). **Non native nVidia GPUs perform even worse than Intel iGPU \(i.e.: UHD630\) on AMD CPUs in my opinion.** [_**Here**_](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) is a compatible GPU list. _**Remember the highest supported version.**_
 
 
 

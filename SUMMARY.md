@@ -16,4 +16,6 @@
 * [Preparing the installer - Part 2](network-installation-tutorial/preparing-the-installer-part-2/README.md)
   * [From Windows](network-installation-tutorial/preparing-the-installer-part-2/from-windows.md)
   * [From macOS](network-installation-tutorial/preparing-the-installer-part-2/from-macos.md)
+* [Actual Installation - Part 1](network-installation-tutorial/actual-installation-part-1.md)
+* [Actual Installation - Part 2](network-installation-tutorial/actual-installation-part-2.md)
 
