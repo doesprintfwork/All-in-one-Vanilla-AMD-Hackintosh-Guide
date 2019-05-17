@@ -5,7 +5,6 @@
 * An 8GB+ USB flash drive for the installer
 * A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS) for making the USB installer
 * Kexts for your system \([Gathering Kexts](gathering-kexts.md)\)
-* **Atom & Celeron are NOT supported**
 
 ### **The config file for Clover \(clover.plist, clone or download the whole repositories mentioned below\):**
 
@@ -32,7 +31,7 @@ _**For AMD Users:**_
 
 ## Requirements
 
-* **Intel or AMD \(FX or Ryzen or Zen Athlon\) CPUs**
+* **Intel \(**_**except Atom & Celeron**_**\) or AMD \(FX or Ryzen or Zen Athlon\) CPUs**
 * **Intel iGPU \(except Pentium\) or a dedicated GPU.** Either nVidia or AMD will work. **AMD GPUs are more recommended** because of the native support from macOS Mojave. **Most of the nVidia GPUs can only goes up to macOS High Sierra** \(only Kepler GPUs are supported in Mojave\). **Non native nVidia GPUs perform even worse than Intel iGPU \(i.e.: UHD630\) on AMD CPUs in my opinion.** [_**Here**_](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) is a compatible GPU list. _**Remember the highest supported version.**_
 
 
