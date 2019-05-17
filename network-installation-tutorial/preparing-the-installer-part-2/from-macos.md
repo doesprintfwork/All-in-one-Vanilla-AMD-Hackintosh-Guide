@@ -18,8 +18,8 @@ description: Installing Clover by using the installer package.
 
 ## Part - 2
 
-1. Open the Clover installer
-2. Install it to your USB with these settings \(choose Customize in the Installation Type\) `Clover for UEFI booting only Install Clover in the ESP UEFI Drivers:  - ApfsDriverLoader  - AptioMemoryFix  - HFSPlus (or VBoxHFS - 64) Install RC Scripts on target volume (or Install RC Scripts on other volumes)` More explanations [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/clover-setup).
+1. Open the Clover installer.
+2. Install it to your USB with these settings. \(Choose Customize in `Installation Type` part, **only choose either UEFI or Legacy**\) **UEFI \(For newer Mobo\):** `Clover for UEFI booting only Install Clover in the ESP UEFI Drivers:  - ApfsDriverLoader  - AptioMemoryFix  - HFSPlus (or VBoxHFS - 64) Install RC Scripts on target volume (or Install RC Scripts on other volumes)` **Legacy \(For older Mobo\):** `Install Clover in ESP Boot0ss Clover EFI Sata Drivers64: - UsbMouseDxe - UsbKbDxe - Ps2MouseDxe - XhciDxe Install Rc Scripts on target volume (or Install RC Scripts on other volumes)` More explanations [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/clover-setup).
 3. When it is finished, a disk call EFI should be mounted. Replace the original config.plist in EFI/EFI/CLOVER with the downloaded sample config \(**or the pre-patched one for AMD Users** which mentioned [here](../get-started/untitled/amd-clover-config.plist.md)\).
 4. After that, put all the kexts you have downloaded \(in [Gathering Kexts page](../get-started/untitled/gathering-kexts.md)\) to `EFI/EFI/CLOVER/kexts/Other` folder.
 5. You have finally made the installer! Woo-hoo! 🥳 
