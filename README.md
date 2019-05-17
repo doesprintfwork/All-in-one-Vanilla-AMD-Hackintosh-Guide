@@ -1,7 +1,3 @@
----
-description: WIP. Some parts may not be complete.
----
-
 # Vanilla Intel & AMD Hackintosh Guide
 
 Do you want a working Hackintosh without any other extra trash in your Hackintosh? Have you been waiting for a long time for an Intel & AMD Hackintosh Guide?
