@@ -5,6 +5,7 @@
 * An 8GB+ USB flash drive for the installer
 * A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS) for making the USB installer
 * Kexts for your system \([Gathering Kexts](gathering-kexts.md)\)
+* **Atom & Celeron are NOT supported**
 
 ### **The config file for Clover \(clover.plist, clone or download the whole repositories mentioned below\):**
 
@@ -19,10 +20,10 @@ _**For AMD Users:**_
 
 ## Extra
 
-### _**For Intel Pentium, Celeron & Atom and AMD CPUs:**_
+### _**For Intel Pentium and AMD CPUs:**_
 
 * NullCPUPowerManagement.kext
-* > This kext disables CPU Power Management, as that is not supported on Pentium, Celeron,  Atom & AMD chips.
+* > This kext disables CPU Power Management, as that is not supported on Pentium & AMD chips.
 
 ### Things need to get if you are making the installer in macOS
 
@@ -32,7 +33,7 @@ _**For AMD Users:**_
 ## Requirements
 
 * **Intel or AMD \(FX or Ryzen or Zen Athlon\) CPUs**
-* **Intel iGPU \(except Pentium, Celeron & Atom\) or a dedicated GPU.** Either nVidia or AMD will work. **AMD GPUs are more recommended** because of the native support from macOS Mojave. **Most of the nVidia GPUs can only goes up to macOS High Sierra** \(only Kepler GPUs are supported in Mojave\). **Non native nVidia GPUs perform even worse than Intel iGPU \(i.e.: UHD630\) on AMD CPUs in my opinion.** [_**Here**_](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) is a compatible GPU list. _**Remember the highest supported version.**_
+* **Intel iGPU \(except Pentium\) or a dedicated GPU.** Either nVidia or AMD will work. **AMD GPUs are more recommended** because of the native support from macOS Mojave. **Most of the nVidia GPUs can only goes up to macOS High Sierra** \(only Kepler GPUs are supported in Mojave\). **Non native nVidia GPUs perform even worse than Intel iGPU \(i.e.: UHD630\) on AMD CPUs in my opinion.** [_**Here**_](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) is a compatible GPU list. _**Remember the highest supported version.**_
 
 
 
