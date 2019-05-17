@@ -11,7 +11,7 @@ description: Download the installer image.
 3. It should refresh the list after you toggle the mode. From there, you should see a list of macOS versions. Enter the number in front of the latest version \(by checking the date\) of **the highest supported macOS version of you system** which mentioned in [Requirements](get-started/untitled/#requirements).
    1. > **AMD Users:**
       >
-      > _**IMPORTANT!**_ **Only choose 10.13.6, 10.14.1, 10.14.3, or 10.14.4. Other versions are not supported.**
+      > _**IMPORTANT!**_ **Only choose 10.13.6, 10.14.1, 10.14.3, 10.14.4, and 10.14.5. Other versions are not supported.**
 4. Press Enter and it should start downloading. There should be only 1 item to download. Be patient while downloading the files.
 5. Once it finishes downloading, you can proceed to the [next part](preparing-the-installer-part-2/).
 
