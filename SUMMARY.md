@@ -18,6 +18,7 @@
   * [From macOS](network-installation-tutorial/preparing-the-installer-part-2/from-macos.md)
 * [Actual Installation - Part 1](network-installation-tutorial/actual-installation-part-1.md)
 * [Actual Installation - Part 2](network-installation-tutorial/actual-installation-part-2.md)
+* [Posty!!!](network-installation-tutorial/posty.md)
 
 ## Credits
 

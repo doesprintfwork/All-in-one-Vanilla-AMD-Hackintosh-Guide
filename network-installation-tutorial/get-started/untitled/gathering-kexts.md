@@ -26,7 +26,7 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 
 ### WiFi and Bluetooth 
 
-\(I myself don't use bluetooth nor WiFi so I don't have knowledge in that, but here is some information on the subject by CorpNewt. _Check **Credits** for more info_\) 
+\(I myself don't use bluetooth nor WiFi so I don't have knowledge in that, but here is some information on the subject by CorpNewt.\) 
 
 `Apple is pretty minimal with their WiFi support, so I'll only cover the two main chipsets I'm familiar with. I've used a BCM94360CD + PCIe adapter, and BCM94352HMB/BCM94352Z in my Hackintoshes. The BCM94360CD worked OOB with no extras as it's a native card. For the BCM94352 flavors, I've been using` [_`AirportBrcmFixup.kext`_](https://github.com/acidanthera/AirportBrcmFixup)`and the companion`[_`Lilu.kext`_](https://github.com/vit9696/Lilu/releases)`for WiFi setup and` _`BrcmBluetoothInjector.kext`_`(on 10.13.6+) or` _`BrcmPatchRAM2.kext`_ `alongside` _`BrcmFirmwareData.kext`_ `- all of the Brcm* kexts are from RehabMan's` [_`OS-X-BrcmPatchRAM`_](https://github.com/RehabMan/OS-X-BrcmPatchRAM)`repo.`
 
