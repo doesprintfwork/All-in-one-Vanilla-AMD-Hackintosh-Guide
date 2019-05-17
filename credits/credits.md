@@ -10,6 +10,6 @@
 * **NoOne** - For his whole page of Gathering Kexts.
 * **Algrey** - For patching the kernel on AMD. Without him, the whole process for AMD will be much more complicated.
 * **Shaneee** - For his original Vanilla AMD Hackintosh Guide. [Link](https://vanilla.amd-osx.com) to his guide.
-* **AlexTheGreat4000, Scooby-Chan** - For proofreading this guide.
+* **AlexTheGreat4000, Scooby-Chan & CorpNewtheo** - For proofreading this guide.
 * **SlimShadyIAm** - For the gifs from windows. [Here](https://hack.slim.ovh/) is his guide.
 
