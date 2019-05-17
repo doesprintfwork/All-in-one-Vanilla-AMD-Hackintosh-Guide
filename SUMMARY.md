@@ -19,3 +19,7 @@
 * [Actual Installation - Part 1](network-installation-tutorial/actual-installation-part-1.md)
 * [Actual Installation - Part 2](network-installation-tutorial/actual-installation-part-2.md)
 
+## Credits
+
+* [Credits](credits/credits.md)
+
