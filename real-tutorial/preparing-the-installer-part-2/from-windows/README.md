@@ -4,7 +4,7 @@ description: >-
   later.
 ---
 
-# From Windows \(Network Installer\)
+# From Windows
 
 #### **You'll need ethernet connection while installing macOS with this method. For people who don't have ethernet connection, please go to** [**this page**](convert-the-installer-to-offline.md) **after finishing this part to convert it to offline installer.**
 
