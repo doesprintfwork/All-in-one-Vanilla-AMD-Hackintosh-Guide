@@ -13,7 +13,7 @@
     * [Gathering Kexts](real-tutorial/get-started/untitled/gathering-kexts.md)
     * [AMD Clover config.plist](real-tutorial/get-started/untitled/amd-clover-config.plist.md)
     * [Version Number](real-tutorial/get-started/untitled/version-number.md)
-* [Preparing the installer - Part 1](real-tutorial/preparing-the-installer-part-1.md)
+* [Preparing the installer - Part 1 \(Online installer\)](real-tutorial/preparing-the-installer-part-1.md)
 * [Preparing the installer - Part 2](real-tutorial/preparing-the-installer-part-2/README.md)
   * [From Windows](real-tutorial/preparing-the-installer-part-2/from-windows.md)
   * [From macOS \(Online Method\)](real-tutorial/preparing-the-installer-part-2/from-macos.md)

@@ -2,7 +2,7 @@
 description: Download the installer image.
 ---
 
-# Preparing the installer - Part 1
+# Preparing the installer - Part 1 \(Online installer\)
 
 ## Get the macOS Installer from gibMacOS
 
