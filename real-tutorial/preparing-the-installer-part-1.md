@@ -1,14 +1,17 @@
 ---
-description: Download the installer image.
+description: >-
+  Download the installer image. For making Installer from Windows and Network
+  Installer from macOS. Skip this part if you are making Offline Installer from
+  macOS.
 ---
 
-# Preparing the installer - Part 1 \(Online installer\)
+# Preparing the installer - Part 1 \(Network Installer\)
 
 ## Get the macOS Installer from gibMacOS
 
 1. Run the gibMacOS.bat \(Windows\) or gibMacOS.command \(macOS, with right-click open\) inside the downloaded or cloned gibMacOS folder
 2. A Command Prompt window \(cmd in Windows\) or Terminal window \(macOS\) should appear. Enter `r` to toggle `Recovery Only` mode.
-3. It should refresh the list after you toggle the mode. From there, you should see a list of macOS versions. Enter the number in front of the latest version \(by checking the date\) of **the highest supported macOS version of you system** which mentioned in [Requirements](get-started/untitled/#requirements).  
+3. It should refresh the list after you toggle the mode. From there, you should see a list of macOS versions. Enter the number in front of the latest version \(by checking the date\) of **the highest supported macOS version of you system** which mentioned in [Requirements](get-started/untitled/#requirements). If you want to convert it to a Offline Installer, choose 10.14.1 or 10.13.6 in order to use the installer app downloaded.  
    _**AMD Users:**_
 
    > _**IMPORTANT!**_ **Only choose 10.13.6, 10.14.1, 10.14.3, 10.14.4, and 10.14.5. Other versions are not supported.**

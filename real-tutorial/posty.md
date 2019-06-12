@@ -2,7 +2,7 @@
 
 ## Clover Installation
 
-Basically, Install Clover again with the settings which you have chosen for your USB. Then, mount the EFI partitions of your usb and your harddisk which has installed macOS. Open the both EFI partitions and merge the original EFI files in the harddisk with your USB files. \(Tips: hold `option` key to copy files and the merge option should appear.
+Basically, Install Clover again with the settings which you have chosen for your USB. Then, mount the EFI partitions of your usb and your hard disk which has installed macOS. Open the both EFI partitions and reaplace the original EFI files in the harddisk with your USB files. \(Tips: hold `option` key to copy files and the merge option should appear.
 
 ## Others
 

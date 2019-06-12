@@ -1,18 +1,21 @@
 # Gathering Kexts
 
+### Please keep all of the downloaded kexts to a folder. We will need that later.
+
 ## What Kexts Do You Need?
+
+### Where can I find these kexts?
+
+All the kexts shown here are available for download on the [_**kext repo**_](https://1drv.ms/f/s!AiP7m5LaOED-m-J8-MLJGnOgAqnjGw) _****_provided and maintained by Goldfish64. All these kexts are automatically built when a new kext update is committed. All Hyperlinks \(except SmallTree kext\) are links to their GitHub. **Remember to download the built version on the** [_**kext repo**_**.**](https://1drv.ms/f/s!AiP7m5LaOED-m-J8-MLJGnOgAqnjGw) **Do** _**NOT**_ **download and use all kexts. Doing this may result a kernel panic.**
 
 ### **What is absolutely required?**
 
 [_VirtualSMC.kext_](https://github.com/acidanthera/VirtualSMC) _\(use this\)_ or [FakeSMC.kext](https://github.com/RehabMan/OS-X-FakeSMC-kozlek) \(older, if VirtualSMC doesn't work, use this instead\) is as aforementioned essential. This kext is what tells macOS "Yes this is a real Mac", emulating the functionality of the SMC on real Mac's. Without it, no Hackintosh. **Do NOT use both of the SMC kexts.**
 
-**You'll need Lilu.kext also.**
+**You'll need these also.**
 
 * [_Lilu.kext_](https://github.com/acidanthera/Lilu) _-_ this kext acts as a loader for other kexts. More specifically it can patch kexts, processes and libraries.
-
-### Where can I find these kexts?
-
-All the kexts shown here are available for download on the [_**kext repo**_](https://1drv.ms/f/s!AiP7m5LaOED-m-J8-MLJGnOgAqnjGw) _****_provided and maintained by Goldfish64. All these kexts are automatically built when a new kext update is committed. All Hyperlinks \(except SmallTree kext\) are links to their GitHub. **Remeber to download the built version on the** [_**kext repo**_**.**](https://1drv.ms/f/s!AiP7m5LaOED-m-J8-MLJGnOgAqnjGw) **Do** _**NOT**_ **download and use all kexts. Doing this may result a kernel panic.**
+* [_Whatevergreen.kext_ ](https://github.com/acidanthera/WhateverGreen)_-_ this kext fixes a lot of GPU related issues.
 
 ### Ethernet \(Choose the one you need\)
 
@@ -21,11 +24,7 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 * _​_[_AtherosE2200Ethernet.kext_](https://github.com/Mieze/AtherosE2200Ethernet) - this works for most Atheros or Killer networking chipsets
 * _​_[_RealtekRTL8111.kext_](https://github.com/Mieze/RTL8111_driver_for_OS_X) - this works with most gigabit Realtek LAN chipsets
 * _​_[_RealtekRTL8100.kext_](https://github.com/Mieze/RealtekRTL8100) - for 10/100 Realtek LAN chipsets
-* \*\*\*\*[**SmallTree-Intel-211-AT-PCIe-GBE.kext**](https://cdn.discordapp.com/attachments/390417931659378688/556912824228773888/SmallTree-Intel-211-AT-PCIe-GBE.kext.zip) - for Intel I122-AT LAN chipset only. \(Download this by clicking the bold words.\)
-
-### Graphics \(You'll need this\)
-
-* [_Whatevergreen.kext_ ](https://github.com/acidanthera/WhateverGreen)_-_ this kext fixes a lot of GPU related issues.
+* \*\*\*\*[**SmallTree-Intel-211-AT-PCIe-GBE.kext**](https://cdn.discordapp.com/attachments/390417931659378688/556912824228773888/SmallTree-Intel-211-AT-PCIe-GBE.kext.zip) - **for Intel I122-AT LAN chipset** only. \(Download this by clicking the bold words.\)
 
 ### WiFi and Bluetooth 
 

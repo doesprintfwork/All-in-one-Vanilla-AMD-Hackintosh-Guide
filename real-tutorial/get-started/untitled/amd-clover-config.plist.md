@@ -1,3 +1,7 @@
+---
+description: AMD ONLY.
+---
+
 # AMD Clover config.plist
 
 It is a pre-patched config.plist for AMD CPUs. It contains kernel patches which are needed for fixing Siri, iMessage, FaceTime etc. With this patch, **there will be no 32-bit app support.**
