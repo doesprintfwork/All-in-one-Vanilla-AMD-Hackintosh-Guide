@@ -2,7 +2,9 @@
 description: Installing Clover by using the installer package.
 ---
 
-# From macOS
+# From macOS \(Online Method\)
+
+### You'll need ethernet connection while installing macOS. If you don't have a ethernet connection, go to the next page for offline installation.
 
 ## Part - 1
 

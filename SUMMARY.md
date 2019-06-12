@@ -6,19 +6,20 @@
 
 * [Introduction](what-is-this/untitled.md)
 
-## Network Installation Tutorial
+## Real Tutorial
 
-* [Get Started](network-installation-tutorial/get-started/README.md)
-  * [Prerequisites](network-installation-tutorial/get-started/untitled/README.md)
-    * [Gathering Kexts](network-installation-tutorial/get-started/untitled/gathering-kexts.md)
-    * [AMD Clover config.plist](network-installation-tutorial/get-started/untitled/amd-clover-config.plist.md)
-* [Preparing the installer - Part 1](network-installation-tutorial/preparing-the-installer-part-1.md)
-* [Preparing the installer - Part 2](network-installation-tutorial/preparing-the-installer-part-2/README.md)
-  * [From Windows](network-installation-tutorial/preparing-the-installer-part-2/from-windows.md)
-  * [From macOS](network-installation-tutorial/preparing-the-installer-part-2/from-macos.md)
-* [Actual Installation - Part 1](network-installation-tutorial/actual-installation-part-1.md)
-* [Actual Installation - Part 2](network-installation-tutorial/actual-installation-part-2.md)
-* [Posty!!!](network-installation-tutorial/posty.md)
+* [Get Started](real-tutorial/get-started/README.md)
+  * [Prerequisites](real-tutorial/get-started/untitled/README.md)
+    * [Gathering Kexts](real-tutorial/get-started/untitled/gathering-kexts.md)
+    * [AMD Clover config.plist](real-tutorial/get-started/untitled/amd-clover-config.plist.md)
+    * [Version Number](real-tutorial/get-started/untitled/version-number.md)
+* [Preparing the installer - Part 1](real-tutorial/preparing-the-installer-part-1.md)
+* [Preparing the installer - Part 2](real-tutorial/preparing-the-installer-part-2/README.md)
+  * [From Windows](real-tutorial/preparing-the-installer-part-2/from-windows.md)
+  * [From macOS \(Online Method\)](real-tutorial/preparing-the-installer-part-2/from-macos.md)
+* [Actual Installation - Part 1](real-tutorial/actual-installation-part-1.md)
+* [Actual Installation - Part 2](real-tutorial/actual-installation-part-2.md)
+* [Posty!!!](real-tutorial/posty.md)
 
 ## Credits
 

@@ -4,7 +4,7 @@
 
 ### **What is absolutely required?**
 
-[_VirtualSMC.kext_](https://github.com/acidanthera/VirtualSMC) _\(use this\)_ or [FakeSMC.kext](https://github.com/RehabMan/OS-X-FakeSMC-kozlek) \(older, if VirtualSMC doesn't work, use this instead\) is as aforementioned essential. This kext is what tells macOS "Yes this is a real Mac", emulating the functionality of the SMC on real Mac's. Without it, no Hackintosh.
+[_VirtualSMC.kext_](https://github.com/acidanthera/VirtualSMC) _\(use this\)_ or [FakeSMC.kext](https://github.com/RehabMan/OS-X-FakeSMC-kozlek) \(older, if VirtualSMC doesn't work, use this instead\) is as aforementioned essential. This kext is what tells macOS "Yes this is a real Mac", emulating the functionality of the SMC on real Mac's. Without it, no Hackintosh. **Do NOT use both of the SMC kexts.**
 
 **You'll need Lilu.kext also.**
 
@@ -16,12 +16,12 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 
 ### Ethernet \(Choose the one you need\)
 
-* _​_[_IntelMausiEthernet.kext_](https://github.com/Mieze/IntelMausiEthernet) - this works with most newer Intel LAN chipsets
+* _​_[_IntelMausiEthernet.kext_](https://github.com/Mieze/IntelMausiEthernet) - this works with most newer Intel LAN chipsets **except I122-AT.**
 * [_AppleIntelE1000e.kext_](https://sourceforge.net/projects/osx86drivers/) - this works with older Intel LAN chipsets - but can cause kernel panics on newer chipsets
 * _​_[_AtherosE2200Ethernet.kext_](https://github.com/Mieze/AtherosE2200Ethernet) - this works for most Atheros or Killer networking chipsets
 * _​_[_RealtekRTL8111.kext_](https://github.com/Mieze/RTL8111_driver_for_OS_X) - this works with most gigabit Realtek LAN chipsets
 * _​_[_RealtekRTL8100.kext_](https://github.com/Mieze/RealtekRTL8100) - for 10/100 Realtek LAN chipsets
-* \*\*\*\*[**SmallTree-Intel-211-AT-PCIe-GBE.kext**](https://cdn.discordapp.com/attachments/390417931659378688/556912824228773888/SmallTree-Intel-211-AT-PCIe-GBE.kext.zip) - for Intel I122-AT LAN chipset only. \(Download this by clicking the bold blue words.\)
+* \*\*\*\*[**SmallTree-Intel-211-AT-PCIe-GBE.kext**](https://cdn.discordapp.com/attachments/390417931659378688/556912824228773888/SmallTree-Intel-211-AT-PCIe-GBE.kext.zip) - for Intel I122-AT LAN chipset only. \(Download this by clicking the bold words.\)
 
 ### Graphics \(You'll need this\)
 
