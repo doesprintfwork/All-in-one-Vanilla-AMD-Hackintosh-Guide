@@ -30,10 +30,14 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 
 \(I myself don't use bluetooth nor WiFi so I don't have knowledge in that, but here is some information on the subject by CorpNewt.\) 
 
-`Apple is pretty minimal with their WiFi support, so I'll only cover the two main chipsets I'm familiar with. I've used a BCM94360CD + PCIe adapter, and BCM94352HMB/BCM94352Z in my Hackintoshes. The BCM94360CD worked OOB with no extras as it's a native card. For the BCM94352 flavors, I've been using` [_`AirportBrcmFixup.kext`_](https://github.com/acidanthera/AirportBrcmFixup)`and the companion`[_`Lilu.kext`_](https://github.com/vit9696/Lilu/releases)`for WiFi setup and` _`BrcmBluetoothInjector.kext`_`(on 10.13.6+) or` _`BrcmPatchRAM2.kext`_ `alongside` _`BrcmFirmwareData.kext`_ `- all of the Brcm* kexts are from RehabMan's` [_`OS-X-BrcmPatchRAM`_](https://github.com/RehabMan/OS-X-BrcmPatchRAM)`repo.`
+> Apple is pretty minimal with their WiFi support, so I'll only cover the two main chipsets I'm familiar with. I've used a BCM94360CD + PCIe adapter, and BCM94352HMB/BCM94352Z in my Hackintoshes. The BCM94360CD worked OOB with no extras as it's a native card. For the BCM94352 flavors, I've been using [_AirportBrcmFixup.kext_](https://github.com/acidanthera/AirportBrcmFixup) __and the companion [_Lilu.kext_](https://github.com/vit9696/Lilu/releases) __for WiFi setup and _BrcmBluetoothInjector.kext_ \(on 10.13.6+\) or_BrcmPatchRAM2.kext_ alongside _BrcmFirmwareData.kext_ - all of the Brcm\* kexts are from RehabMan's [_OS-X-BrcmPatchRAM_](https://github.com/RehabMan/OS-X-BrcmPatchRAM) __repo.
 
 ### Audio
 
 * [_AppleALC.kext_](https://github.com/acidanthera/AppleALC) _-_ this kext supports most of the commonly used codecs, with the best quality. Intel CPUs and Ryzen CPUs are supported. **No FX support!**
 * \*\*\*\*[_VoodooHDA.kext_ ](https://sourceforge.net/projects/voodoohda/)_-_ a jack of all trades master of none solution to audio. **Required on FX.**
+
+### **Misc**
+
+* [NullCPUPowerManagement.kext](https://github.com/corpnewt/NullCPUPowerManagement) **- This kext disables CPU power management,** _**as that is not supported on AMD and Pentium chips.**_
 

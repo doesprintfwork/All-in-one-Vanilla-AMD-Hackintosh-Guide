@@ -4,14 +4,14 @@ description: Installing Clover by using the installer package.
 
 # From macOS \(Network Installer\)
 
-#### You'll need ethernet connection while installing macOS with this method. For people who don't have ethernet connection, go to [this page](from-macos-offline-installer.md).
+#### You'll need an ethernet connection while installing macOS with this method. For people who don't have an ethernet connection, go to [this page](from-macos-offline-installer.md).
 
 ## Part - 1
 
 1. Rename the downloaded `RecoveryHDMetaDMG.pkg (or RecoveryHDUpdate.pkg)` to `RecoveryHDMetaDMG.dmg (or RecoveryHDUpdate.dmg)`
 2. Double click on it and a new disk call RecoveryHDMeta \(or RecoveryHDUpdate\) should be mounted
 3. Go into the RecoveryHDMeta \(or RecoveryHDUpdate\) disk and copy BaseSystem.dmg to desktop.
-4. Go to disk utility. Click **View &gt; Show all devices** and find your USB **\(whole disk instead of a partition, check out the gif below to know what I am talking\)** and format it to:  `Name:   [whatever you want] Format: Mac OS Extended (Journaled)  Scheme: GUID Partition Map`
+4. Go to disk utility. Click **View &gt; Show all devices** and find your USB **\(the whole disk instead of a partition, check out the gif below to know what I am talking\)** and format it to:  `Name:   [whatever you want] Format: Mac OS Extended (Journaled)  Scheme: GUID Partition Map`
 5. Now, choose your **USB partition** click Restore button in Disk Utility and choose Image...
 6. Choose BaseSystem.dmg on desktop and press Restore.
 7. This should take some time depending on your USB speed.

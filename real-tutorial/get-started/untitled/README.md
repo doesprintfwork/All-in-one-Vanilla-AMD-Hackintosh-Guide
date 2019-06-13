@@ -18,11 +18,6 @@ _**For AMD Users:**_
 
 ## Extra
 
-### _**For Intel Pentium and AMD CPUs:**_
-
-* NullCPUPowerManagement.kext
-* > This kext disables CPU Power Management, as that is not supported on Pentium & AMD chips.
-
 ### Things need to get if you are making the installer in macOS
 
 * [Clover install package](https://sourceforge.net/projects/cloverefiboot/)
