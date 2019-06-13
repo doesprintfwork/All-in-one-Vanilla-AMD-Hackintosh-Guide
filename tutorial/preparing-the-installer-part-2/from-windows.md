@@ -19,8 +19,14 @@ description: >-
 6. Once finished, you should be able to see a new partition called `CLOVER` is mounted. Go into `CLOVER/EFI/CLOVER`. Replace the original one with the config.plist you've made \(**AMD Users:** Use the pre-patched config that mentioned [here](../get-started/untitled/amd-clover-config.plist.md)\).
 7. After that, put all the kexts you have downloaded \(in [Gathering Kexts page](../get-started/untitled/gathering-kexts.md)\) to `CLOVER/EFI/CLOVER/kexts/Other` folder.
 8. Go back to `CLOVER/EFI/CLOVER` and go to the drivers64UEFI folder.
-9. Delete everything inside the folder.
+9. Delete everything except ApfsDriverLoader-64.efi.
 10. Go back to `CLOVER/EFI/CLOVER` and go to `Drivers-off/drivers64UEFI` folder.
-11. Copy `HFSPlus.efi`, `ApfsDriverLoader-64.efi` and `AptioMemoryFix-64.efi` to `CLOVER/EFI/CLOVER/drivers64UEFI`.
+11. Copy `HFSPlus.efi`and `AptioMemoryFix-64.efi` to `CLOVER/EFI/CLOVER/drivers64UEFI`.
 12. Yay! You are ready to [install macOS](../actual-installation-part-1.md)! 🥳 
+
+![Steps 1 - 5 \(Restoring Installer files to USB and install Clover\)](../../.gitbook/assets/ezgif-4-8fa1279bb84c.gif)
+
+![Steps 6 - 7 \(Copying kexts and config.plist\)](../../.gitbook/assets/ezgif-4-106771fe2b5a.gif)
+
+![Steps 8 - 11 \(Copying drivers for Clover\)](../../.gitbook/assets/ezgif-4-dcd1cd3e8f07.gif)
 
