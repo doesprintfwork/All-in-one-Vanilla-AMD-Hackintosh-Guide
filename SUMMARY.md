@@ -9,10 +9,10 @@
 ## Tutorial
 
 * [Get Started](tutorial/get-started/README.md)
-  * [Prerequisites](tutorial/get-started/untitled/README.md)
-    * [Gathering Kexts](tutorial/get-started/untitled/gathering-kexts.md)
-    * [AMD Clover config.plist](tutorial/get-started/untitled/amd-clover-config.plist.md)
-    * [Version Number](tutorial/get-started/untitled/version-number.md)
+  * [Prerequisites](tutorial/get-started/prerequisites/README.md)
+    * [Gathering Kexts](tutorial/get-started/prerequisites/gathering-kexts.md)
+    * [AMD Clover config.plist](tutorial/get-started/prerequisites/amd-clover-config.plist.md)
+    * [Version Number](tutorial/get-started/prerequisites/version-number.md)
 * [Preparing the installer - Part 1 \(Network Installer\)](tutorial/preparing-the-installer-part-1.md)
 * [Preparing the installer - Part 2](tutorial/preparing-the-installer-part-2/README.md)
   * [From Windows \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-windows.md)

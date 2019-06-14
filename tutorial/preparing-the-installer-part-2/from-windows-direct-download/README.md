@@ -4,6 +4,10 @@ description: We are going to restore files to your USB. Exclusive for Offline In
 
 # From Windows \(Offline Installer\)
 
+## Before doing anything, you need to prepare:
+
+* **BaseSystem.dmg** from the [macOS Installer app](../../get-started/prerequisites/#things-need-to-get-if-you-are-making-the-installer-in-windows) Location: `macOS Install xxxx.app/Contents/SharedSupport`
+
 ## Part 1 - Installing Clover with BDUtility
 
 1. Plug in your USB.
@@ -18,7 +22,7 @@ description: We are going to restore files to your USB. Exclusive for Offline In
 ## Part 2 - Restoring macOS Installer Files
 
 1. Go to Tools &gt; Extract HFS\(HFS+\) partition from DMG-files.
-2. Choose the BaseSystem.dmg mentioned before. Then press Open.
+2. Choose the BaseSystem.dmg mentioned [above](./#before-doing-anything-you-need-to-prepare). Then press Open.
 3. Choose a place for saving the extracted file. Remember it. Then press OK.
 4. A prompt window will pop up and it will auto extract a file called 4.hfs to the destination folder set above.
 5. When it finishes, go back to BDUtility. Click the + sign in front of your USB and select Part2. Click Restore and select your extracted 4.hfs and click Open. It will take some time. Be patient.
