@@ -19,6 +19,8 @@ description: We are going to restore files to your USB. Exclusive for Offline In
 7. Click OK. It will take some time.
 8. When it says All done, you can proceed to the next part.
 
+![Installing Clover](../../../.gitbook/assets/ezgif-4-b59bb851e67a.gif)
+
 ## Part 2 - Restoring macOS Installer Files
 
 1. Go to Tools &gt; Extract HFS\(HFS+\) partition from DMG-files.
