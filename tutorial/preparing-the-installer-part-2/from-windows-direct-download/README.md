@@ -39,3 +39,7 @@ description: We are going to restore files to your USB. Exclusive for Offline In
 11. Click OK and click Apply at the top left corner.
 12. When it finishes, you can now proceed to [the next page](convert-the-installer-to-offline.md).
 
+![Steps 1 - 5 \(Restoring installer files\)](../../../.gitbook/assets/ezgif-4-c3057da32721.gif)
+
+![Steps 8 - 11 \(Resizing volume\)](../../../.gitbook/assets/ezgif-4-3f1d85748df0.gif)
+

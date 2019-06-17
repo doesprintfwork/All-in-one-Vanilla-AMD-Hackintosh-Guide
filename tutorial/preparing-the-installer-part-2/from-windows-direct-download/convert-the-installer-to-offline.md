@@ -11,3 +11,5 @@ description: Convert time!
 5. Copy SharedSupport from the downloaded app to `USB/Install macOS xxxx.app/Contents` with TransMac. It'll take some time.
 6. Done! You can now [install Clover](../from-macos.md#part-2)!
 
+![Steps 1 - 5 \(Copy Offline Installer files\)](../../../.gitbook/assets/2019-06-16-22-29-_2.gif)
+
