@@ -1,7 +1,5 @@
 ---
-description: >-
-  We'll use MakeInstall in gibMacOS folder. Sorry for no pictures. Will add back
-  later.
+description: We'll use MakeInstall in gibMacOS folder.
 ---
 
 # From Windows \(Network Installer\)
