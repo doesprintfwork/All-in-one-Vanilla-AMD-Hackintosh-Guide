@@ -21,7 +21,7 @@ description: We'll use MakeInstall in gibMacOS folder.
 
 ## Part 2
 
-1. Once finished, you should be able to see a new partition called `CLOVER` is mounted. Go into `CLOVER/EFI/CLOVER`. Replace the original one with the config.plist you've made \(**AMD Users:** Use the pre-patched config that mentioned [here](../get-started/prerequisites/amd-clover-config.plist.md)\).
+1. Once finished, you should be able to see a new partition called `CLOVER` is mounted. Go into `CLOVER/EFI/CLOVER`. Replace the original one with the config.plist you've made.
 2. After that, put all the kexts you have downloaded \(in [Gathering Kexts page](../get-started/prerequisites/gathering-kexts.md)\) to `CLOVER/EFI/CLOVER/kexts/Other` folder.
 3. Go back to `CLOVER/EFI/CLOVER` and go to the drivers64UEFI folder.
 4. Delete everything except ApfsDriverLoader-64.efi.
