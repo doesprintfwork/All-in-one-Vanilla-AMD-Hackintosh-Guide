@@ -234,7 +234,7 @@ _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which
 
 **SMBIOS:**
 
-We'll mention it later.
+We'll mention it [later](smbios.md).
 
 ## System Parameters
 

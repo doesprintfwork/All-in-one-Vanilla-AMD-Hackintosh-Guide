@@ -6,7 +6,7 @@ description: We are going to restore files to your USB. Exclusive for Offline In
 
 ## Before doing anything, you need to prepare:
 
-* **BaseSystem.dmg** from the [macOS Installer app](../../get-started/prerequisites/#things-need-to-get-if-you-are-making-the-installer-in-windows) Location: `macOS Install xxxx.app/Contents/SharedSupport`
+* **BaseSystem.dmg** from the [macOS Installer app](../../get-started/prerequisites.md#things-need-to-get-if-you-are-making-the-installer-in-windows) Location: `macOS Install xxxx.app/Contents/SharedSupport`
 
 ## Part 1 - Installing Clover with BDUtility
 
