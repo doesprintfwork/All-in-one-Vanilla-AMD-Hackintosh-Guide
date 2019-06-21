@@ -1,5 +1,5 @@
 ---
-description: Config.plist per hardware
+description: Config.plist for AMD CPUs
 ---
 
 # AMD Clover config.plist
@@ -8,7 +8,6 @@ description: Config.plist per hardware
 
 * Please get the patches.plist \([Ryzen](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/17h/patches.plist), [FX](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/15h_16h/patches.plist)\) from AMD OS X Github \(Right click, Save Page As, Remember to change the suffix to .plist\)
 * Open patches.plist with Clover Configurator \(CCG\) or Clover Cloud Editor \(CCE\).
-* Also set the Show Find/Replace/TgtBridge values as: **Hex** \(as the following screenshots are in Hex\)
 
 ## ACPI
 
@@ -82,6 +81,10 @@ description: Config.plist per hardware
 
 * Those are some generic fixes which may cause problems. So we disable them.
 
+### CCE Screenshot
+
+![ACPI](../../.gitbook/assets/annotation-2019-06-21-101131.png)
+
 ## Boot
 
 ### Raw XML
@@ -117,6 +120,10 @@ description: Config.plist per hardware
 
 **Legacy \(PBR\)** - let Clover use PBR to boot legacy system.
 
+### CCE Screenshot
+
+![Boot](../../.gitbook/assets/annotation-2019-06-21-101210.png)
+
 ## Boot Graphics \(which doesn't matter much\)
 
 We have nothing to do here. You can tweak it if Clover doesn't show correctly.
@@ -143,6 +150,8 @@ We have nothing to do here also.
 	<dict>
 		<key>Inject</key>
 		<true/>
+		<key>FixOwnership</key>
+		<true/>
 	</dict>
 </dict>
 ```
@@ -152,6 +161,10 @@ We have nothing to do here also.
 * **Reset HDA** - Puts the codec back in a neutral state between OS reboots. This prevents some issues with no audio after booting to another OS and then back.
 * **Inject \(Audio\)** - For enabling your audio codec. Find your own layout id of your audio codec [here](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and replace 7 with it. **Use with AppleALC**. FX users can ignore.
 * **USB** - Under this section, we ensure that _Inject_ and _FixOwnership_ are selected to avoid issues with hanging at a half-printed line somewhere around the `Enabling Legacy Matching` verbose line. You can also get past that by enabling _XHCI Hand Off_ in BIOS.
+
+### CCE Screenshot
+
+![Devices](../../.gitbook/assets/annotation-2019-06-21-101227.png)
 
 ## Disable Drivers <a id="disable-drivers"></a>
 
@@ -169,7 +182,13 @@ We have nothing to do here.
 </dict>
 ```
 
+### Explanation
+
 The only tweaking is enabling auto scanning entries.
+
+### CCE Screenshot
+
+![GUI](../../.gitbook/assets/annotation-2019-06-21-101241.png)
 
 ## Graphics
 
@@ -195,11 +214,19 @@ The only tweaking is enabling auto scanning entries.
 * **Injecting Graphics \(Inject ATI, Inject NVidia\)** - only set them to true if you have a old GPU.
 * **Enabling RadeonDeInit** - enabling AMD RX GPUs.
 
-## Kernel and Kexts Patches
+### CCE Screenshot
+
+![Graphics](../../.gitbook/assets/annotation-2019-06-21-101254.png)
+
+## Kernel And Kexts Patches
 
 The patches.plist \(which you are editing\) already has all of the patches you want to have. Those patches are used to patch the native Kernel.
 
-* **AppleRTC** - this ensures that we don't have a BIOS reset on reboot.
+* **AppleRTC \(enabled\)** - this ensures that we don't have a BIOS reset on reboot.
+
+### CCE Screenshot
+
+![Kernel And Kext Patches](../../.gitbook/assets/annotation-2019-06-21-101306.png)
 
 ## Rt Variables and SMBIOS
 
@@ -211,7 +238,7 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 	<key>BooterConfig</key>
 	<string>0x28</string>
 	<key>CsrActiveConfig</key>
-	<string>0x67</string>
+	<string>0x3e7</string>
 	<key>ROM</key>
 	<string>UseMacAddr0</string>
 </dict>
@@ -235,6 +262,10 @@ _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which
 **SMBIOS:**
 
 We'll mention it [later](smbios.md).
+
+### CCE Screenshot
+
+![RT Variables](../../.gitbook/assets/annotation-2019-06-21-101320.png)
 
 ## System Parameters
 
@@ -267,6 +298,14 @@ We set it to `Yes` to make sure that all the kexts we added before get injected 
 **Inject System ID:**
 
 This setting tells clover to set the SmUUID as the `system-id` at boot - which is important for iMessage and such.
+
+**NvidiaWeb:**
+
+This setting tells clover to use NVidia Web Drivers. Enable this only if you have NVidia Web Drivers installed.
+
+### CCE Screenshot
+
+![System Parameters](../../.gitbook/assets/annotation-2019-06-21-101401.png)
 
 ## Save and Exit
 

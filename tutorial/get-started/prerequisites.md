@@ -7,7 +7,8 @@
 
 ### **The config file for Clover:**
 
-* **PLEASE READ THE PLIST BASICS OVER** [**HERE**](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **AND MAKE YOUR OWN config.plist with ProperTree config editor \(Cross Platform Plist Editor, but difficult for newbies\), Clover Configurator \(On macOS\) or** [**Clover Cloud Editor**](http://cloudclovereditor.altervista.org/cce/index.php) **\(On Windows\). AMD Users: Please go to** [**THIS**](../amd-clover-config.plist/) **page.**
+* **PLEASE READ THE PLIST BASICS OVER** [**HERE**](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **AND MAKE YOUR OWN config.plist with Clover Configurator** \(On macOS\)**,** [**Clover Cloud Editor**](http://cloudclovereditor.altervista.org/cce/index.php) ****\(On Windows\) **or ProperTree config editor** \(Cross Platform Plist Editor, but difficult for people without any basis at programming\)**.**
+* **For AMD:** Please also **read** the plist basics before going to [**this page**](../amd-clover-config.plist/).
 * _**DO NOT GET THE SAMPLE CONFIG.**_
 
 ## Extra
