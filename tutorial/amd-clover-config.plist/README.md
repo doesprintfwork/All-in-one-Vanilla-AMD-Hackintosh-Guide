@@ -9,6 +9,10 @@ description: Config.plist for AMD CPUs
 * Please get the patches.plist \([Ryzen](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/17h/patches.plist), [FX](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/15h_16h/patches.plist)\) from AMD OS X Github \(Right click, Save Page As, Remember to change the suffix to .plist\)
 * Open patches.plist with Clover Configurator \(CCG\) or Clover Cloud Editor \(CCE\).
 
+{% hint style="info" %}
+**If you are using CCE**, pleasee go to home page and set _`Show Find/Replace/TgtBridge values as: Hex`_because the following CCE screenshots are in Hex.
+{% endhint %}
+
 ## ACPI
 
 ### RAW XML
@@ -20,56 +24,47 @@ description: Config.plist for AMD CPUs
 	<dict>
 		<key>Fixes</key>
 		<dict>
-			<key>AddDTGP</key>
-			<false/>
-			<key>AddHDMI</key>
-			<false/>
 			<key>DeleteUnused</key>
-			<false/>
-			<key>FakeLPC</key>
-			<false/>
-			<key>FixAirport</key>
-			<false/>
-			<key>FixDisplay</key>
-			<false/>
-			<key>FixHDA</key>
-			<false/>
+			<true/>
 			<key>FixHPET</key>
 			<true/>
-			<key>FixLAN</key>
-			<false/>
 			<key>FixRTC</key>
 			<true/>
 			<key>FixShutdown</key>
 			<true/>
-			<key>FixUSB</key>
-			<false/>
 			<key>FixTMR</key>
 			<true/>
 			<key>FixIPIC</key>
 			<true/>
 		</dict>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>change SAT0 to SATA</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>U0FUMA==</data>
+				<key>Replace</key>
+				<data>U0FUQQ==</data>
+			</dict>
+		</array>
 	</dict>
-	<key>HaltEnabler</key>
+	<key>FixHeaders</key>
 	<true/>
-	<key>SSDT</key>
-	<dict>
-		<key>EnableC6</key>
-		<false/>
-		<key>Generate</key>
-		<dict>
-			<key>CStates</key>
-			<false/>
-			<key>PStates</key>
-			<false/>
-		</dict>
-	</dict>
 </dict>
 ```
 
 ### **Explanations**
 
-**Enable Fix Shutdown and Halt Enabler**
+**Patches:**
+
+The first thing we'll go over is the _Patches_ section. This section allows us to dynamically rename parts of the DSDT via Clover. Since we're not running a real mac, and macOS is pretty particular with how things are named, we can make non-destructive changes to keep things mac-friendly. We have three entries here:
+
+* _change SAT0 to SATA_ - for potential SATA compatibility
+
+**Enable Fix Shutdown**
 
 * This can fix some shutdown issues like reboot instead of shutting down. But this might also cause shutdown issues on some board. So if you are having some issues with shutting down, disable this.
 
@@ -77,13 +72,9 @@ description: Config.plist for AMD CPUs
 
 * This can fix "no audio issue" after installing AppleALC and applying a correct layout ID.
 
-**Other fixes**
-
-* Those are some generic fixes which may cause problems. So we disable them.
-
 ### CCE Screenshot
 
-![ACPI](../../.gitbook/assets/annotation-2019-06-21-101131.png)
+![ACPI](../../.gitbook/assets/acpi.png)
 
 ## Boot
 
@@ -93,15 +84,11 @@ description: Config.plist for AMD CPUs
 <key>Boot</key>
 <dict>
 	<key>Arguments</key>
-	<string>-v npci=0x2000</string>
-	<key>DefaultLoader</key>
-	<string>boot.efi</string>
+	<string>-v npci=0x2000 alcid=7</string>
 	<key>DefaultVolume</key>
 	<string>LastBootedVolume</string>
 	<key>Legacy</key>
 	<string>PBR</string>
-	<key>NeverHibernate</key>
-	<true/>
 	<key>Timeout</key>
 	<integer>-1</integer>
 </dict>
@@ -113,16 +100,21 @@ description: Config.plist for AMD CPUs
 
 * **-v** - enable verbose which shows all the _behind-the-scenes_ text that scrolls by as you're booting instead of the Apple logo and progress bar. It is very helpful for tracking issues are fixing them.
 * **npci=0x2000** - a fix for stuck at \[PCI Configuration Start\].
+* **alcid=7** - for enabling your audio codec. Find your own layout id of your audio codec [here](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and replace 7 with it. **Use with AppleALC**. FX users can ignore.
 
-**Never Hibernate** - it let Clover ignore hibernating.
+**Default Volume** - setting the default volume for booting. 
 
-**Timeout** - setting the timeout for auto-booting. -1 means disable auto-boot.
+* **LastBootedVolume** - let Clover uses the last booted volume \(no matter if it boot successfully\) as default.
+
+**Timeout \(sec\)** - setting the timeout for auto-booting. 
+
+* **-1** - disable auto-boot.
 
 **Legacy \(PBR\)** - let Clover use PBR to boot legacy system.
 
 ### CCE Screenshot
 
-![Boot](../../.gitbook/assets/annotation-2019-06-21-101210.png)
+![Boot](../../.gitbook/assets/boot.png)
 
 ## Boot Graphics \(which doesn't matter much\)
 
@@ -141,8 +133,6 @@ We have nothing to do here also.
 <dict>
 	<key>Audio</key>
 	<dict>
-		<key>Inject</key>
-		<integer>7</integer>
 		<key>ResetHDA</key>
 		<true/>
 	</dict>
@@ -159,12 +149,11 @@ We have nothing to do here also.
 ### Explanations
 
 * **Reset HDA** - Puts the codec back in a neutral state between OS reboots. This prevents some issues with no audio after booting to another OS and then back.
-* **Inject \(Audio\)** - For enabling your audio codec. Find your own layout id of your audio codec [here](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and replace 7 with it. **Use with AppleALC**. FX users can ignore.
 * **USB** - Under this section, we ensure that _Inject_ and _FixOwnership_ are selected to avoid issues with hanging at a half-printed line somewhere around the `Enabling Legacy Matching` verbose line. You can also get past that by enabling _XHCI Hand Off_ in BIOS.
 
 ### CCE Screenshot
 
-![Devices](../../.gitbook/assets/annotation-2019-06-21-101227.png)
+![Devices](../../.gitbook/assets/devices.png)
 
 ## Disable Drivers <a id="disable-drivers"></a>
 
@@ -178,17 +167,26 @@ We have nothing to do here.
 <key>GUI</key>
 <dict>
 	<key>Scan</key>
-	<true/>
+	<dict>
+		<key>Entries</key>
+		<true/>
+		<key>Linux</key>
+		<true/>
+		<key>Tool</key>
+		<true/>
+	</dict>
 </dict>
 ```
 
 ### Explanation
 
-The only tweaking is enabling auto scanning entries.
+**Scan:**
+
+The only settings I've tweaked on this page are the _Scan_ settings. I've selected _Custom_, then checked everything except _Legacy_ and _Kernel_. This just omits some of the unbootable entries in Clover to clean up the menu.
 
 ### CCE Screenshot
 
-![GUI](../../.gitbook/assets/annotation-2019-06-21-101241.png)
+![GUI](../../.gitbook/assets/gui.png)
 
 ## Graphics
 
@@ -202,7 +200,7 @@ The only tweaking is enabling auto scanning entries.
 		<key>ATI</key>
 		<false/>
 		<key>NVidia</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>RadeonDeInit</key>
 	<true/>
@@ -211,12 +209,12 @@ The only tweaking is enabling auto scanning entries.
 
 ### Explanations
 
-* **Injecting Graphics \(Inject ATI, Inject NVidia\)** - only set them to true if you have a old GPU.
-* **Enabling RadeonDeInit** - enabling AMD RX GPUs.
+* **Injecting Graphics \(Inject ATI, Inject NVidia\)** - only set them to true if you have a old GPU. \(In this example, I will choose Inject NVidia because I have NVidia GeForce GT730 GPU.\)
+* **Enabling RadeonDeInit** - enabling AMD RX GPUs. \(only set it to true if you are using AMD RX series GPU\)
 
 ### CCE Screenshot
 
-![Graphics](../../.gitbook/assets/annotation-2019-06-21-101254.png)
+![Graphics](../../.gitbook/assets/graphics.png)
 
 ## Kernel And Kexts Patches
 
@@ -226,11 +224,11 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 
 ### CCE Screenshot
 
-![Kernel And Kext Patches](../../.gitbook/assets/annotation-2019-06-21-101306.png)
+![Kernel And Kexts Patches](../../.gitbook/assets/kernel-and-kext-patches.png)
 
 ## Rt Variables and SMBIOS
 
-### RAW XML
+### RAW XML \(Rt Variables\)
 
 ```markup
 <key>RtVariables</key>
@@ -241,9 +239,6 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 	<string>0x3e7</string>
 	<key>ROM</key>
 	<string>UseMacAddr0</string>
-</dict>
-<key>SMBIOS</key>
-<dict>
 </dict>
 ```
 
@@ -265,7 +260,9 @@ We'll mention it [later](smbios.md).
 
 ### CCE Screenshot
 
-![RT Variables](../../.gitbook/assets/annotation-2019-06-21-101320.png)
+![Rt Variables \(you will have a string in MLB after you use GenSMBIOS\)](../../.gitbook/assets/annotation-2019-06-21-101320.png)
+
+![SMBIOS \(you will have different values after you use GenSMBIOS\)](../../.gitbook/assets/smbios%20%281%29.png)
 
 ## System Parameters
 
@@ -277,8 +274,6 @@ We'll mention it [later](smbios.md).
 	<key>InjectKexts</key>
 	<string>Yes</string>
 	<key>InjectSystemID</key>
-	<true/>
-	<key>NvidiaWeb</key>
 	<true/>
 </dict>
 ```
@@ -305,9 +300,9 @@ This setting tells clover to use NVidia Web Drivers. Enable this only if you hav
 
 ### CCE Screenshot
 
-![System Parameters](../../.gitbook/assets/annotation-2019-06-21-101401.png)
+![System Parameters](../../.gitbook/assets/system-parameters.png)
 
 ## Save and Exit
 
-At this point, you can do _File -&gt; Save_ to save the config.plist \(or go back to home page and download your config.plist if you are using CCE\). If you have issues saving directly to the EFI, you can save it on the Desktop, then just copy it over.
+At this point, you can do _File -&gt; Save_ to save the config.plist \(or go back to home page and download your config.plist if you are using CCE\). Keep it to somewhere you'll remember.
 

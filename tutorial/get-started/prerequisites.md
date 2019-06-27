@@ -34,6 +34,5 @@ You'll need to have **LAN \(Ethernet\) connection** if you are making a **Networ
 ## Requirements
 
 * **Intel \(Core, Xeon or Pentium series\) or AMD \(FX, Ryzen or Zen Athlon\) CPUs**
-* **Intel iGPU or a dedicated GPU.** _**Remember that the iGPU of AMD CPUs is not supported.**_ Either nVidia or AMD will work. **AMD GPUs are recommended** because of the native support from macOS Mojave. **Most of the nVidia GPUs can only goes up to macOS High Sierra** \(only Kepler GPUs are supported in Mojave\). [_**Here**_](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) is a compatible GPU list. _**Remember the highest supported version.**_
-* _**Ethernet connection if you are making the installer from windows or you are making a Network Installer from macOS.**_
+* **Intel iGPU or a dedicated GPU.** _**Remember that the iGPU of AMD CPUs is not supported.**_ Either NVidia or AMD will work. **AMD GPUs are recommended** because of the native support from macOS Mojave. **Most of the NVidia GPUs can only goes up to macOS High Sierra** \(only Kepler GPUs are supported in Mojave\). [_**Here**_](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) is a compatible GPU list. _**Remember the highest supported version.**_
 
