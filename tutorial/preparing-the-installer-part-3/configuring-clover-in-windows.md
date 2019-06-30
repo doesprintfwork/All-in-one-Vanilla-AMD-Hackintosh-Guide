@@ -19,7 +19,7 @@
 
 ![Drivers - UEFI](../../.gitbook/assets/ezgif-4-dcd1cd3e8f07.gif)
 
-### For Legacy\(BIOS\):
+### WIP ~~For Legacy\(BIOS\):~~
 
-Still not finished. I will finish this part as soon as possible
+Still not finished.
 
