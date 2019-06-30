@@ -4,6 +4,7 @@
 
 1. Once finished, you should be able to see a new partition called `CLOVER` is mounted. Go into `CLOVER/EFI/CLOVER`. Replace the original one with the config.plist you've made.
 2. After that, put all the kexts you have downloaded \(in [Gathering Kexts page](../get-started/gathering-kexts.md)\) to `CLOVER/EFI/CLOVER/kexts/Other` folder. **Skip all of the SMC kexts** \(except VirtualSMC and FakeSMC\) as they might cause Kernel Panic\(s\).
+3. And delete the FakeSMC.kext. \(if you are using VirtualSMC.kext\)
 
 ![Config and Kexts](../../.gitbook/assets/ezgif-4-106771fe2b5a.gif)
 
