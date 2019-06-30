@@ -10,7 +10,7 @@ description: You need macOS for this.
 4. Open Terminal.
 5. Type `sudo [drag and drop createinstallmedia here] --volume /Volumes/USB` and enter.
 6. Follow the instructions. Be patient as it will take a lot of time.
-7. When it finished, you can now [install Clover Bootloader to your USB](from-macos.md#part-2).
+7. Go to this [page](../preparing-the-installer-part-3/install-and-configuring-clover-in-macos.md) after finishing this part.
 
 ![Step 1 \(Format your USB\)](../../.gitbook/assets/ezgif-4-8c9decf9eb06.gif)
 

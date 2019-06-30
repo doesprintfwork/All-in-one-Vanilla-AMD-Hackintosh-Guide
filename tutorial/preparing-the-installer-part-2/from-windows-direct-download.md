@@ -1,5 +1,5 @@
 ---
-description: We are going to restore files to your USB. Exclusive for Offline Installer.
+description: We are going to restore files to your USB.
 ---
 
 # From Windows \(Offline Installer\)
@@ -50,7 +50,7 @@ description: We are going to restore files to your USB. Exclusive for Offline In
 3. Go into Install macOS Install xxxx.app/Contents
 4. Open your downloaded macOS Installer app and go to Contents folder.
 5. Copy SharedSupport from the downloaded app to `USB/Install macOS xxxx.app/Contents` with TransMac. It'll take some time.
-6. Done! You can now [install Clover](configuring-clover-in-windows.md)!
+6. Go to this [page](../preparing-the-installer-part-3/configuring-clover-in-windows.md) after finishing this part.
 
 ![Steps 1 - 5 \(Copy Offline Installer files\)](../../.gitbook/assets/2019-06-16-22-29-_2.gif)
 

@@ -26,6 +26,10 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 * _​_[_RealtekRTL8100.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23) - for 10/100 Realtek LAN chipsets
 * \*\*\*\*[_SmallTree-Intel-211-AT-PCIe-GBE.kext_](https://cdn.discordapp.com/attachments/390417931659378688/556912824228773888/SmallTree-Intel-211-AT-PCIe-GBE.kext.zip) - **for Intel I122-AT LAN chipset** only.
 
+### USB Tethering
+
+* \_\_[_HoRNDIS.kext_](https://github.com/midi1996/JBOG/blob/master/Extra/HoRNDIS.kext.zip?raw=true) - For USB tethering from Android **only**.
+
 ### WiFi and Bluetooth 
 
 \(I myself don't use bluetooth nor WiFi so I don't have knowledge in that, but here is some information on the subject by CorpNewt.\) 

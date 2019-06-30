@@ -8,3 +8,5 @@
 
 ![Steps 1 - 2 \(Installing Clover\)](../../.gitbook/assets/installing-clover.gif)
 
+![Steps 3 - 4 \(Copy files to Clover\)](../../.gitbook/assets/ezgif-4-7eed77270d16.gif)
+
