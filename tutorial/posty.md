@@ -10,5 +10,5 @@ description: Post installation links
 
 ## AMD
 
-[Here](https://hack.slim.ovh/#/mojave/post-install-tweaks.md) is another link for Post-Installation on AMD. \([AppleALC audio fix](https://forum.amd-osx.com/viewtopic.php?t=6043), no FX support. FX users, please use [VoodooHDA.kext](https://sourceforge.net/projects/voodoohda/).\)
+[Here](https://hack.slim.ovh/#/mojave/post-install-tweaks.md) is another link for Post-Installation on AMD. \(If audio isn't working, delete AppleALC.kext and put [VoodooHDA.kext](https://sourceforge.net/projects/voodoohda/) in `kexts/Other` folder\)
 
