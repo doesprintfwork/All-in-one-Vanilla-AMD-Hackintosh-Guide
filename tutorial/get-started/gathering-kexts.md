@@ -32,16 +32,16 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 
 > Apple is pretty minimal with their WiFi support, so I'll only cover the two main chipsets I'm familiar with. I've used a BCM94360CD + PCIe adapter, and BCM94352HMB/BCM94352Z in my Hackintoshes. The BCM94360CD worked OOB with no extras as it's a native card. For the BCM94352 flavors, I've been using [_AirportBrcmFixup.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455063&cid=FE4038DA929BFB23) __and the companion [_Lilu.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455053&cid=FE4038DA929BFB23) __for WiFi setup and _BrcmBluetoothInjector.kext_ \(on 10.13.6+\) or_BrcmPatchRAM2.kext_ alongside _BrcmFirmwareData.kext_ - all of the Brcm\* kexts are from RehabMan's [_OS-X-BrcmPatchRAM_](https://github.com/RehabMan/OS-X-BrcmPatchRAM) __repo.
 
-### Audio
+### Audio \(Do not get both\)
 
-* [_AppleALC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455056&cid=FE4038DA929BFB23) _-_ this kext supports most of the commonly used codecs, with the best quality. Intel CPUs and Ryzen CPUs are supported. **No FX support!**
-* \*\*\*\*[_VoodooHDA.kext_ ](https://sourceforge.net/projects/voodoohda/)_-_ a jack of all trades master of none solution to audio. **Required on FX.**
+* [_AppleALC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455056&cid=FE4038DA929BFB23) _-_ this kext supports most of the commonly used codecs, with the best quality. Intel CPUs and Ryzen CPUs are supported. **No FX support! Also, 3.5mm microphones are broken on Ryzen.**
+* \*\*\*\*[_VoodooHDA.kext_ ](https://sourceforge.net/projects/voodoohda/)_-_ a jack of all trades master of none solution to audio. **Required on FX. Mic support on Ryzen.**
 
 ### **Misc**
 
 * [NullCPUPowerManagement.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD and Pentium chips.**_
 
-## **GitHub Links**
+## **Source Code Links**
 
 * [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 * [FakeSMC](https://github.com/RehabMan/OS-X-FakeSMC-kozlek)
@@ -55,4 +55,5 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 * [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)
 * [AppleALC](https://github.com/acidanthera/AppleALC)
 * [NullCPUPowerManagement](https://github.com/corpnewt/NullCPUPowerManagement)
+* [VoodooHDA](https://sourceforge.net/p/voodoohda/code/HEAD/tree/)
 

@@ -9,7 +9,7 @@ description: CREDITS!
 * **Apple** - For making macOS at first.
 * **Clover team** - For making the boot-loader.
 * **AMD OS X and Hackintosh Paradise** - For the hackintosh community.
-* **CorpNewt** - For writing the gibMacOS and MakeInstall scipts. Also for his original guide. Link is [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)!
+* **CorpNewt** - For writing the gibMacOS and MakeInstall scipts. Also for his original guide and config.plist per hardware. Link is [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)!
 * **Midi** - For writing the [Network Install Guide](https://internet-install.gitbook.io/macos-internet-install/). Also for Actual Installation pages and Posty-Posty... page.
 * **NoOne** - For his whole page of Gathering Kexts.
 * **Algrey** - For patching the kernel on AMD. Without him, the whole process for AMD will be much more complicated.
