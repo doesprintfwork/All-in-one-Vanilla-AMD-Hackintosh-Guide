@@ -248,15 +248,11 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 
 We set _Rt Variables -&gt; ROM_ to `UseMacAddr0` which just utilizes our onboard Mac address - this should be unique enough to not conflict with any others.
 
-_BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which effectively disables SIP. You can choose a number of other options to enable/disable sections of SIP. Some common ones are as follows:
-
-* `0x0` - SIP completely enabled
-* `0x3` - Allow unsigned kexts and writing to protected fs locations
-* `0x3e7` - SIP completely disabled
+_BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which effectively disables SIP **as SIP is not supported on AMD Systems**.
 
 **SMBIOS:**
 
-We'll mention it [later](smbios.md).
+[This page](smbios.md)
 
 ### CCE Screenshot
 
