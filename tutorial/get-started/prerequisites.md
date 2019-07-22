@@ -11,34 +11,60 @@ _**Please READ everything below CAREFULLY!**_
 
 ### **The config file for Clover:**
 
-* **PLEASE READ THE PLIST BASICS OVER** [**HERE**](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **AND MAKE YOUR OWN config.plist with Clover Configurator** \(On macOS\)**,** [**Clover Cloud Editor**](http://cloudclovereditor.altervista.org/cce/index.php) ****\(On Windows\) **or ProperTree config editor** \(Cross Platform Plist Editor, but difficult for people without any basis at programming\)**.**
-* **For Intel: Continue to read the plist guide to make you own config.plist**
-* **For AMD: After reading the plist basics guide, go to** [**this page**](../amd-clover-config.plist/) **to make your own config.plist**.
-* _**DO NOT GET THE SAMPLE CONFIG.**_
+#### **General**
 
-## Extra
+* **PLEASE READ THE PLIST BASICS OVER** [**HERE**](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **AND MAKE YOUR OWN config.plist with Clover Configurator** \(On macOS\)**,** [**Clover Cloud Editor**](http://cloudclovereditor.altervista.org/cce/index.php) ****\(On Windows\) **or ProperTree config editor** \(Cross Platform Plist Editor, but difficult for people without any basis at programming\)**.**
+  * _**DO NOT GET THE SAMPLE CONFIG.**_
+
+#### **For Intel:**
+
+* **Continue to read the plist guide to make you own config.plist**
+
+#### **For AMD:**
+
+* **After reading the plist basics guide, go to** [**this page**](../amd-clover-config.plist/) **to make your own config.plist**.
+
+## Some more important things
 
 {% hint style="danger" %}
 You'll need to have **LAN \(Ethernet\) connection** if you are making a **Network Installer**. If you do _**NOT**_ have one, please make an **Offline Installer** instead.
 {% endhint %}
 
-### Things need to get if you are making the installer in macOS
+### Offline Installer Prerequisites
+
+#### Preparation for making an Offline Installer from macOS
 
 * [Clover install package](https://sourceforge.net/projects/cloverefiboot/)
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
-* A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS) for making the USB installer. **\(Only if you are making Network Installer. More explanation** [**here**](../preparing-the-installer-part-2/from-macos.md#youll-need-ethernet-connection-while-installing-macos-if-you-dont-have-a-ethernet-connection-go-to-the-next-page-for-offline-installation)**.\)**
-* \*\*\*\*[**macOS Install Mojave.app**](https://drive.google.com/open?id=1fp7cBfkWZcyCnt0gy6zIxf6uN_nD-v1G) **\(10.14.1 18B75\),** [**macOS Install High Sierra.app**](https://drive.google.com/file/d/17U2GMCfIbLPN8SOfGoKl40vuIDZp3rt7/view) **\(10.13.6 17G65\) or** [**macOS Install Mojave.app**](https://drive.google.com/file/d/1BSp_lFlEVoSGleDpZxsVA9MJP6njUtCq/view?usp=sharing) **\(10.14.5 18F132\).** Please use the one provided here and read the [Requirements](prerequisites.md#requirements) part below to know which version of macOS is compatible for your computer. The installer provided is a compressed app file of the installer \[of course it is vanilla\] which is compatible for AMD. **\(This is for Offline Installer\)**
+* \*\*\*\*[**macOS Install Mojave.app**](https://drive.google.com/open?id=1fp7cBfkWZcyCnt0gy6zIxf6uN_nD-v1G) **\(10.14.1 18B75\),** [**macOS Install High Sierra.app**](https://drive.google.com/file/d/17U2GMCfIbLPN8SOfGoKl40vuIDZp3rt7/view) **\(10.13.6 17G65\) or** [**macOS Install Mojave.app**](https://drive.google.com/file/d/1BSp_lFlEVoSGleDpZxsVA9MJP6njUtCq/view?usp=sharing) **\(10.14.5 18F132\).** Please read the [Requirements](prerequisites.md#requirements) part below to know which version of macOS is compatible for your computer.
+  * You can also use your own Installer **but you need to check if it is compatible for AMD if you are installing it to AMD System.** I'm not going to specify the steps here, Google it.
+* **\[OPTIONAL\]** Fast Internet Speed
 
-### Things need to get if you are making the installer in Windows
+#### Preparation for making an Offline installer in Windows
 
-* A clone of [**gibMacOS**](https://github.com/corpnewt/gibMacOS) for making the USB installer.
-* A clone of [**ProperTree**](https://github.com/corpnewt/ProperTree) for configuring the config.plist.
+* [Boot Disk Utility](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5) \(BDUtitlity\)
 * [**macOS Install Mojave.app**](https://drive.google.com/open?id=1fp7cBfkWZcyCnt0gy6zIxf6uN_nD-v1G) **\(10.14.1 18B75\) or** [**macOS Install High Sierra.app**](https://drive.google.com/file/d/17U2GMCfIbLPN8SOfGoKl40vuIDZp3rt7/view) **\(10.13.6 17G65\).** \(**Only if you want to make an Offline Installer**. More explanation [here](../preparing-the-installer-part-2/from-macos.md#youll-need-ethernet-connection-while-installing-macos-if-you-dont-have-a-ethernet-connection-go-to-the-next-page-for-offline-installation). The installer provided is a pure zip file of the installer. It is compatible for AMD.\)
-* \*\*\*\*[**TransMac**](https://www.acutesystems.com/scrtm.htm) ****\(Only if you want to make an Offline Installer. More explanation [here](../preparing-the-installer-part-2/from-macos.md#youll-need-ethernet-connection-while-installing-macos-if-you-dont-have-a-ethernet-connection-go-to-the-next-page-for-offline-installation).\)
+* \*\*\*\*[TransMac](https://www.acutesystems.com/scrtm.htm)\*\*\*\*
+* [Paragon Hard Disk Manager](https://www.paragon-software.com/free/pm-express/#)
+* **\[OPTIONAL\]** Fast Internet Speed
+
+### Network Installer Prerequisites
+
+#### Preparation for making an Offline Installer from macOS
+
+* A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS)
+* [Clover install package](https://sourceforge.net/projects/cloverefiboot/)
+* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
+* You **MUST** have fast Internet Speed \(at least 20 Mbps\). If your Internet Speed is slow, make an Offline Installer instead as the Installer might be locked while installing.
+
+#### Preparation for making an Network Installer from Windows
+
+* A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS)
+* You **MUST** have fast Internet Speed \(at least 20 Mbps\). If your Internet Speed is slow, make an Offline Installer instead as the Installer might be locked while installing.
 
 ### Notes
 
-**You'll need** [**7-zip**](https://www.7-zip.org/) for extracting the macOS Installer zip file I have provided above.
+**\[Windows\] You'll need** [**7-zip**](https://www.7-zip.org/) for extracting the macOS Installer zip file I have provided above.
 
 ## Requirements
 

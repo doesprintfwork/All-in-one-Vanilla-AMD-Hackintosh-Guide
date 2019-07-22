@@ -37,7 +37,7 @@ description: We are going to restore files to your USB.
 9. Right click on the second partition of your USB and click Resize Partition.
 10. Click More Options and set Space after partition to 0.
 11. Click OK and click Apply at the top left corner.
-12. When it finishes, you can now proceed to [the next page]().
+12. When it finishes, you can now proceed to then next part.
 
 ![Steps 1 - 5 \(Restoring installer files\)](../../.gitbook/assets/ezgif-4-c3057da32721.gif)
 
