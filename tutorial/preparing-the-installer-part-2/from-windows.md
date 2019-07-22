@@ -4,7 +4,7 @@ description: We'll use MakeInstall in gibMacOS folder.
 
 # From Windows \(Network Installer\)
 
-1. Now, run MakeInstall.bat inside the gibMacOS folder.
+1. Run MakeInstall.bat inside the gibMacOS folder.
 2. A Command Prompt window should pop up. Your USB should be listed. Enter the number in front of your USB and press Enter.
 3. It will format your USB. After that, shift + right click and copy the path of the downloaded macOS package `gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx - xx.xx.x macOS xxxx/RecoveryHDMetaDmg(or RecoveryHDUpdate)`
 
