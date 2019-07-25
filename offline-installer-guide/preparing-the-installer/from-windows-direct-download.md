@@ -6,7 +6,7 @@ description: We are going to restore files to your USB.
 
 ## Before doing anything, you need to prepare:
 
-* **BaseSystem.dmg** from the [macOS Installer app](../get-started/prerequisites.md#things-need-to-get-if-you-are-making-the-installer-in-windows) Location: `macOS Install xxxx.app/Contents/SharedSupport`
+* **BaseSystem.dmg** from the [macOS Installer app](../../prerequisites/get-started/prerequisites.md#things-need-to-get-if-you-are-making-the-installer-in-windows) Location: `macOS Install xxxx.app/Contents/SharedSupport`
 
 ## Part 1 - Installing Clover with BDUtility
 
@@ -50,7 +50,7 @@ description: We are going to restore files to your USB.
 3. Go into Install macOS Install xxxx.app/Contents
 4. Open your downloaded macOS Installer app and go to Contents folder.
 5. Copy SharedSupport from the downloaded app to `USB/Install macOS xxxx.app/Contents` with TransMac. It'll take some time.
-6. Go to this [page](../preparing-the-installer-part-3/configuring-clover-in-windows.md) after finishing this part.
+6. Go to this [page](../../clover-installtion/preparing-the-installer-part-3/configuring-clover-in-windows.md) after finishing this part.
 
 ![Steps 1 - 5 \(Copy Offline Installer files\)](../../.gitbook/assets/2019-06-16-22-29-_2.gif)
 

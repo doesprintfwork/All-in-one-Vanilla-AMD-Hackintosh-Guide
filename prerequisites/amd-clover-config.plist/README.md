@@ -7,7 +7,7 @@ description: Config.plist for AMD CPUs
 ## Before anything
 
 * Please get the patches.plist \([Ryzen](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/17h/patches.plist), [FX](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/15h_16h/patches.plist)\) from AMD OS X Github \(Right click, Save Page As, Remember to change the suffix to .plist\)
-* Open patches.plist with Clover Configurator \(CCG\) or Clover Cloud Editor \(CCE\).
+* Open patches.plist with Clover Configurator \(CCG\) or [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(CCE\).
 
 {% hint style="info" %}
 **If you are using CCE**, pleasee go to home page and set _`Show Find/Replace/TgtBridge values as: Hex`_because the following CCE screenshots are in Hex.

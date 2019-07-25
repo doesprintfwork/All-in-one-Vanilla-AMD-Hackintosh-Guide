@@ -1,0 +1,22 @@
+# Network Installer Prerequisites
+
+{% hint style="danger" %}
+You'll need to have **LAN \(Ethernet\) connection** if you are making a **Network Installer**. If you do _**NOT**_ have one, please make an [**Offline Installer**](offline-installer-prerequisites.md) instead.
+{% endhint %}
+
+### Network Installer Prerequisites
+
+#### General
+
+* A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS)
+* You **MUST** have fast Internet Speed \(at least 20 Mbps\). If your Internet Speed is slow, make an Offline Installer instead as the Installer might be locked while installing.
+
+#### Preparation for making an Offline Installer from macOS
+
+* [Clover install package](https://sourceforge.net/projects/cloverefiboot/)
+* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
+
+#### Preparation for making an Network Installer from Windows
+
+* [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(You'll need this site later for making you config.plist\)
+

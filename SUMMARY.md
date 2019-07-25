@@ -6,25 +6,44 @@
 
 * [Introduction](what-is-this/untitled.md)
 
-## Tutorial
+## Prerequisites
 
-* [Get Started](tutorial/get-started/README.md)
-  * [Prerequisites](tutorial/get-started/prerequisites.md)
-  * [Gathering Kexts](tutorial/get-started/gathering-kexts.md)
-* [AMD Clover config.plist](tutorial/amd-clover-config.plist/README.md)
-  * [SMBIOS](tutorial/amd-clover-config.plist/smbios.md)
-* [Preparing the installer - Part 1 \(Network Installer\)](tutorial/preparing-the-installer-part-1.md)
+* [Get Started](prerequisites/get-started/README.md)
+  * [General Prerequisites](prerequisites/get-started/general-prerequisites.md)
+  * [Network Installer Prerequisites](prerequisites/get-started/prerequisites.md)
+  * [Offline Installer Prerequisites](prerequisites/get-started/offline-installer-prerequisites.md)
+  * [Requirements](prerequisites/get-started/requirements.md)
+  * [Gathering Kexts](prerequisites/get-started/gathering-kexts.md)
+* [AMD Clover config.plist](prerequisites/amd-clover-config.plist/README.md)
+  * [SMBIOS](prerequisites/amd-clover-config.plist/smbios.md)
+
+## Network Installer Guide <a id="tutorial"></a>
+
+* [Preparing the installer - Part 1](tutorial/preparing-the-installer-part-1.md)
 * [Preparing the installer - Part 2](tutorial/preparing-the-installer-part-2/README.md)
   * [From Windows \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-windows.md)
-  * [From Windows \(Offline Installer\)](tutorial/preparing-the-installer-part-2/from-windows-direct-download.md)
   * [From macOS \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-macos.md)
-  * [From macOS \(Offline Installer\)](tutorial/preparing-the-installer-part-2/from-macos-offline-installer.md)
-* [Preparing the installer - Part 3](tutorial/preparing-the-installer-part-3/README.md)
-  * [Configuring Clover in Windows](tutorial/preparing-the-installer-part-3/configuring-clover-in-windows.md)
-  * [Install and Configuring Clover in macOS](tutorial/preparing-the-installer-part-3/install-and-configuring-clover-in-macos.md)
-* [Actual Installation - Part 1](tutorial/actual-installation-part-1.md)
-* [Actual Installation - Part 2](tutorial/actual-installation-part-2.md)
-* [Posty!!!](tutorial/posty.md)
+
+## Offline Installer Guide
+
+* [Preparing the installer](offline-installer-guide/preparing-the-installer/README.md)
+  * [From Windows \(Offline Installer\)](offline-installer-guide/preparing-the-installer/from-windows-direct-download.md)
+  * [From macOS \(Offline Installer\)](offline-installer-guide/preparing-the-installer/from-macos-offline-installer.md)
+
+## USB Clover Installation <a id="clover-installtion"></a>
+
+* [Clover time!](clover-installtion/preparing-the-installer-part-3/README.md)
+  * [Configuring Clover in Windows](clover-installtion/preparing-the-installer-part-3/configuring-clover-in-windows.md)
+  * [Install and Configuring Clover in macOS](clover-installtion/preparing-the-installer-part-3/install-and-configuring-clover-in-macos.md)
+
+## Actual Installation
+
+* [Actual Installation - Part 1](actual-installation/actual-installation-part-1.md)
+* [Actual Installation - Part 2](actual-installation/actual-installation-part-2.md)
+
+## Post Installation
+
+* [Posty!!!](post-installation/posty.md)
 
 ## Credits
 
