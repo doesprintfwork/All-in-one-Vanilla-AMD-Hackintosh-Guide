@@ -1,6 +1,6 @@
 # Network Installer Prerequisites
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 You'll need to have **LAN \(Ethernet\) connection** if you are making a **Network Installer**. If you do _**NOT**_ have one, please make an [**Offline Installer**](offline-installer-prerequisites.md) instead.
 {% endhint %}
 
