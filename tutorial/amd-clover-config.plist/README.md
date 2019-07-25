@@ -242,7 +242,7 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 </dict>
 ```
 
-### What we have done
+### Explanation
 
 **RT Variables:** \(From CorpNewt's Vanilla Guide\)
 

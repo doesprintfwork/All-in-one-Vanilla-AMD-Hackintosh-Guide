@@ -36,7 +36,7 @@ You'll need to have **LAN \(Ethernet\) connection** if you are making a **Networ
 
 * [Clover install package](https://sourceforge.net/projects/cloverefiboot/)
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
-* \*\*\*\*[**macOS Install Mojave.app**](https://drive.google.com/open?id=1fp7cBfkWZcyCnt0gy6zIxf6uN_nD-v1G) **\(10.14.1 18B75\),** [**macOS Install High Sierra.app**](https://drive.google.com/file/d/17U2GMCfIbLPN8SOfGoKl40vuIDZp3rt7/view) **\(10.13.6 17G65\) or** [**macOS Install Mojave.app**](https://drive.google.com/file/d/1BSp_lFlEVoSGleDpZxsVA9MJP6njUtCq/view?usp=sharing) **\(10.14.5 18F132\).** Please read the [Requirements](prerequisites.md#requirements) part below to know which version of macOS is compatible for your computer.
+* \*\*\*\*[**Intstall macOS Mojave.app**](https://drive.google.com/open?id=1fp7cBfkWZcyCnt0gy6zIxf6uN_nD-v1G) **\(10.14.1 18B75\),** [**Install macOS High Sierra**](https://drive.google.com/file/d/17U2GMCfIbLPN8SOfGoKl40vuIDZp3rt7/view) **\(10.13.6 17G65\) or** [**Install macOS Mojave.app**](https://drive.google.com/file/d/1BSp_lFlEVoSGleDpZxsVA9MJP6njUtCq/view?usp=sharing) **\(10.14.5 18F132\).** Please read the [Requirements](prerequisites.md#requirements) part below to know which version of macOS is compatible for your computer.
   * You can also use your own Installer **but you need to check if it is compatible for AMD if you are installing it to AMD System.** I'm not going to specify the steps here, Google it.
 * **\[OPTIONAL\]** Fast Internet Speed
 
