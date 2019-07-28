@@ -13,7 +13,7 @@ But you may have some audio and video desync problem so decide it by your own
 ## How to do it?
 
 1. Open your config.plist and make a copy of it
-2. Rename the copy to config\_15h.plist \(or whatever name you want started with config\_ and ends with .plist\)
+2. Rename the copy to config\_15h.plist \(or whatever name you want that started with config\_ and ends with .plist\)
 3. Open config\_15h.plist with clover configurator
 4. Go to Kernel and Kext Patches and go to KernelToPatch
 5. Delete all of the patches by pressing the Minus button➖
