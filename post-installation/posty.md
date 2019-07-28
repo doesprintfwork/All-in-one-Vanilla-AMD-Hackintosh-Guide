@@ -1,5 +1,5 @@
 ---
-description: Post installation links
+description: Post installation
 ---
 
 # Posty!!!
