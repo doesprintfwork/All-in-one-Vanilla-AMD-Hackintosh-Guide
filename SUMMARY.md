@@ -44,6 +44,7 @@
 ## Post Installation
 
 * [Posty!!!](post-installation/posty.md)
+* [Something to Ryzen](post-installation/something-to-ryzen.md)
 
 ## Credits
 
