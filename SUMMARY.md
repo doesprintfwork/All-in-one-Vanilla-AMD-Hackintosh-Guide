@@ -21,7 +21,8 @@
 
 * [Preparing the installer - Part 1](tutorial/preparing-the-installer-part-1.md)
 * [Preparing the installer - Part 2](tutorial/preparing-the-installer-part-2/README.md)
-  * [From Windows \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-windows.md)
+  * [From Windows \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-windows/README.md)
+    * [The Manual Way](tutorial/preparing-the-installer-part-2/from-windows/the-manuel-way.md)
   * [From macOS \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-macos.md)
 
 ## Offline Installer Guide
