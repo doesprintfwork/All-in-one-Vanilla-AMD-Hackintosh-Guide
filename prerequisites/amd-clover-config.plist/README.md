@@ -100,7 +100,6 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 * **-v** - enable verbose which shows all the _behind-the-scenes_ text that scrolls by as you're booting instead of the Apple logo and progress bar. It is very helpful for tracking issues are fixing them.
 * **npci=0x2000** - a fix for stuck at \[PCI Configuration Start\].
-* **alcid=7** - for enabling your audio codec. Find your own layout id of your audio codec [here](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and replace 7 with it. **Use with AppleALC**. FX users can ignore.
 
 **Default Volume** - setting the default volume for booting. 
 
@@ -196,12 +195,7 @@ The only settings I've tweaked on this page are the _Scan_ settings. I've select
 <key>Graphics</key>
 <dict>
 	<key>Inject</key>
-	<dict>
-		<key>ATI</key>
-		<false/>
-		<key>NVidia</key>
-		<true/>
-	</dict>
+	<false/>
 	<key>RadeonDeInit</key>
 	<true/>
 </dict>
@@ -209,7 +203,7 @@ The only settings I've tweaked on this page are the _Scan_ settings. I've select
 
 ### Explanations
 
-* **Injecting Graphics \(Inject ATI, Inject NVidia\)** - only set them to true if you have a old GPU. \(In this example, I will choose Inject NVidia because I have NVidia GeForce GT730 GPU.\)
+* **Injecting Graphics \(Inject ATI, Inject NVidia\)** - only set them to true if your supported old GPU doesn't work OOB \(Out Of the Box\)
 * **Enabling RadeonDeInit** - enabling AMD RX GPUs. \(only set it to true if you are using AMD RX series GPU\)
 
 ### CCE Screenshot
@@ -248,11 +242,11 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 
 We set _Rt Variables -&gt; ROM_ to `UseMacAddr0` which just utilizes our onboard Mac address - this should be unique enough to not conflict with any others.
 
-_BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which effectively disables SIP **as SIP is not supported on AMD Systems**.
+_BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which effectively disables SIP **as SIP is not supported on AMD Systems unfortunately**.
 
 **SMBIOS:**
 
-[This page](smbios.md)
+[Please read this page](smbios.md)
 
 ### CCE Screenshot
 
@@ -292,7 +286,7 @@ This setting tells clover to set the SmUUID as the `system-id` at boot - which i
 
 **NvidiaWeb:**
 
-This setting tells clover to use NVidia Web Drivers. Enable this only if you have NVidia Web Drivers installed.
+This setting will force `nvda_drv=1` on every boot, this is recommended for users with non-functional NVRAM\(EmuVariableUEFI\) or issues switching from the default macOS drivers to the Nvidia WebDrivers
 
 ### CCE Screenshot
 
