@@ -14,6 +14,6 @@ description: CREDITS!
 * **NoOne** - For his whole page of Gathering Kexts.
 * **Algrey** - For patching the kernel on AMD. Without him, the whole process for AMD will be much more complicated.
 * **Shaneee** - For his original Vanilla AMD Hackintosh Guide. [Link](https://vanilla.amd-osx.com) to his guide.
-* **SlimShadyIAm** - For his AMD Post Install Tweaks.
+* **khronokernel** \(u/dracoflar in reddit\) - For fixing my config guide. [Here](https://github.com/khronokernel) is his Github, his guide are awesome!
 * **And many more kind people** - For proofreading my guide.
 

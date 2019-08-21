@@ -37,5 +37,5 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 
 ## AMD
 
-[Here](https://hack.slim.ovh/#/mojave/post-install-tweaks.md) is another link for Post-Installation on AMD. \(If audio isn't working, delete AppleALC.kext and put [VoodooHDA.kext](https://sourceforge.net/projects/voodoohda/) in `kexts/Other` folder\)
+Here \(link broken\) is another link for Post-Installation on AMD. \(If audio isn't working, delete AppleALC.kext and put [VoodooHDA.kext](https://sourceforge.net/projects/voodoohda/) in `kexts/Other` folder\)
 
