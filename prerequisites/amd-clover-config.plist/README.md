@@ -78,7 +78,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 ## Boot
 
-### Raw XML
+### RAW XML
 
 ```markup
 <key>Boot</key>
