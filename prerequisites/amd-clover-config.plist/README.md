@@ -84,7 +84,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 <key>Boot</key>
 <dict>
 	<key>Arguments</key>
-	<string>-v npci=0x2000 alcid=7</string>
+	<string>-v npci=0x2000</string>
 	<key>DefaultVolume</key>
 	<string>LastBootedVolume</string>
 	<key>Legacy</key>
