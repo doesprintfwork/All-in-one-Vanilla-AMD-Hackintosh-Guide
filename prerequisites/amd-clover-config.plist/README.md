@@ -113,7 +113,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 ### CCE Screenshot
 
-![Boot](../../.gitbook/assets/boot.png)
+![Boot](../../.gitbook/assets/boot.jpg)
 
 ## Boot Graphics \(which doesn't matter much\)
 
