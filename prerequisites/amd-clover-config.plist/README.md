@@ -70,11 +70,11 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 **Enable Fix IPIC, TMR, HPET and RTC**
 
-* This can fix "no audio issue" after installing AppleALC and applying a correct layout ID.
+* This can fix audio after installing AppleALC and applying a correct layout ID.
 
 ### CCE Screenshot
 
-![ACPI](../../.gitbook/assets/acpi.png)
+![](../../.gitbook/assets/acpi.png)
 
 ## Boot
 
@@ -113,7 +113,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 ### CCE Screenshot
 
-![Boot](../../.gitbook/assets/boot.jpg)
+![](../../.gitbook/assets/boot.jpg)
 
 ## Boot Graphics \(which doesn't matter much\)
 
@@ -152,7 +152,7 @@ We have nothing to do here also.
 
 ### CCE Screenshot
 
-![Devices](../../.gitbook/assets/devices.png)
+![](../../.gitbook/assets/devices.png)
 
 ## Disable Drivers <a id="disable-drivers"></a>
 
@@ -185,7 +185,7 @@ The only settings I've tweaked on this page are the _Scan_ settings. I've select
 
 ### CCE Screenshot
 
-![GUI](../../.gitbook/assets/gui.png)
+![](../../.gitbook/assets/graphics.png)
 
 ## Graphics
 
@@ -197,18 +197,11 @@ The only settings I've tweaked on this page are the _Scan_ settings. I've select
 	<key>Inject</key>
 	<false/>
 	<key>RadeonDeInit</key>
-	<true/>
+	<false/>
 </dict>
 ```
 
-### Explanations
-
-* **Injecting Graphics \(Inject ATI, Inject NVidia\)** - only set them to true if your supported old GPU doesn't work OOB \(Out Of the Box\)
-* **Enabling RadeonDeInit** - enabling AMD RX GPUs. \(only set it to true if you are using AMD RX series GPU\)
-
-### CCE Screenshot
-
-![Graphics](../../.gitbook/assets/graphics.png)
+**Please refer to** [**GPU Buyers Guide**](https://khronokernel-3.gitbook.io/catalina-gpu-buyers-guide/) **and see which settings do you need for your GPU.**
 
 ## Kernel And Kexts Patches
 
@@ -218,7 +211,7 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 
 ### CCE Screenshot
 
-![Kernel And Kexts Patches](../../.gitbook/assets/kernel-and-kext-patches.png)
+![](../../.gitbook/assets/kernel-and-kext-patches.png)
 
 ## Rt Variables and SMBIOS
 
@@ -246,13 +239,11 @@ _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which
 
 **SMBIOS:**
 
-[Please read this page](smbios.md)
+[Please read this page after saving the config](smbios.md)
 
 ### CCE Screenshot
 
-![Rt Variables \(you will have a string in MLB after you use GenSMBIOS\)](../../.gitbook/assets/annotation-2019-06-21-101320.png)
-
-![SMBIOS \(you will have different values after you use GenSMBIOS\)](../../.gitbook/assets/smbios%20%281%29.png)
+![](../../.gitbook/assets/rt-variables.png)
 
 ## System Parameters
 
@@ -286,11 +277,11 @@ This setting tells clover to set the SmUUID as the `system-id` at boot - which i
 
 **NvidiaWeb:**
 
-This setting will force `nvda_drv=1` on every boot, this is recommended for users with non-functional NVRAM\(EmuVariableUEFI\) or issues switching from the default macOS drivers to the Nvidia WebDrivers
+This setting will force `nvda_drv=1` on every boot, this is recommended for users with non-functional NVRAM ****\(EmuVariableUEFI\) or issues switching from the default macOS drivers to the Nvidia WebDrivers.
 
 ### CCE Screenshot
 
-![System Parameters](../../.gitbook/assets/system-parameters.png)
+![](../../.gitbook/assets/system-parameters.png)
 
 ## Save and Exit
 

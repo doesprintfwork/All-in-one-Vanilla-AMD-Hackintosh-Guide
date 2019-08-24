@@ -4,6 +4,7 @@
 
 * An 8GB+ USB flash drive for the installer
 * Kexts for your system \([Gathering Kexts](gathering-kexts.md)\)
+* A clone of [gibMacOS](https://github.com/corpnewt/gibMacOS)
 
 ### **The config file for Clover:**
 

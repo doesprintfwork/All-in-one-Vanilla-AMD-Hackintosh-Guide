@@ -12,9 +12,9 @@ description: We'll use MakeInstall in gibMacOS folder.
 
 4. It will start to extract the resources and restore them to your USB drive. This will take some time depending your USB speed. Be patient \(again\)! If you have any error during this process, please go to this page for an alternative way.
 5. After restoring the resources, the script will automatically install Clover \(boot-loader\) to your USB.
-6. Go to this [page](../../../clover-installtion/preparing-the-installer-part-3/configuring-clover-in-windows.md) after finishing this part.
+6. Go to this [page](../../clover-installtion/preparing-the-installer-part-3/configuring-clover-in-windows.md) after finishing this part.
 
-![](../../../.gitbook/assets/ezgif-4-8fa1279bb84c.gif)
+![](../../.gitbook/assets/ezgif-4-8fa1279bb84c.gif)
 
 
 

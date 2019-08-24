@@ -4,22 +4,24 @@
 
 #### General
 
-* [macOS Installer](https://drive.google.com/drive/folders/1Vi8LnhDlSD_qnw-nqIkAU7PFh0EWmEpB?usp=sharing). Choose the one according to your hardware. If you don't know which to choose, read the [Requirements](requirements.md#requirements) page.
-* * You can also use your own macOS Installer. But if you are going to install macOS on AMD System, please make sure it is compatible to AMD. \(You can check the compatible version for AMD from the [AMD-OSX Github AMD\_Vanilla repo](https://github.com/AMD-OSX/AMD_Vanilla)\) I won't mention how to check the version here, google it yourself.
+* A clone of [MakeInstallmacOS](https://github.com/doesprintfwork/MakeInstallmacOS)
 * **\[OPTIONAL\]** Fast Internet Speed
 
 #### Preparation for making an Offline Installer from macOS
 
-* [Clover install package](https://sourceforge.net/projects/cloverefiboot/)
+* [Clover install package](https://cloverdb.com) \(Get the latest and remember the version\)
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
+* **You'll need** [**7-zip**](https://www.7-zip.org/) **\(installed to** `C:\Program Files (x86)\7zip`**\)** for the Scripts you'll use later.
 
 #### Preparation for making an Offline installer in Windows
 
-* [Boot Disk Utility](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5) \(BDUtitlity\)
-* \*\*\*\*[TransMac](https://www.acutesystems.com/scrtm.htm)\*\*\*\*
-* [Paragon Hard Disk Manager](https://www.paragon-software.com/free/pm-express/#)
+* \*\*\*\*[TransMac](https://www.acutesystems.com/scrtm.htm)
+* [Paragon Hard Disk Manager](https://www.paragon-software.com/free/pm-express/#) -- Although there are some issues, it is the only way we can resize an HFS+ Volume in Windows \(if you can find any better ways, tell me!\)
+* [Boot Disk Utility](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5) \(BDU\) -- For formatting disk and restoring files
+* p7zip -- Install with `brew install p7zip` Get Brew with this command \(from the [official site](https://brew.sh/)\) if you haven't install it yet:  
 
-### Notes
 
-**\[Windows\] You'll need** [**7-zip**](https://www.7-zip.org/) for extracting the macOS Installer zip file I have provided above.
+  ```bash
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ```
 

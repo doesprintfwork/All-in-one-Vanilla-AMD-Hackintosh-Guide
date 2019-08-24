@@ -1,7 +1,5 @@
 ---
-description: >-
-  Download the installer image. For making Network Installer. Skip this part if
-  you are making Offline Installer.
+description: Download the installer image.
 ---
 
 # Preparing the installer - Part 1

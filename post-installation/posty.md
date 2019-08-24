@@ -31,11 +31,11 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 10. Copy the kexts and config to your EFI partition \(like what you do before\)
 11. Done.
 
-## Intel
+### Audio
 
-[This page](https://internet-install.gitbook.io/macos-internet-install/posty-posty...) from Midi's guide contains all post install guide for Intel.
+WIP
 
-## AMD
 
-Here \(link broken\) is another link for Post-Installation on AMD. \(If audio isn't working, delete AppleALC.kext and put [VoodooHDA.kext](https://sourceforge.net/projects/voodoohda/) in `kexts/Other` folder\)
+
+
 

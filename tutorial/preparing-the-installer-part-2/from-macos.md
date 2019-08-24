@@ -13,7 +13,7 @@ description: Installing Clover by using the installer package.
 7. This should take some time depending on your USB speed.
 8. Go to this [page](../../clover-installtion/preparing-the-installer-part-3/install-and-configuring-clover-in-macos.md) after finishing this part.
 
-![Steps 1 - 3 \(Extracting BaseSystem.dmg to Desktop\)](../../.gitbook/assets/ezgif-4-c4f2b894d040.gif)
+![Steps 1 - 3](../../.gitbook/assets/ezgif-4-c4f2b894d040.gif)
 
-![Steps 4 - 7 \(Restoring the resources to USB\)](../../.gitbook/assets/restoring-to-usb.gif)
+![Steps 4 - 7](../../.gitbook/assets/restoring-to-usb.gif)
 

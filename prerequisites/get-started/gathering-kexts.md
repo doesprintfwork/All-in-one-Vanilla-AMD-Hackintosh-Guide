@@ -1,6 +1,6 @@
 # Gathering Kexts
 
-### Please keep all of the downloaded kexts to a folder. We will need that later.
+### Please keep all of the downloaded kexts to a folder. We will need them later.
 
 ## What Kexts Do You Need?
 
@@ -41,9 +41,9 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 * [_AppleALC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455056&cid=FE4038DA929BFB23) _-_ this kext supports most of the commonly used codecs, with the best quality. Intel CPUs and Ryzen CPUs are supported. **No FX support! Also, 3.5mm microphones are broken on Ryzen.**
 * \*\*\*\*[_VoodooHDA.kext_ ](https://sourceforge.net/projects/voodoohda/)_-_ a jack of all trades master of none solution to audio. **Required on FX. Mic support on Ryzen.**
 
-### **Misc \(**_**MUST GET THIS**_ **if you are using AMD or Pentium chips\)**
+### **Misc \(**_**MUST GET THIS**_**\)**
 
-* [NullCPUPowerManagement.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD and Pentium chips.**_
+* [NullCPUPowerManagement.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD chips.**_
 
 ## **Source Code Links**
 

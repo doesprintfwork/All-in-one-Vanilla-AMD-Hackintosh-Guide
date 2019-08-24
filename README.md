@@ -1,8 +1,15 @@
-# Vanilla Intel & AMD Hackintosh Guide
+# All-in-one Vanilla AMD Hackintosh Guide
 
-Do you want a working Hackintosh without any other extra trash in your Hackintosh? Have you been waiting for a long time for an Intel & AMD Hackintosh Guide?
+Do you want a working Hackintosh without any other extra trash in your Hackintosh? Have you been waiting for a long time for an All-in-one AMD Hackintosh Guide?
 
 **Well, you have come to the right place!** 😆 
 
-This is a guide base on Intel Vanilla Hackintosh. There will also be some more infomation and directions for AMD Vanilla Hackintosh in the guide. \(Unlike others, I only have AMD Hackintosh experiences. So, this guide will be base on [Intel Vanilla Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) by CorpNewt and [Internet Install Vanilla Guide](https://internet-install.gitbook.io/macos-internet-install/) by Midi\)
+This guide is based on Intel Vanilla Hackintosh Guides with some more directions for AMD.
+
+{% hint style="info" %}
+**MAJOR UPDATE:  
+1. Deleted the Offline Installer Files. Use my script instead.  
+2. Config.plist guide has been UPDATED.  
+3. Offline Installer Guide is UPDATED too.**
+{% endhint %}
 

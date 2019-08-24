@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Vanilla Intel & AMD Hackintosh Guide](README.md)
+* [All-in-one Vanilla AMD Hackintosh Guide](README.md)
 
 ## What is this?
 
@@ -21,13 +21,16 @@
 
 * [Preparing the installer - Part 1](tutorial/preparing-the-installer-part-1.md)
 * [Preparing the installer - Part 2](tutorial/preparing-the-installer-part-2/README.md)
-  * [From Windows \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-windows/README.md)
-    * [The Manual Way](tutorial/preparing-the-installer-part-2/from-windows/the-manuel-way.md)
+  * [From Windows \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-windows.md)
   * [From macOS \(Network Installer\)](tutorial/preparing-the-installer-part-2/from-macos.md)
 
 ## Offline Installer Guide
 
-* [Preparing the installer](offline-installer-guide/preparing-the-installer/README.md)
+* [Preparing the installer - Part 1](offline-installer-guide/preparing-the-installer-part-1.md)
+* [Preparing the installer - Part 2](offline-installer-guide/preparing-the-installer-part-2/README.md)
+  * [From Windows](offline-installer-guide/preparing-the-installer-part-2/from-windows.md)
+  * [From macOS](offline-installer-guide/preparing-the-installer-part-2/from-macos.md)
+* [Preparing the installer - Part 3](offline-installer-guide/preparing-the-installer/README.md)
   * [From Windows \(Offline Installer\)](offline-installer-guide/preparing-the-installer/from-windows-direct-download.md)
   * [From macOS \(Offline Installer\)](offline-installer-guide/preparing-the-installer/from-macos-offline-installer.md)
 
