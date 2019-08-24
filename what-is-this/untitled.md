@@ -12,6 +12,8 @@ Vanilla, meaning the most native way. In this way, you will learn how things wor
 
 **For multi-booting, read** [**this**](https://hackintosh-multiboot.gitbook.io/hackintosh-multiboot/) **first.**
 
+**If you need any help, feel free to create an Issue on my** [**Github Repo**](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) **OR ask me in the AMD OS X Discord Server.**
+
 {% hint style="danger" %}
 **DISCLAIMER: I AM NOT RESPONSIBLE FOR ANY DATA LOSS. BACKUP BEFORE FORMATTING ANYTHING.**
 {% endhint %}
