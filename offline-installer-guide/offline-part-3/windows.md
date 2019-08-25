@@ -2,7 +2,7 @@
 description: We are going to restore files to your USB.
 ---
 
-# From Windows \(Offline Installer\)
+# From Windows
 
 ## Phase 1 -- Format, Partition, and Install Clover to your USB
 
@@ -36,7 +36,7 @@ description: We are going to restore files to your USB.
 6. Close it and run TransMac as Administrator
 7. Click on your USB and go to `macOS Base System (or OS X Base System)/Install macOS xxx.app/Contents`
 8. Drag and drop the prepared SharedSupport folder here
-9. Done! Proceed to the [next part](../../clover-installtion/preparing-the-installer-part-3/configuring-clover-in-windows.md)!
+9. Done! Proceed to the [next part](../../clover-installtion/usb-clover/usb-clover-win.md)!
 
 ![Steps 1 - 5](../../.gitbook/assets/ezgif-4-3f1d85748df0.gif)
 

@@ -10,5 +10,5 @@ description: Pack the installer to an app with my script.
 4. Choose A.
 5. Choose the version you are installing.
 6. The script should be packing your files to a Installer app. This may take time, be patient!
-7. When it is done, proceed to [next part](../preparing-the-installer/from-macos-offline-installer.md).
+7. When it is done, proceed to [next part](../offline-part-3/macos.md).
 

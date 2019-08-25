@@ -2,7 +2,7 @@
 description: Installing Clover by using the installer package.
 ---
 
-# From macOS \(Network Installer\)
+# From macOS
 
 1. Rename the downloaded `RecoveryHDMetaDMG.pkg (or RecoveryHDUpdate.pkg)` to `RecoveryHDMetaDMG.dmg (or RecoveryHDUpdate.dmg)`
 2. Double click on it and a new disk call RecoveryHDMeta \(or RecoveryHDUpdate\) should be mounted
@@ -11,7 +11,7 @@ description: Installing Clover by using the installer package.
 5. Now, choose your **USB partition** click Restore button in Disk Utility and choose Image...
 6. Choose BaseSystem.dmg on desktop and press Restore.
 7. This should take some time depending on your USB speed.
-8. Go to this [page](../../clover-installtion/preparing-the-installer-part-3/install-and-configuring-clover-in-macos.md) after finishing this part.
+8. Go to this [page](../../clover-installtion/usb-clover/usb-clover-macos.md) after finishing this part.
 
 ![Steps 1 - 3](../../.gitbook/assets/ezgif-4-c4f2b894d040.gif)
 

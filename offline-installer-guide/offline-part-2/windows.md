@@ -10,5 +10,5 @@ description: Pack the installer to a folder with my script.
 4. Choose P.
 5. The script should be packing your files to a new folder call `SharedSupport`
 6. You will be asked for getting the 7z.exe location. It is located in `C:\Program Files (x86)\7zip` Drag and drop the 7z.exe to the window and press enter. The script should continue to run.
-7. When it is done, proceed to [next part](../preparing-the-installer/from-windows-direct-download.md).
+7. When it is done, proceed to [next part](../offline-part-3/windows.md).
 
