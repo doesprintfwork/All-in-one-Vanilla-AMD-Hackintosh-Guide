@@ -15,7 +15,7 @@ To start the installation:
 7. When you get to the Installer screen \(it may take several minutes for it to load\):
 8. **Skip this step if you made an Offline Installer.** Open Utilities &gt; Network Utility. Check if there is a connection, if not, check your LAN cable, and your LAN drivers from above. Close it after you have finish checking.
 9. Select Disk Utility, select View &gt; Show all Devices, select the drive to format, format it as: `Name:`  **`<Whatever you want>`** `Format:`**`APFS`** \(if you are installing macOS Mojave or installing macOS High Sierra to an SSD\)        ``**`MacOS Extended Journaled`** \(if you are installing macOS High Sierra to an HDD\) `Scheme:`**`GUID Partition Map`**
-   * Note: if you want to multiboot, go [here](https://github.com/midi1996/JBOG/blob/master/Multiboot.md) \[reminder\]
+   * Note: if you want to multiboot, go [here](https://hackintosh-multiboot.gitbook.io/hackintosh-multiboot/) \[reminder\]
    * Note2: _**DATA == GONE, BYE**_
 10. Click on Disk Utility on top &gt; Quit Disk Utility.
 11. Select Reinstall macOS or Install macOS.
@@ -23,5 +23,5 @@ To start the installation:
 13. Select your disk.
 14. Let it install. \(For the Network Installer, the faster the internet the better. For the Offline Installer, the faster the USB the better.\)
 
-After that, it will reboot for the second stage of the install, boot clover, it should now autoselect `Boot Install macOS from <your HDD name>`. If not, select it on your own and boot it up, let it finish.
+After that, it will reboot for the second stage of the install, boot clover, it should now autoselect `Boot Install macOS from <your disk name>`. If not, select it on your own and boot it up, let it finish.
 

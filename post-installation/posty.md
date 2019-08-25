@@ -2,7 +2,7 @@
 description: Post installation
 ---
 
-# Posty and FAQ!!!
+# Posty!!!
 
 ## General
 
@@ -54,16 +54,18 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 
 #### AppleALC \(on Ryzen ONLY\)
 
-1. Download the latest release of [gfxutil](https://github.com/acidanthera/gfxutil/releases)
-2. Open Terminal
-3. Drag and drop the downloaded gfxutil to the Terminal Window and type  `-f HDEF`
-4. **If you do not have output, read** [**how to change AZAL to HDEF**](posty.md#change-azal-to-hdef) **first and run again.**
-5. The output should be something like this: `PciRoot(0x0)/Pci(0x1f,0x3)`
-6. Go to the Specification page of your Motherboard on the official site and find the Audio Codec on your board.
-7. Go to [this page](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and find your layout of your Codec. A layout should be a _**NUMBER.**_ A Codec should have more than one Layout ID. But if it isn't listed out, unfortunately you need to use VoodooHDA.
-8. Mount the EFI partition and open config.plist with Clover Configurator or ProperTree Plist Editor.
-9. Go to Devices &gt; Properties and add the properties below.
-10. Save and Reboot.
+1. Mount the EFI partition of your disk
+2. Download AppleALC.kext and put it to `EFI/CLOVER/kexts/Other` if you haven't yet.
+3. Download the latest release of [gfxutil](https://github.com/acidanthera/gfxutil/releases)
+4. Open Terminal
+5. Drag and drop the downloaded gfxutil to the Terminal Window and type `-f HDEF`
+6. **If you do not have output, read** [**how to change AZAL to HDEF**](posty.md#change-azal-to-hdef) **first and run again.**
+7. The output should be something like this: `PciRoot(0x0)/Pci(0x1f,0x3)`
+8. Go to the Specification page of your Motherboard on the official site and find the Audio Codec on your board.
+9. Go to [this page](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and find your layout of your Codec. A layout should be a _**NUMBER.**_ A Codec should have more than one Layout ID. But if it isn't listed out, unfortunately you need to use VoodooHDA.
+10. Mount the EFI partition and open config.plist with Clover Configurator or ProperTree Plist Editor.
+11. Go to Devices &gt; Properties and add the properties below.
+12. Save and Reboot.
 
 | Devices | Properties Key | Properties Value | Value Type |
 | :--- | :--- | :--- | :--- |

@@ -15,10 +15,5 @@ description: Configuring the Bios settings
 
 ### Some more configurations:
 
-* If you have an nVidia/AMD GPU:
-  * NO DISPLAY is connected to the motherboard's DP/HDMI/VGA/DVI ports
-  * Under System Agent \(SA\) \[or some other menu\], Graphics Settings, Main Display: PEG or PCIE
-  * Disable anything like Hybrid Graphics, Dual Graphics, DVMT size, **APU**... that are related to integrated graphics.
-* If you have Intel iGPU:
-  * Make sure your DVMT pre-alloc \(not to be confused with DVMT size\), is set to 64MB \(or higher, 64 is enough\), DMVT size/apertures/whatever, to the max.
+* Disable anything like **APU**... that are related to integrated graphics.
 
