@@ -1,18 +1,18 @@
 # Offline Installer Prerequisites
 
-### Offline Installer Prerequisites
+## Offline Installer Prerequisites
 
-#### General
+### General
 
 * A clone of [MakeInstallmacOS](https://github.com/doesprintfwork/MakeInstallmacOS)
 * **\[OPTIONAL\]** Fast Internet Speed
 
-#### Preparation for making an Offline Installer from macOS
+### Preparation for making an Offline Installer from macOS
 
 * [Clover install package](https://cloverdb.com) \(Get the latest and remember the version\)
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
 
-#### Preparation for making an Offline installer in Windows
+### Preparation for making an Offline installer in Windows
 
 * [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(You'll need this site later for making you config.plist\)
 * \*\*\*\*[TransMac](https://www.acutesystems.com/scrtm.htm)
