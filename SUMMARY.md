@@ -1,17 +1,17 @@
 # Table of contents
 
-* [All-in-one Vanilla AMD Hackintosh Guide](README.md)
+* [All-in-one Vanilla AMD 黑蘋果教學](README.md)
 
-## What is this?
+## 這是啥？ <a id="what-is-this"></a>
 
-* [Introduction](what-is-this/introduction.md)
+* [介紹](what-is-this/introduction.md)
 
-## Prerequisites
+## 準備 <a id="prerequisites"></a>
 
-* [Get Started](prerequisites/get-started/README.md)
-  * [General Prerequisites](prerequisites/get-started/general-prerequisites.md)
-  * [Network Installer Prerequisites](prerequisites/get-started/network-installer-prerequisites.md)
-  * [Offline Installer Prerequisites](prerequisites/get-started/offline-installer-prerequisites.md)
+* [來吧！](prerequisites/get-started/README.md)
+  * [一般準備](prerequisites/get-started/general-prerequisites.md)
+  * [線上安裝準備](prerequisites/get-started/network-installer-prerequisites.md)
+  * [離線安裝準備](prerequisites/get-started/offline-installer-prerequisites.md)
   * [Requirements](prerequisites/get-started/requirements.md)
   * [Gathering Kexts](prerequisites/get-started/gathering-kexts.md)
 * [AMD Clover config.plist](prerequisites/amd-clover-config.plist/README.md)

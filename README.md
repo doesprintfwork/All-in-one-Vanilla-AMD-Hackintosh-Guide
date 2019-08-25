@@ -1,15 +1,19 @@
-# All-in-one Vanilla AMD Hackintosh Guide
+# All-in-one Vanilla AMD 黑蘋果教學
 
-Do you want a working Hackintosh without any other extra trash in your Hackintosh? Have you been waiting for a long time for an All-in-one AMD Hackintosh Guide?
+等了一個新的AMD 黑蘋果教學很~~久了嗎？
 
-**Well, you have come to the right place!** 😆 
+**你終於等到了！** 😆 
 
-This guide is based on Intel Vanilla Hackintosh Guides with some more directions for AMD.
+這個教學會在國外大佬們寫的 Intel Vanilla 黑蘋果教學基礎上，加上我對 AMD 的知識而成的。
 
 {% hint style="info" %}
-**MAJOR UPDATE:  
-1. Deleted the Offline Installer Files. Use my script instead.  
-2. Config.plist guide has been UPDATED.  
-3. Offline Installer Guide is UPDATED too.**
+**重大更新:  
+1. 刪掉了原本的安檔檔，請使用我的程式（這也避免了國內不能上 Google 的問題）  
+2. 更新了 Config.plist 的教學  
+3. 更新了離線教學**
+{% endhint %}
+
+{% hint style="success" %}
+**翻譯進度：10%**
 {% endhint %}
 
