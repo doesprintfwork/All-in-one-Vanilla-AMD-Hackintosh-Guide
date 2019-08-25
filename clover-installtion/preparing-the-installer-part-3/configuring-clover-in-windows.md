@@ -14,8 +14,8 @@
 
 #### For UEFI:
 
-1. Go back to `EFI/CLOVER` and go to the drivers64UEFI folder.
-2. Delete everything **except**  - `ApfsDriverLoader-64.efi` - `AptioMemoryFix-64.efi` - `VBoxHFS.efi`
+1. Go back to `EFI/CLOVER` and go to the `drivers64UEFI` folder.
+2. Delete everything **except**  - `ApfsDriverLoader-64.efi` - `AptioMemoryFix-64.efi` - `HFSPlus.efi`
 3. Yay! You are ready to [install macOS](../../actual-installation/actual-installation-part-1.md)!🥳
 
 ### For Clover version newer than r4988 \(including r4988\):
@@ -23,7 +23,7 @@
 #### For UEFI:
 
 1. Go back to `EFI/CLOVER` and go into `drivers/UEFI`
-2. Delete everything except: - `ApfsDriverLoader.efi` - `AptioMemoryFix.efi` - `VBoxHFS.ef`
+2. Delete everything except: - `ApfsDriverLoader.efi` - `AptioMemoryFix.efi` - `HFSPlus.efi`
 3. Yay! You are ready to [install macOS](../../actual-installation/actual-installation-part-1.md)!🥳
 
 ### If you don't know your Clover version:
