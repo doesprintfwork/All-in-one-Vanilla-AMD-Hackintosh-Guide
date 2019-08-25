@@ -47,7 +47,7 @@
 
 ## Post Installation
 
-* [Posty!!!](post-installation/posty.md)
+* [Posty and FAQ!!!](post-installation/posty.md)
 
 ## Credits
 

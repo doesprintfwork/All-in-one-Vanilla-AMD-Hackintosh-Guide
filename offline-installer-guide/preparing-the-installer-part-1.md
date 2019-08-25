@@ -12,6 +12,6 @@ description: Download the installer.
 4. Once it finishes downloading, you can proceed to the [next part](preparing-the-installer/).
 
 {% hint style="danger" %}
-_**AMD Users:**_ **Only choose 10.13.6, 10.14.1, 10.14.3 ~ 10.14.6. Other versions are not supported.**
+_**AMD Users:**_ **Only choose 10.13.6 or 10.14.6. Other versions are not supported.**
 {% endhint %}
 

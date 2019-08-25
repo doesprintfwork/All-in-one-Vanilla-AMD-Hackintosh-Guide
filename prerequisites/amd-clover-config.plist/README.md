@@ -243,7 +243,7 @@ _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which
 
 ### CCE Screenshot
 
-![](../../.gitbook/assets/rt-variables.png)
+![](../../.gitbook/assets/annotation-2019-06-21-101320.png)
 
 ## System Parameters
 
