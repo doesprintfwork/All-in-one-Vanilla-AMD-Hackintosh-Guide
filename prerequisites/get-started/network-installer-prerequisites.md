@@ -10,12 +10,12 @@
 
 * 網路速度**一定**最少要有 20 Mbps. 如果你的網路速度較慢，使用離線安裝因為在安裝期間可能會被鎖上
 
-### Preparation for making an Offline Installer from macOS
+### 在 macOS 中製作安裝器
 
-* [Clover install package](https://cloverdb.com) \(Get the latest and remember the version\)
-* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) \(for editing the config\)
+* [Clover install package](https://cloverdb.com)（使用最新的，請記得版本）
+* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)（在 macOS 編輯 config.plist）
 
-### Preparation for making an Network Installer from Windows
+### 在 Windows 中製作安裝器
 
-* [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(You'll need this site later for making you config.plist\)
+* [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php)（在 Windows 編輯 config.plist）
 
