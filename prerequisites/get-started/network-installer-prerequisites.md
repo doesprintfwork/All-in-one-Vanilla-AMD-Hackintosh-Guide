@@ -3,12 +3,12 @@
 ## 線上安裝準備
 
 {% hint style="warning" %}
-You'll need to have **LAN \(Ethernet\) connection** if you are making a **Network Installer**. If you do _**NOT**_ have, please make an [**Offline Installer**](offline-installer-prerequisites.md) instead.
+你需要 **LAN \(乙太網路\) 連線。如果你沒有，**請使用[**離線安裝**](offline-installer-prerequisites.md)
 {% endhint %}
 
-### General
+### 一般
 
-* You **MUST** have fast Internet Speed \(at least 20 Mbps\). If your Internet Speed is slow, make an Offline Installer instead as the Installer might be locked while installing.
+* 網路速度**一定**最少要有 20 Mbps. 如果你的網路速度較慢，使用離線安裝因為在安裝期間可能會被鎖上
 
 ### Preparation for making an Offline Installer from macOS
 
