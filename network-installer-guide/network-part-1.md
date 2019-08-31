@@ -13,7 +13,7 @@ description: Download the installer image.
 5. Once it finishes downloading, you can proceed to the [next part](network-part-2/).
 
 {% hint style="danger" %}
-_**AMD Users:**_ **Only choose 10.13.6 or 10.14.6. Other versions are not supported.**
+**Only choose 10.13.6 or 10.14.6. Other versions are not supported.**
 {% endhint %}
 
 ![](../.gitbook/assets/gibmacos-macos-1.gif)
