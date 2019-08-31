@@ -1,21 +1,22 @@
-# Gathering Kexts
+# 收集 Kexts
 
-### Please keep all of the downloaded kexts to a folder. We will need them later.
+### 請將所有已下載的 Kexts 放到一個資料夾內
 
-## What Kexts Do You Need?
+## 你需要什麼 Kexts?
 
-### Where can I find these kexts?
+### 我可以在哪裡找到這些 Kexts?
 
-All the kexts shown here are available for download on the [_**kext repo**_](https://1drv.ms/f/s!AiP7m5LaOED-m-J8-MLJGnOgAqnjGw) _****_provided and maintained by Goldfish64. **Do** _**NOT**_ **download and use all of the kexts listed below. Doing this may result a kernel panic.**
+* 所有在此顯示的 Kexts（除 SmallTreeIntel82576 以外）都可從由 Goldfish64 提供以及維護的 [_**Kext Repo**_](https://kext.goldfish64.com) _**取得**_
+* _**不要**_ **下載並使用所有 Kexts （可能會導致內核崩潰 Kernel Panic）**
 
-### **What is absolutely required?**
+### **什麼是必需的？**
 
-[_VirtualSMC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455091&cid=FE4038DA929BFB23) _\(use this\)_ or [FakeSMC.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455161&cid=FE4038DA929BFB23) \(older, if VirtualSMC doesn't work, use this instead\) is as aforementioned essential. This kext is what tells macOS "Yes this is a real Mac", emulating the functionality of the SMC on real Mac's. Without it, no Hackintosh. **Do NOT use both of the SMC kexts.**
+[_VirtualSMC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455091&cid=FE4038DA929BFB23) _\(使用這個\)_ 或 [FakeSMC.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455161&cid=FE4038DA929BFB23) \(較舊，會在 FAQ 中提到\) 這個 kext 告訴 macOS "對這是一台真的 Mac", 模擬在真 Mac 上 SMC 的功能。如果沒有了它，便沒有黑蘋果。**不要同時使兩個 SMC kexts.**
 
-**You'll need these also.**
+**你亦需要這些**
 
-* [_Lilu.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455053&cid=FE4038DA929BFB23) _-_ this kext acts as a loader for other kexts. More specifically it can patch kexts, processes and libraries.
-* [_Whatevergreen.kext_ ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455095&cid=FE4038DA929BFB23)_-_ this kext fixes a lot of GPU related issues.
+* [_Lilu.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455053&cid=FE4038DA929BFB23) _-_ 這個 Kext 就像其它 Kexts 的載入器
+* [_Whatevergreen.kext_ ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455095&cid=FE4038DA929BFB23)_-_ 這個 Kext 可修複許多 GPU 的問題
 
 ### Ethernet \(Choose the one you need\)
 
