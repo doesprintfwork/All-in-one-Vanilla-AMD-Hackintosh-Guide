@@ -16,37 +16,34 @@
 **你亦需要這些**
 
 * [_Lilu.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455053&cid=FE4038DA929BFB23) _-_ 這個 Kext 就像其它 Kexts 的載入器
-* [_Whatevergreen.kext_ ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455095&cid=FE4038DA929BFB23)_-_ 這個 Kext 可修複許多 GPU 的問題
+* [_Whatevergreen.kext_ ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455095&cid=FE4038DA929BFB23)_-_ 這個 Kext 可修複許多 GPU 的問
+* [_NullCPUPowerManagement.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD chips.**_
 
 ### 乙太網路（選你需要的）
 
 * _​_[_IntelMausiEthernet.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455134&cid=FE4038DA929BFB23) - 大部分新的 Intel 乙太網路卡 **除 I122-AT 外**
-* [_AppleIntelE1000e.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455998&cid=FE4038DA929BFB23) - this works with older Intel LAN chipsets - but can cause kernel panics on newer chipsets
-* _​_[_AtherosE2200Ethernet.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455105&cid=FE4038DA929BFB23) - this works for most Atheros or Killer networking chipsets
-* _​_[_RealtekRTL8111.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455143&cid=FE4038DA929BFB23) - this works with most gigabit Realtek LAN chipsets
-* _​_[_RealtekRTL8100.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23) - for 10/100 Realtek LAN chipsets
-* \*\*\*\*[_SmallTreeIntel82576.kext_](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view) - **for Intel I122-AT LAN chipset** only.
+* [_AppleIntelE1000e.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455998&cid=FE4038DA929BFB23) - 比較舊的 Intel 乙太網路卡 - 但可能會在新的卡上導致內核崩潰
+* _​_[_AtherosE2200Ethernet.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455105&cid=FE4038DA929BFB23) - 大部份的 Atheros 和 Killer 乙太網路卡
+* _​_[_RealtekRTL8111.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455143&cid=FE4038DA929BFB23) - 大部份 Realtek Gigabit 乙太網路卡
+* _​_[_RealtekRTL8100.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23) - Realtek 10/100 mbps 乙太網路卡
+* \*\*\*\*[_SmallTreeIntel82576.kext_](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view) - **Intel I122-AT 乙太網路卡**
 
-### USB Tethering
+### USB Tethering（USB 繫連）
 
 * \_\_[_HoRNDIS.kext_](https://github.com/midi1996/JBOG/blob/master/Extra/HoRNDIS.kext.zip?raw=true) - For USB tethering from Android **only**.
 
 ### WiFi and Bluetooth 
 
-\(I myself don't use bluetooth nor WiFi so I don't have knowledge in that, but here is some information on the subject by CorpNewt.\) 
+\(我並沒有任何對這方面的知識，以下引用自 CorpNewt 的 Intel Vanilla Guide\) 
 
 > Apple is pretty minimal with their WiFi support, so I'll only cover the two main chipsets I'm familiar with. I've used a BCM94360CD + PCIe adapter, and BCM94352HMB/BCM94352Z in my Hackintoshes. The BCM94360CD worked OOB with no extras as it's a native card. For the BCM94352 flavors, I've been using [_AirportBrcmFixup.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455063&cid=FE4038DA929BFB23) __and the companion [_Lilu.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455053&cid=FE4038DA929BFB23) __for WiFi setup and _BrcmBluetoothInjector.kext_ \(on 10.13.6+\) or_BrcmPatchRAM2.kext_ alongside _BrcmFirmwareData.kext_ - all of the Brcm\* kexts are from RehabMan's [_OS-X-BrcmPatchRAM_](https://github.com/RehabMan/OS-X-BrcmPatchRAM) __repo.
 
-### Audio \(Do not get both\)
+### 音頻（只需一個）
 
-* [_AppleALC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455056&cid=FE4038DA929BFB23) _-_ this kext supports most of the commonly used codecs, with the best quality. Intel CPUs and Ryzen CPUs are supported. **No FX support! Also, 3.5mm microphones are broken on Ryzen.**
+* [_AppleALC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455056&cid=FE4038DA929BFB23) _-_ this kext supports most of the commonly used codecs, with the best quality. Ryzen CPUs are supported. **No FX support! Also, 3.5mm microphones are broken on Ryzen.**
 * \*\*\*\*[_VoodooHDA.kext_ ](https://sourceforge.net/projects/voodoohda/)_-_ a jack of all trades master of none solution to audio. **Required on FX. Mic support on Ryzen.**
 
-### **Misc \(**_**MUST GET THIS**_**\)**
-
-* [NullCPUPowerManagement.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD chips.**_
-
-## **Source Code Links**
+## **源碼連結**
 
 * [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 * [FakeSMC](https://github.com/RehabMan/OS-X-FakeSMC-kozlek)
