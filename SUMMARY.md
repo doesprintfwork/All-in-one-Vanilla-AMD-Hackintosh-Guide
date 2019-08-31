@@ -12,7 +12,7 @@
   * [一般準備](prerequisites/get-started/general-prerequisites.md)
   * [線上安裝準備](prerequisites/get-started/network-installer-prerequisites.md)
   * [離線安裝準備](prerequisites/get-started/offline-installer-prerequisites.md)
-  * [Requirements](prerequisites/get-started/requirements.md)
+  * [系統要求](prerequisites/get-started/requirements.md)
   * [Gathering Kexts](prerequisites/get-started/gathering-kexts.md)
 * [AMD Clover config.plist](prerequisites/amd-clover-config.plist/README.md)
   * [SMBIOS](prerequisites/amd-clover-config.plist/smbios.md)
