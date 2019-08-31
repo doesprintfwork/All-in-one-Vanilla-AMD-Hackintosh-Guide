@@ -12,10 +12,13 @@
 
 ### 在 macOS 中製作安裝器
 
-* [Clover install package](https://cloverdb.com)（使用最新的，請記得版本）
-* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)（在 macOS 編輯 config.plist）
+* [Clover install package](https://cloverdb.com)
+  * 使用最新的，請記得版本
+* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
+  * 在 macOS 編輯 config.plist
 
 ### 在 Windows 中製作安裝器
 
-* [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php)（在 Windows 編輯 config.plist）
+* [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php)
+  * 在 Windows 編輯 config.plist
 
