@@ -1,16 +1,20 @@
 ---
-description: Config.plist for AMD CPUs
+description: AMD CPU 的 Config.plist
 ---
 
 # AMD Clover config.plist
 
-## Before anything
+## 事先準備
 
-* Please get the patches.plist \([Ryzen](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/17h/patches.plist), [FX](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/15h_16h/patches.plist)\) from AMD OS X Github \(Right click, Save Page As, Remember to change the suffix to .plist\)
-* Open patches.plist with Clover Configurator \(CCG\) or [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(CCE\).
+* 請到 AMD OS X 的 Github 中 拿到 patches.plist \([Ryzen](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/17h/patches.plist), [FX](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/15h_16h/patches.plist), 右鍵另存新檔\)
+* 使用 Clover Configurator \(CCG\) 或 [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(CCE\) 打開 patches.plist
 
 {% hint style="info" %}
-**If you are using CCE**, pleasee go to home page and set _`Show Find/Replace/TgtBridge values as: Hex`_because the following CCE screenshots are in Hex.
+**如果你使用 CCE**, 請到主頁把_`Show Find/Replace/TgtBridge values as:`_設定為_`Hex`_
+{% endhint %}
+
+{% hint style="success" %}
+**請根據截圖設定後，再使用 RAW XML 檢查**
 {% endhint %}
 
 ## ACPI
@@ -56,7 +60,7 @@ description: Config.plist for AMD CPUs
 </dict>
 ```
 
-### **Explanations**
+### **解釋**
 
 **Patches:**
 
@@ -72,7 +76,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 * This can fix audio after installing AppleALC and applying a correct layout ID.
 
-### CCE Screenshot
+### CCE 截圖
 
 ![](../../.gitbook/assets/acpi.png)
 
@@ -94,7 +98,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 </dict>
 ```
 
-### Explanations
+### **解釋**
 
 **Arguments:**
 
@@ -111,7 +115,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 **Legacy \(PBR\)** - let Clover use PBR to boot legacy system.
 
-### CCE Screenshot
+### CCE 截圖
 
 ![](../../.gitbook/assets/boot.jpg)
 
@@ -145,12 +149,12 @@ We have nothing to do here also.
 </dict>
 ```
 
-### Explanations
+### **解釋**
 
 * **Reset HDA** - Puts the codec back in a neutral state between OS reboots. This prevents some issues with no audio after booting to another OS and then back.
 * **USB** - Under this section, we ensure that _Inject_ and _FixOwnership_ are selected to avoid issues with hanging at a half-printed line somewhere around the `Enabling Legacy Matching` verbose line. You can also get past that by enabling _XHCI Hand Off_ in BIOS.
 
-### CCE Screenshot
+### CCE 截圖
 
 ![](../../.gitbook/assets/devices.png)
 
@@ -177,13 +181,13 @@ We have nothing to do here.
 </dict>
 ```
 
-### Explanation
+### **解釋**
 
 **Scan:**
 
 The only settings I've tweaked on this page are the _Scan_ settings. I've selected _Custom_, then checked everything except _Legacy_ and _Kernel_. This just omits some of the unbootable entries in Clover to clean up the menu.
 
-### CCE Screenshot
+### CCE 截圖
 
 ![](../../.gitbook/assets/graphics.png)
 
@@ -209,7 +213,7 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 
 * **AppleRTC \(enabled\)** - this ensures that we don't have a BIOS reset on reboot.
 
-### CCE Screenshot
+### CCE 截圖
 
 ![](../../.gitbook/assets/kernel-and-kext-patches.png)
 
@@ -229,7 +233,7 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 </dict>
 ```
 
-### Explanation
+### **解釋**
 
 **RT Variables:** \(From CorpNewt's Vanilla Guide\)
 
@@ -241,7 +245,7 @@ _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which
 
 [Please read this page after saving the config](smbios.md)
 
-### CCE Screenshot
+### CCE 截圖
 
 ![](../../.gitbook/assets/annotation-2019-06-21-101320.png)
 
@@ -259,7 +263,7 @@ _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which
 </dict>
 ```
 
-### **Explanations**
+### **解釋**
 
 **Inject Kexts:**
 
@@ -279,7 +283,7 @@ This setting tells clover to set the SmUUID as the `system-id` at boot - which i
 
 This setting will force `nvda_drv=1` on every boot, this is recommended for users with non-functional NVRAM ****\(EmuVariableUEFI\) or issues switching from the default macOS drivers to the Nvidia WebDrivers.
 
-### CCE Screenshot
+### CCE 截圖
 
 ![](../../.gitbook/assets/system-parameters.png)
 
