@@ -70,7 +70,7 @@ description: AMD CPU 的 Config.plist
 
 **開啟 Fix Shutdown**
 
-* 可以修複一些關機的問題，例如按關機卻重新開機的問題等等。但這個選項又可能會在某些主機板上造成關機問題（蛤，沒錯神奇不神奇），所以如果你在開啟後有關機問題的話，關掉這個
+* 可以修複一些關機的問題，例如按關機卻重新開機的問題等等。但這個選項又可能會在某些主機板上造成關機問題（沒錯神奇不神奇），所以如果你在開啟後有關機問題的話，關掉這個
 
 **開啟 Fix IPIC, TMR, HPET and RTC**
 
@@ -102,18 +102,18 @@ description: AMD CPU 的 Config.plist
 
 **Arguments:**
 
-* **-v** - enable verbose which shows all the _behind-the-scenes_ text that scrolls by as you're booting instead of the Apple logo and progress bar. It is very helpful for tracking issues are fixing them.
-* **npci=0x2000** - a fix for stuck at \[PCI Configuration Start\].
+* **-v** - 開啟囉嗦模式，把所有_幕後的事情_ 都顯示出來，可以更容易地找出問題與修複它們
+* **npci=0x2000** - 修複卡住在 \[PCI Configuration Start\].
 
-**Default Volume** - setting the default volume for booting. 
+**Default Volume** - 設定預設開機容器 
 
-* **LastBootedVolume** - let Clover uses the last booted volume \(no matter if it boot successfully\) as default.
+* **LastBootedVolume** - 讓 Clover 自動選擇上次開機的容器（不論有沒有成功）
 
-**Timeout \(秒\)** - setting the timeout for auto-booting. 
+**Timeout \(秒\)** - 設定自動開機前時間
 
-* **-1** - disable auto-boot.
+* **-1** - 關閉自動開機
 
-**Legacy \(PBR\)** - let Clover use PBR to boot legacy system.
+**Legacy \(PBR\)** - 讓 Clover 使用 PBR 去啟動 Legacy 系統
 
 ### CCE 截圖
 
