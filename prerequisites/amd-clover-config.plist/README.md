@@ -10,7 +10,7 @@ description: Config.plist for AMD CPUs
 * Open patches.plist with Clover Configurator \(CCG\) or [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(CCE\).
 
 {% hint style="info" %}
-**If you are using CCE**, pleasee go to home page and set _`Show Find/Replace/TgtBridge values as: Hex`_because the following CCE screenshots are in Hex.
+**If you are using CCE**, please go to home page and set _`Show Find/Replace/TgtBridge values as:`_to_`Hex`_because the following CCE screenshots are in Hex.
 {% endhint %}
 
 ## ACPI
