@@ -40,8 +40,13 @@
 
 ### 音頻（只需一個）
 
-* [_AppleALC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455056&cid=FE4038DA929BFB23) _-_ this kext supports most of the commonly used codecs, with the best quality. Ryzen CPUs are supported. **No FX support! Also, 3.5mm microphones are broken on Ryzen.**
-* \*\*\*\*[_VoodooHDA.kext_ ](https://sourceforge.net/projects/voodoohda/)_-_ a jack of all trades master of none solution to audio. **Required on FX. Mic support on Ryzen.**
+* [_AppleALC.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455056&cid=FE4038DA929BFB23) _-_ 支持市面上大部分的 codec 有最好的音質**但只支持 Ryzen**
+  * **不支持 FX**
+  * **Ryzen 會失去 3.5mm 麥克風的支持**
+* \*\*\*\*[_VoodooHDA.kext_ ](https://sourceforge.net/projects/voodoohda/)_-_ 萬用的音頻 Kext
+  * **支持 FX**
+  * **支持麥克風**
+  * **較差音質**
 
 ## **源碼連結**
 
