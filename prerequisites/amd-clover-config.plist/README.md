@@ -64,17 +64,17 @@ description: AMD CPU 的 Config.plist
 
 **Patches:**
 
-The first thing we'll go over is the _Patches_ section. This section allows us to dynamically rename parts of the DSDT via Clover. Since we're not running a real mac, and macOS is pretty particular with how things are named, we can make non-destructive changes to keep things mac-friendly. We have three entries here:
+首先，我們先設定 _Patches_ 部分。這一部分讓我們能使用 Clover 動態地重新命名 DSDT 中的部件。由於我們並不是在運行一部真的 Mac, 而 macOS 對部件的命名比較特別，所以我們可以無傷地更改部件名稱令到它們對 Mac 友善。我們只需一個：
 
-* _change SAT0 to SATA_ - for potential SATA compatibility
+* _change SAT0 to SATA_（更改 SAT0 到 SATA）- 更好的 SATA 兼容性
 
-**Enable Fix Shutdown**
+**開啟 Fix Shutdown**
 
-* This can fix some shutdown issues like reboot instead of shutting down. But this might also cause shutdown issues on some board. So if you are having some issues with shutting down, disable this.
+* 可以修複一些關機的問題，例如按關機卻重新開機的問題等等。但這個選項又可能會在某些主機板上造成關機問題（蛤，沒錯神奇不神奇），所以如果你在開啟後有關機問題的話，關掉這個
 
-**Enable Fix IPIC, TMR, HPET and RTC**
+**開啟 Fix IPIC, TMR, HPET and RTC**
 
-* This can fix audio after installing AppleALC and applying a correct layout ID.
+* 可以修複一些音頻的問題
 
 ### CCE 截圖
 
@@ -109,7 +109,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 * **LastBootedVolume** - let Clover uses the last booted volume \(no matter if it boot successfully\) as default.
 
-**Timeout \(sec\)** - setting the timeout for auto-booting. 
+**Timeout \(秒\)** - setting the timeout for auto-booting. 
 
 * **-1** - disable auto-boot.
 
