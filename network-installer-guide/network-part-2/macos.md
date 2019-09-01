@@ -2,7 +2,7 @@
 description: Installing Clover by using the installer package.
 ---
 
-# From macOS
+# 從 macOS
 
 1. Rename the downloaded `RecoveryHDMetaDMG.pkg (or RecoveryHDUpdate.pkg)` to `RecoveryHDMetaDMG.dmg (or RecoveryHDUpdate.dmg)`
 2. Double click on it and a new disk call RecoveryHDMeta \(or RecoveryHDUpdate\) should be mounted

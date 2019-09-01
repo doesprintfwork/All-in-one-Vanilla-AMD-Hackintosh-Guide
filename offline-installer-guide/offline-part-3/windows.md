@@ -2,7 +2,7 @@
 description: We are going to restore files to your USB.
 ---
 
-# From Windows
+# 從 Windows
 
 ## Phase 1 -- Format, Partition, and Install Clover to your USB
 

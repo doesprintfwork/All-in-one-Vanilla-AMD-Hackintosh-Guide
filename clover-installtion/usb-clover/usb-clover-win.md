@@ -1,4 +1,4 @@
-# Configuring Clover in Windows
+# 在 Windows 中設定 Clover
 
 ## Part 1 - Config and Kexts
 

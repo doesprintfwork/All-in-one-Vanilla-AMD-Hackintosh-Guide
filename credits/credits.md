@@ -2,7 +2,7 @@
 description: CREDITS!
 ---
 
-# Credits
+# 鳴謝
 
 ### Here are the credits to who helped me. They are awesome!
 

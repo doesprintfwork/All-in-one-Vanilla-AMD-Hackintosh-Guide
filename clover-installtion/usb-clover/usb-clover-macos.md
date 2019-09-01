@@ -1,4 +1,4 @@
-# Install and Configuring Clover in macOS
+# 在 macOS 中安裝與設定 Clover
 
 1. Open the Clover installer.
 2. Install it to your USB with these settings. \(Choose Customize in `Installation Type` part\) **UEFI:** `Clover for UEFI booting only Install Clover in the ESP  Recommended Drivers:  - ApfsDriverLoader  - AptioMemoryFix  - HFSPlus  Install RC Scripts on target volume (or Install RC Scripts on other volumes)` More explanations [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/clover-setup).

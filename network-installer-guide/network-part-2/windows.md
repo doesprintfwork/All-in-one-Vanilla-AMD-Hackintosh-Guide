@@ -2,7 +2,7 @@
 description: We'll use MakeInstall in gibMacOS folder.
 ---
 
-# From Windows
+# 從 Windows
 
 1. Run MakeInstall.bat inside the gibMacOS folder.
 2. A Command Prompt window should pop up. Your USB should be listed. Enter the number in front of your USB and press Enter.

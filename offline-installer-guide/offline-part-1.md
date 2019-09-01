@@ -2,7 +2,7 @@
 description: Download the installer.
 ---
 
-# Preparing the installer - Part 1
+# 準備安裝 - 第一部分
 
 ## Get the macOS Installer from gibMacOS
 

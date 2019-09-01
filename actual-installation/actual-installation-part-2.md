@@ -1,4 +1,4 @@
-# Actual Installation - Part 2
+# 安裝 - 第二部分
 
 ## Now you're ready to plug-n-play.
 

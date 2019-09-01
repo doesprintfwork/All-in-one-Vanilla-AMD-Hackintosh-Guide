@@ -2,7 +2,7 @@
 description: Post installation
 ---
 
-# Posty!!!
+# 後繼安裝
 
 ## General
 

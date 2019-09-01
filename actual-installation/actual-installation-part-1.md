@@ -2,7 +2,7 @@
 description: Configuring the Bios settings
 ---
 
-# Actual Installation - Part 1
+# 安裝 - 第一部分
 
 ### Go into Bios and configure these settings:
 

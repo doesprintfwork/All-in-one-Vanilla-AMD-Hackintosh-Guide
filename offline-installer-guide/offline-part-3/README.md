@@ -1,2 +1,2 @@
-# Preparing the installer - Part 3
+# 準備安裝 - 第三部分
 

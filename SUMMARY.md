@@ -17,40 +17,40 @@
 * [AMD Clover config.plist](prerequisites/amd-clover-config.plist/README.md)
   * [SMBIOS](prerequisites/amd-clover-config.plist/smbios.md)
 
-## Network Installer Guide
+## 線上安裝 <a id="network-installer-guide"></a>
 
-* [Preparing the installer - Part 1](network-installer-guide/network-part-1.md)
-* [Preparing the installer - Part 2](network-installer-guide/network-part-2/README.md)
-  * [From Windows](network-installer-guide/network-part-2/windows.md)
-  * [From macOS](network-installer-guide/network-part-2/macos.md)
+* [準備安裝 - 第一部分](network-installer-guide/network-part-1.md)
+* [準備安裝 - 第二部分](network-installer-guide/network-part-2/README.md)
+  * [從 Windows](network-installer-guide/network-part-2/windows.md)
+  * [從 macOS](network-installer-guide/network-part-2/macos.md)
 
-## Offline Installer Guide
+## 離線安裝 <a id="offline-installer-guide"></a>
 
-* [Preparing the installer - Part 1](offline-installer-guide/offline-part-1.md)
-* [Preparing the installer - Part 2](offline-installer-guide/offline-part-2/README.md)
-  * [From Windows](offline-installer-guide/offline-part-2/windows.md)
-  * [From macOS](offline-installer-guide/offline-part-2/macos.md)
-* [Preparing the installer - Part 3](offline-installer-guide/offline-part-3/README.md)
-  * [From Windows](offline-installer-guide/offline-part-3/windows.md)
-  * [From macOS](offline-installer-guide/offline-part-3/macos.md)
+* [準備安裝 - 第一部分](offline-installer-guide/offline-part-1.md)
+* [準備安裝 - 第二部分](offline-installer-guide/offline-part-2/README.md)
+  * [從 Windows](offline-installer-guide/offline-part-2/windows.md)
+  * [從 macOS](offline-installer-guide/offline-part-2/macos.md)
+* [準備安裝 - 第三部分](offline-installer-guide/offline-part-3/README.md)
+  * [從 Windows](offline-installer-guide/offline-part-3/windows.md)
+  * [從 macOS](offline-installer-guide/offline-part-3/macos.md)
 
-## USB Clover Installation <a id="clover-installtion"></a>
+## 安裝 Clover <a id="clover-installtion"></a>
 
-* [Clover time!](clover-installtion/usb-clover/README.md)
-  * [Configuring Clover in Windows](clover-installtion/usb-clover/usb-clover-win.md)
-  * [Install and Configuring Clover in macOS](clover-installtion/usb-clover/usb-clover-macos.md)
+* [四葉草時間！](clover-installtion/usb-clover/README.md)
+  * [在 Windows 中設定 Clover](clover-installtion/usb-clover/usb-clover-win.md)
+  * [在 macOS 中安裝與設定 Clover](clover-installtion/usb-clover/usb-clover-macos.md)
 
-## Actual Installation
+## 真實安裝 <a id="actual-installation"></a>
 
-* [Actual Installation - Part 1](actual-installation/actual-installation-part-1.md)
-* [Actual Installation - Part 2](actual-installation/actual-installation-part-2.md)
+* [安裝 - 第一部分](actual-installation/actual-installation-part-1.md)
+* [安裝 - 第二部分](actual-installation/actual-installation-part-2.md)
 
-## Post Installation
+## 安裝了 然後咧 <a id="post-installation"></a>
 
-* [Posty!!!](post-installation/posty.md)
+* [後繼安裝](post-installation/posty.md)
 * [FAQs](post-installation/faqs.md)
 
-## Credits
+## 鳴謝 <a id="credits"></a>
 
-* [Credits](credits/credits.md)
+* [鳴謝](credits/credits.md)
 

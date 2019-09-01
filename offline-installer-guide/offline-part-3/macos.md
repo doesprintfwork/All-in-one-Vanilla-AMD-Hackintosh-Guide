@@ -2,7 +2,7 @@
 description: We'll use createinstallmedia.
 ---
 
-# From macOS
+# 從 macOS
 
 1. Format your USB with these settings: `Name: USB Format: MacOS Extended Journaled Scheme: GUID Partition Map`
 2. Right click on your macOS installer app\(from the previous step\) and click `Show Contents Packages`.

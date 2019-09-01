@@ -2,5 +2,5 @@
 description: Time to install Clover!
 ---
 
-# Preparing the installer - Part 2
+# 準備安裝 - 第二部分
 

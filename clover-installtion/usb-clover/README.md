@@ -2,5 +2,5 @@
 description: Install and configure Clover
 ---
 
-# Clover time!
+# 四葉草時間！
 
