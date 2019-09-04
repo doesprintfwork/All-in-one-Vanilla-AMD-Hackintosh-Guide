@@ -119,13 +119,9 @@ description: AMD CPU 的 Config.plist
 
 ![](../../.gitbook/assets/boot.jpg)
 
-## Boot Graphics \(which doesn't matter much\)
+## Boot Graphic & CPU
 
-We have nothing to do here. You can tweak it if Clover doesn't show correctly.
-
-## CPU
-
-We have nothing to do here also.
+沒有東西做
 
 ## Devices
 
@@ -151,8 +147,8 @@ We have nothing to do here also.
 
 ### **解釋**
 
-* **Reset HDA** - Puts the codec back in a neutral state between OS reboots. This prevents some issues with no audio after booting to another OS and then back.
-* **USB** - Under this section, we ensure that _Inject_ and _FixOwnership_ are selected to avoid issues with hanging at a half-printed line somewhere around the `Enabling Legacy Matching` verbose line. You can also get past that by enabling _XHCI Hand Off_ in BIOS.
+* **Reset HDA** - 在重新啟動時將編碼器重設回原設狀態，可預防在啟動到其他系統時的音頻問題
+* **USB** - 在這一部分中，我們需確保 _Inject_ 和 _FixOwnership_ 都是開啟的，去防止在啟動時，卡在 `Enabling Legacy Matching` 。你亦可在 BIOS 中開啟 _XHCI Hand Off_
 
 ### CCE 截圖
 
@@ -160,7 +156,7 @@ We have nothing to do here also.
 
 ## Disable Drivers <a id="disable-drivers"></a>
 
-We have nothing to do here.
+沒有東西做
 
 ## GUI
 
@@ -185,7 +181,7 @@ We have nothing to do here.
 
 **Scan:**
 
-The only settings I've tweaked on this page are the _Scan_ settings. I've selected _Custom_, then checked everything except _Legacy_ and _Kernel_. This just omits some of the unbootable entries in Clover to clean up the menu.
+在這頁中，雖一需調整的設定是 _Scan_ 我選擇了 _Custom_, 再開啟所有東西除了 _Legacy_ 和 _Kernel_. 這只是把一些不能啟動的容量給隱藏起來
 
 ### CCE 截圖
 
