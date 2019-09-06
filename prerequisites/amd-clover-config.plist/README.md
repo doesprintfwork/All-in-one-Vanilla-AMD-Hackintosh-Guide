@@ -201,13 +201,13 @@ description: AMD CPU 的 Config.plist
 </dict>
 ```
 
-**Please refer to** [**GPU Buyers Guide**](https://khronokernel-3.gitbook.io/catalina-gpu-buyers-guide/) **and see which settings do you need for your GPU.**
+**請根據** [**GPU Buyers Guide**](https://khronokernel-3.gitbook.io/catalina-gpu-buyers-guide/) **去設定關於顯示卡的設定**
 
 ## Kernel And Kexts Patches
 
-The patches.plist \(which you are editing\) already has all of the patches you want to have. Those patches are used to patch the native Kernel.
+Patches.plist（你正在編輯的）已經有了所有需要的內核補丁
 
-* **AppleRTC \(enabled\)** - this ensures that we don't have a BIOS reset on reboot.
+* **AppleRTC（開啟）** - 確保在重啟時，BIOS 不會重設
 
 ### CCE 截圖
 
@@ -231,15 +231,13 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 
 ### **解釋**
 
-**RT Variables:** \(From CorpNewt's Vanilla Guide\)
+**RT Variables:**
 
-We set _Rt Variables -&gt; ROM_ to `UseMacAddr0` which just utilizes our onboard Mac address - this should be unique enough to not conflict with any others.
+我們把 _Rt Variables -&gt; ROM_ 設定為 `UseMacAddr0` 去讓系統使用在自己主機版 MAC 地址 － 應該是獨一無二的
 
-_BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which effectively disables SIP **as SIP is not supported on AMD Systems unfortunately**.
+_BooterConfig_ 被設定為 `0x28`, 和 _CsrActiveConfig_ 被設為 `0x3e7` 去禁用 SIP **因為在SIP 是在 AMD 平台上不支持的**
 
-**SMBIOS:**
-
-[Please read this page after saving the config](smbios.md)
+**SMBIOS:** 請閱讀此頁
 
 ### CCE 截圖
 

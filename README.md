@@ -14,6 +14,6 @@
 {% endhint %}
 
 {% hint style="success" %}
-**翻譯進度：15%**
+**翻譯進度：20%**
 {% endhint %}
 
