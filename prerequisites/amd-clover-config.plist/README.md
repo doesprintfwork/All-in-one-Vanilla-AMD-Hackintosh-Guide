@@ -261,27 +261,27 @@ _BooterConfig_ 被設定為 `0x28`, 和 _CsrActiveConfig_ 被設為 `0x3e7` 去�
 
 **Inject Kexts:**
 
-This setting has 3 modes:
+此設定有3個模式
 
-* `Yes` - this tells Clover to inject kexts from the EFI regardless.
-* `No` - this tells Clover not to inject kexts from the EFI.
-* `Detect` - this has Clover inject kexts only if _FakeSMC.kext_ or _VirtualSMC.kext_ are not in the kext cache.
+* `Yes` - 讓 Clover 去從 EFI 中加載 kexts
+* `No` - 讓 Clover **不**去從 EFI 中加載 kexts
+* `Detect` - 讓 Clover 去判斷 kexts 快取是否包含 FakeSMC.kext 或 VirtualSMC.kext, 如果不包含就加載 kexts
 
-We set it to `Yes` to make sure that all the kexts we added before get injected properly.
+需設定為 `Yes` 確保所有 kexts 會被加載
 
 **Inject System ID:**
 
-This setting tells clover to set the SmUUID as the `system-id` at boot - which is important for iMessage and such.
+讓 Clover 在啟動時用 SmUUID 設定 `system-id` 對 iMessage 等非常重要
 
 **NvidiaWeb:**
 
-This setting will force `nvda_drv=1` on every boot, this is recommended for users with non-functional NVRAM ****\(EmuVariableUEFI\) or issues switching from the default macOS drivers to the Nvidia WebDrivers.
+在每次啟動時強制加載 `nvda_drv=1` 如果你在安裝 Nvidia WebDrivers 後仍然使用預設的，開啟這個
 
 ### CCE 截圖
 
 ![](../../.gitbook/assets/system-parameters.png)
 
-## Save and Exit
+## 保存及離開
 
-At this point, you can do _File -&gt; Save_ to save the config.plist \(or go back to home page and download your config.plist if you are using CCE\). Keep it to somewhere you'll remember.
+使用 _File -&gt; Save_ 去保存你的 config.plist \(如果你在使用 CCE, 返回主頁並下載你的 config.plist\). 保存到你會記得的地方
 
