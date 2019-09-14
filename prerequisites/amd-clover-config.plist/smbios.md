@@ -1,21 +1,21 @@
 ---
-description: Setting SMBIOS.
+description: 設定 SMBIOS.
 ---
 
 # SMBIOS
 
-1. Prepare your config.plist which you've made.
-2. Download or clone the whole repo of [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).
-3. Open the folder and open GenSMBIOS.bat \(on Windows\) or right-click open GenSMBIOS.command \(on macOS\)
-4. Enter 1 and enter. \(for update/install MacSerial\)
-5. Then enter 2 and enter.
-6. Drag and drop your config.plist and press enter.
-7. Y.
-8. Enter 3 and enter.
-9. Enter the SMBIOS you want to generate and enter the number of SMBIOS amount. Press enter. **For AMD System,** here is the list of SMBIOS recommended from the most to the least: - _**iMacPro1,1**_ \(most recommended\) - _iMac14,2_ \(also recommended\) - MacPro6,1 \(a little bit old but it works\) - MacPro5,1 \(outdated but it is still supported in High Sierra\) - Other SMBIOS \(not recommended as they might cause problems\)
-10. The first SMBIOS will be flushed into your chosen config.plist.
-11. Go to [this website](https://checkcoverage.apple.com/) to check if your serial number is valid or not. We want a _**invalid**_ serial number.
-12. If you get an invalid serial number, finish. If not, redo the whole proccess until you have a _**invalid**_ serial number.
+1. 準備你的 config.plist
+2. 下載 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+3. 開啟 GenSMBIOS.bat \(Windows\) 或右鍵開啟 GenSMBIOS.command \(macOS\)
+4. 輸入 1 後按 Enter \(下載或更新 MacSerial\)
+5. 輸入 2 後按 Enter
+6. 拖曳你的 config.plist 到程式裡後按 Enter
+7. Y
+8. 輸入 3 後按 Enter
+9. 輸入你需要的 SMBIOS 並輸入你所需要的 SMBIOS 的量後按 Enter **對於 AMD,** 以下列出所有推薦的 SMBIOS - _**iMacPro1,1**_ \(最推薦\) - _**iMac14,2**_ \(亦推薦\) - MacPro6,1 \(比較舊且已在 Catalina 中失去支援\) - MacPro5,1 \(很舊且已在 Mojave 中失去支援\) - Other SMBIOS \(不推薦 可能會造成其他問題\)
+10. 第一個 SMBIOS 會被加到 config.plist 中
+11. 到[此網站](https://checkcoverage.apple.com/)去確認你的序號 \(Serial Number\) 為_**無效的 \(invalid\)**_
+12. 如果你得到無效的序號，完成。如果並沒有，請重第 9 步重做
 
 ![Steps 1 - 10 \(Generating SMBIOS\)](../../.gitbook/assets/ezgif-5-2d971096ef3a.gif)
 
