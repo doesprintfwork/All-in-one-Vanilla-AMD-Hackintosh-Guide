@@ -16,3 +16,9 @@
 * **閱讀完後，到**[**這裡**](../amd-clover-config.plist.md)**製作自己的 config**
 * \*\*\*\*[**AptioMemoryFix.efi**](https://cdn.discordapp.com/attachments/251043252046659586/609234258732515329/AptioFix-R27-RELEASE.zip) **\(Clover 自帶的版本可能會有問題\)**
 
+## 建議
+
+如果你是在 Windows 中製作安裝器的話，我建議你使用線上安裝
+
+如果你是在 macOS 中製作安裝器的話，我建議你使用離線安裝
+

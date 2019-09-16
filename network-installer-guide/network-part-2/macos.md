@@ -1,17 +1,17 @@
 ---
-description: Installing Clover by using the installer package.
+description: 把檔案還原到 USB
 ---
 
 # 從 macOS
 
-1. Rename the downloaded `RecoveryHDMetaDMG.pkg (or RecoveryHDUpdate.pkg)` to `RecoveryHDMetaDMG.dmg (or RecoveryHDUpdate.dmg)`
-2. Double click on it and a new disk call RecoveryHDMeta \(or RecoveryHDUpdate\) should be mounted
-3. Go into the RecoveryHDMeta \(or RecoveryHDUpdate\) disk and copy BaseSystem.dmg to desktop.
-4. Go to disk utility. Click **View &gt; Show all devices** and find your USB **\(the whole disk instead of a partition, check out the gif below to know what I am talking\)** and format it to:  `Name:   [whatever you want] Format: Mac OS Extended (Journaled)  Scheme: GUID Partition Map`
-5. Now, choose your **USB partition** click Restore button in Disk Utility and choose Image...
-6. Choose BaseSystem.dmg on desktop and press Restore.
-7. This should take some time depending on your USB speed.
-8. Go to this [page](../../clover-installtion/usb-clover/usb-clover-macos.md) after finishing this part.
+1. 重新命名 在 `gibMacOS/macOS Downloads/publicrelease/blahblahblah/` 中的 `RecoveryHDMetaDMG.pkg (or RecoveryHDUpdate.pkg)` 到`RecoveryHDMetaDMG.dmg (or RecoveryHDUpdate.dmg)`
+2. 雙擊後，會掛載一個新的容器
+3. 開啟它並把 BaseSystem.dmg 複製到桌面
+4. 開啟磁碟管理工具，選擇 **檢視 &gt; 顯示所有裝置，然後格式你的 USB 到（整個 USB）：** `名稱: [隨便] 格式: Mac OS Extended (Journaled)  架構: GUID Partition Map`
+5. 選擇你的 **USB 的分割區並按 Restore**
+6. 按 Choose image... 並選擇在桌面上的BaseSystem.dmg，再按還原
+7. 漫長的等待。。。
+8. 完成後到 [在 macOS 中安裝與設定 Clover](../../clover-installtion/usb-clover/usb-clover-macos.md)
 
 ![Steps 1 - 3](../../.gitbook/assets/ezgif-4-c4f2b894d040.gif)
 
