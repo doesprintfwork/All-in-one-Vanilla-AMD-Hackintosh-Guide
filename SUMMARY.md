@@ -36,7 +36,7 @@
 
 ## USB Clover Installation <a id="clover-installtion"></a>
 
-* [Clover time!](clover-installtion/usb-clover/README.md)
+* [Clover Time!](clover-installtion/usb-clover/README.md)
   * [Configuring Clover in Windows](clover-installtion/usb-clover/usb-clover-win.md)
   * [Install and Configuring Clover in macOS](clover-installtion/usb-clover/usb-clover-macos.md)
 
