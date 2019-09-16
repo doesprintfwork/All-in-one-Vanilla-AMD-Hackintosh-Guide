@@ -13,10 +13,6 @@ description: AMD CPU 的 Config.plist
 **如果你使用 CCE**, 請到主頁把_`Show Find/Replace/TgtBridge values as:`_設定為_`Hex`_
 {% endhint %}
 
-{% hint style="success" %}
-**請根據截圖設定後，再使用 RAW XML 檢查**
-{% endhint %}
-
 ## ACPI
 
 ### RAW XML
@@ -185,7 +181,7 @@ description: AMD CPU 的 Config.plist
 
 ### CCE 截圖
 
-![](../.gitbook/assets/graphics.png)
+![](../.gitbook/assets/gui.png)
 
 ## Graphics
 

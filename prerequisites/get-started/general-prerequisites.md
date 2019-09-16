@@ -13,4 +13,5 @@
 * **請到這裡** [**HERE**](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **閱讀 Plist 基本，然後用 Clover Configurator 或 Clover Cloud Editor 或 ProperTree （由國外大神 CorpNewt 製作）製作自己的 config.plist**
   * _**請勿使用樣本 config**_
 * **閱讀完後，到**[**這裡**](../amd-clover-config.plist.md)**製作自己的 config**
+* \*\*\*\*[**AptioMemoryFix.efi**](https://cdn.discordapp.com/attachments/251043252046659586/609234258732515329/AptioFix-R27-RELEASE.zip) **\(Clover 自帶的版本可能會有問題\)**
 

@@ -1,19 +1,19 @@
 ---
-description: Download the installer image.
+description: 下載安裝程序
 ---
 
 # 準備安裝 - 第一部分
 
-## Get the macOS Installer from gibMacOS
+## 從 gibMacOS 中取得 macOS 安裝程序
 
-1. Run the gibMacOS.bat \(Windows\) or gibMacOS.command \(macOS, with right-click open\) inside the downloaded or cloned gibMacOS folder
-2. A Command Prompt window \(Windows\) or Terminal window \(macOS\) should appear. Enter `r` to toggle `Recovery Only` mode.
-3. It should refresh the list after you toggle the mode. From there, you should see a list of macOS versions. Enter the number in front of the latest version \(by checking the date\) of **the highest supported macOS version of you system** which mentioned in [Requirements](../prerequisites/get-started/network-installer-prerequisites.md#requirements). You need to choose the one with FULL INSTALL.
-4. Press Enter and it should start downloading. There should be only 1 item to download. Be patient while downloading the files.
-5. Once it finishes downloading, you can proceed to the [next part](network-part-2/).
+1. 執行在已下載的 gibMacOS 資料中的 gibMacOS.bat \(Windows\) 或 gibMacOS.command \(macOS, 右鍵開啟\)
+2. 輸入 `r` 去啟動 `Recovery Only` 模式.
+3. 在啟動後應會重新整理。在那裡，我們應會看到一堆 macOS 版本，輸入**最高支援系統**的最新版本的代號（看日期）後按 Enter. _**請選擇帶有 FULL INSTALL 的版本**_
+4. 按 Enter 後，程序應該會從 Apple 的伺服器中直接下載 RecoveryHDMetaDMG 或 RecoveryHDUpdate
+5. 下載完成後，請到下一頁
 
 {% hint style="danger" %}
-**Only choose 10.13.6 or 10.14.6. Other versions are not supported.**
+**請只選擇 10.13.6 或 10.14.6. 其他版本並不支持**
 {% endhint %}
 
 ![](../.gitbook/assets/gibmacos-macos-1.gif)
