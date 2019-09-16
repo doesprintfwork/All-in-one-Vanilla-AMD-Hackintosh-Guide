@@ -15,5 +15,7 @@
 
 {% hint style="success" %}
 **翻譯進度：30%**
+
+**己翻譯：從此頁到線上安裝 / 準備安裝 - 第二部分 / 從 Windows**
 {% endhint %}
 
