@@ -14,8 +14,8 @@
   * [Offline Installer Prerequisites](prerequisites/get-started/offline-installer-prerequisites.md)
   * [Requirements](prerequisites/get-started/requirements.md)
   * [Gathering Kexts](prerequisites/get-started/gathering-kexts.md)
-* [AMD Clover config.plist](prerequisites/amd-clover-config.plist/README.md)
-  * [SMBIOS](prerequisites/amd-clover-config.plist/smbios.md)
+* [AMD Clover config.plist](prerequisites/amd-clover-config.plist.md)
+* [SMBIOS](prerequisites/smbios.md)
 
 ## Network Installer Guide
 

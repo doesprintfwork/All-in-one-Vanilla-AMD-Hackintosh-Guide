@@ -74,7 +74,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 ### CCE Screenshot
 
-![](../../.gitbook/assets/acpi.png)
+![](../.gitbook/assets/acpi.png)
 
 ## Boot
 
@@ -113,7 +113,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 ### CCE Screenshot
 
-![](../../.gitbook/assets/boot.jpg)
+![](../.gitbook/assets/boot.jpg)
 
 ## Boot Graphics \(which doesn't matter much\)
 
@@ -152,7 +152,7 @@ We have nothing to do here also.
 
 ### CCE Screenshot
 
-![](../../.gitbook/assets/devices.png)
+![](../.gitbook/assets/devices.png)
 
 ## Disable Drivers <a id="disable-drivers"></a>
 
@@ -185,7 +185,7 @@ The only settings I've tweaked on this page are the _Scan_ settings. I've select
 
 ### CCE Screenshot
 
-![](../../.gitbook/assets/graphics.png)
+![](../.gitbook/assets/graphics.png)
 
 ## Graphics
 
@@ -211,7 +211,7 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 
 ### CCE Screenshot
 
-![](../../.gitbook/assets/kernel-and-kext-patches.png)
+![](../.gitbook/assets/kernel-and-kext-patches.png)
 
 ## Rt Variables and SMBIOS
 
@@ -237,13 +237,11 @@ We set _Rt Variables -&gt; ROM_ to `UseMacAddr0` which just utilizes our onboard
 
 _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which effectively disables SIP **as SIP is not supported on AMD Systems unfortunately**.
 
-**SMBIOS:**
-
-[Please read this page after saving the config](smbios.md)
+**SMBIOS:** Skip this first
 
 ### CCE Screenshot
 
-![](../../.gitbook/assets/annotation-2019-06-21-101320.png)
+![](../.gitbook/assets/annotation-2019-06-21-101320.png)
 
 ## System Parameters
 
@@ -281,9 +279,11 @@ This setting will force `nvda_drv=1` on every boot, this is recommended for user
 
 ### CCE Screenshot
 
-![](../../.gitbook/assets/system-parameters.png)
+![](../.gitbook/assets/system-parameters.png)
 
 ## Save and Exit
 
 At this point, you can do _File -&gt; Save_ to save the config.plist \(or go back to home page and download your config.plist if you are using CCE\). Keep it to somewhere you'll remember.
+
+Now go to the next page to configure SMBIOS.
 

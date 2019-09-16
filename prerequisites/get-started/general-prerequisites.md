@@ -12,5 +12,5 @@
 
 * **PLEASE READ THE PLIST BASICS OVER** [**HERE**](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) **AND MAKE YOUR OWN config.plist with Clover Configurator** \(On macOS\)**,** [**Clover Cloud Editor**](http://cloudclovereditor.altervista.org/cce/index.php) ****\(On Windows\) **or ProperTree config editor** \(Cross Platform Plist Editor, but difficult for people without any basis at programming\)**.**
   * _**DO NOT GET THE SAMPLE CONFIG.**_
-* **After reading the plist basics guide, go to** [**this page**](../amd-clover-config.plist/) **to make your own config.plist**.
+* **After reading the plist basics guide, go to** [**this page**](../amd-clover-config.plist.md) **to make your own config.plist**.
 
