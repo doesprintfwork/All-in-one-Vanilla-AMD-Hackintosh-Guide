@@ -11,9 +11,8 @@ description: 使用 MakeInstall.bat
 
     按下 Shift 加右鍵，複製成路徑並到視窗中貼上後按 Enter
 
-5. It will start to extract the resources and restore them to your USB drive. This will take some time depending your USB speed. Be patient \(again\)! If you have any error during this process, please go to this page for an alternative way.
-6. After restoring the resources, the script will automatically install Clover \(boot-loader\) to your USB.
-7. Go to this [page](../../clover-installtion/usb-clover/usb-clover-win.md) after finishing this part.
+5. 程序會開始解壓安裝檔並把檔案還原到你的 USB 上，並會自動安裝 Clover
+6. 完成後，請到[ 在 Windows 中設定 Clover](../../clover-installtion/usb-clover/usb-clover-win.md) 繼續
 
 ![](../../.gitbook/assets/ezgif-4-8fa1279bb84c.gif)
 
