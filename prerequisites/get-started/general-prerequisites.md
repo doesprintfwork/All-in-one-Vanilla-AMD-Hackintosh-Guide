@@ -5,6 +5,7 @@
 * **至少 4GB 的 USB（在線）或 8GB 的 USB（離線）**
 * 你的電腦需要的 Kexts（內核擴展）\([準備 Kexts](gathering-kexts.md)\)
 * [gibMacOS](https://github.com/corpnewt/gibMacOS) 的 Clone（克隆）
+* \*\*\*\*[**PYTHON 3**](https://www.python.org/downloads/)\*\*\*\*
 
 ### **四葉草引導的 Config.plist（設定檔）**
 
