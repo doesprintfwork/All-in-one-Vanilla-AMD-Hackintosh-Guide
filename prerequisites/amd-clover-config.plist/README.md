@@ -74,7 +74,7 @@ description: AMD CPU 的 Config.plist
 
 ### CCE 截圖
 
-![](../.gitbook/assets/acpi.png)
+![](../../.gitbook/assets/acpi.png)
 
 ## Boot
 
@@ -113,7 +113,7 @@ description: AMD CPU 的 Config.plist
 
 ### CCE 截圖
 
-![](../.gitbook/assets/boot.jpg)
+![](../../.gitbook/assets/boot.jpg)
 
 ## Boot Graphic & CPU
 
@@ -148,7 +148,7 @@ description: AMD CPU 的 Config.plist
 
 ### CCE 截圖
 
-![](../.gitbook/assets/devices.png)
+![](../../.gitbook/assets/devices.png)
 
 ## Disable Drivers <a id="disable-drivers"></a>
 
@@ -181,7 +181,7 @@ description: AMD CPU 的 Config.plist
 
 ### CCE 截圖
 
-![](../.gitbook/assets/gui.png)
+![](../../.gitbook/assets/gui.png)
 
 ## Graphics
 
@@ -207,7 +207,7 @@ Patches.plist（你正在編輯的）已經有了所有需要的內核補丁
 
 ### CCE 截圖
 
-![](../.gitbook/assets/kernel-and-kext-patches.png)
+![](../../.gitbook/assets/kernel-and-kext-patches.png)
 
 ## Rt Variables and SMBIOS
 
@@ -237,7 +237,7 @@ _BooterConfig_ 被設定為 `0x28`, 和 _CsrActiveConfig_ 被設為 `0x3e7` 去�
 
 ### CCE 截圖
 
-![](../.gitbook/assets/annotation-2019-06-21-101320.png)
+![](../../.gitbook/assets/annotation-2019-06-21-101320.png)
 
 ## System Parameters
 
@@ -275,7 +275,7 @@ _BooterConfig_ 被設定為 `0x28`, 和 _CsrActiveConfig_ 被設為 `0x3e7` 去�
 
 ### CCE 截圖
 
-![](../.gitbook/assets/system-parameters.png)
+![](../../.gitbook/assets/system-parameters.png)
 
 ## 保存及離開
 

@@ -14,12 +14,12 @@
   * [離線安裝準備](prerequisites/get-started/offline-installer-prerequisites.md)
   * [系統要求](prerequisites/get-started/requirements.md)
   * [收集 Kexts](prerequisites/get-started/gathering-kexts.md)
-* [AMD Clover config.plist](prerequisites/amd-clover-config.plist.md)
-* [SMBIOS](prerequisites/smbios.md)
+* [AMD Clover config.plist](prerequisites/amd-clover-config.plist/README.md)
+  * [SMBIOS](prerequisites/amd-clover-config.plist/smbios.md)
 
-## 下載安裝器 <a id="download-installer"></a>
+## 下載 <a id="download"></a>
 
-* [下載](download-installer/network-part-1.md)
+* [下載安裝程序](download/network-part-1.md)
 
 ## 線上安裝 <a id="network-installer-guide"></a>
 

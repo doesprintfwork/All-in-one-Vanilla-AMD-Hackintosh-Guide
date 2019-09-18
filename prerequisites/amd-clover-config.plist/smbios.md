@@ -17,9 +17,9 @@ description: 設定 SMBIOS.
 11. 到[此網站](https://checkcoverage.apple.com/)去確認你的序號 \(Serial Number\) 為_**無效的 \(invalid\)**_
 12. 如果你得到無效的序號，完成。如果並沒有，請由第 9 步重做直至找到無效的序號
 
-![Steps 1 - 10 \(Generating SMBIOS\)](../.gitbook/assets/ezgif-5-2d971096ef3a.gif)
+![Steps 1 - 10 \(Generating SMBIOS\)](../../.gitbook/assets/ezgif-5-2d971096ef3a.gif)
 
-![Steps 11 - 12 \(Checking Serial Number\)](../.gitbook/assets/ezgif-5-776e8fe4f7f4.gif)
+![Steps 11 - 12 \(Checking Serial Number\)](../../.gitbook/assets/ezgif-5-776e8fe4f7f4.gif)
 
 
 
