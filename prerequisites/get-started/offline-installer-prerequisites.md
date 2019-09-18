@@ -6,7 +6,7 @@
 
 * A clone of [MakeInstallmacOS](https://github.com/doesprintfwork/MakeInstallmacOS)
 * **\[OPTIONAL\]** Fast Internet Speed
-* \*\*\*\*[**PYTHON 3.4 or above \(Recommended: 3.7\)**](https://www.python.org/downloads/)\*\*\*\*
+* \*\*\*\*[**PYTHON 3.4 or above \(Recommended: 3.7, with add to PATH selected\)**](https://www.python.org/downloads/)\*\*\*\*
 
 ### Preparation for making an Offline Installer from macOS
 

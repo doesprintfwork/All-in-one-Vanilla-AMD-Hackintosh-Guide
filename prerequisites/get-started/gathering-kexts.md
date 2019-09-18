@@ -6,7 +6,7 @@
 
 ### Where can I find these kexts?
 
-All the kexts shown here are available for download on the [_**kext repo**_](https://1drv.ms/f/s!AiP7m5LaOED-m-J8-MLJGnOgAqnjGw) _****_provided and maintained by Goldfish64. **Do** _**NOT**_ **download and use all of the kexts listed below. Doing this may result a kernel panic.**
+All the kexts shown here \(except SmallTreeIntel82576\) are available for download on the [_**kext repo**_](https://1drv.ms/f/s!AiP7m5LaOED-m-J8-MLJGnOgAqnjGw) _****_provided and maintained by Goldfish64. **Do** _**NOT**_ **download and use all of the kexts listed below. Doing this may result a kernel panic.**
 
 ### **What is absolutely required?**
 
