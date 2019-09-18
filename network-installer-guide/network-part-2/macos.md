@@ -4,9 +4,9 @@ description: Installing Clover by using the installer package.
 
 # From macOS
 
-1. Rename the downloaded `RecoveryHDMetaDMG.pkg (or RecoveryHDUpdate.pkg)` to `RecoveryHDMetaDMG.dmg (or RecoveryHDUpdate.dmg)`
-2. Double click on it and a it will mount a volume call RecoveryHDMeta \(or RecoveryHDUpdate\)
-3. Go into the RecoveryHDMeta \(or RecoveryHDUpdate\) disk and copy BaseSystem.dmg to desktop.
+1. Rename the downloaded `XXXX.pkg` to `XXXX.dmg`
+2. Double click on it and a it will mount a new volume
+3. Go into the new volume and copy BaseSystem.dmg to desktop.
 4. Go to disk utility. Click **View &gt; Show all devices** and find your USB **\(the whole disk instead of a partition, check out the gif below to know what I am talking\)** and format it to:  `Name:   [whatever you want] Format: Mac OS Extended (Journaled)  Scheme: GUID Partition Map`
 5. Now, choose your **USB partition** click Restore button in Disk Utility and choose Image...
 6. Choose BaseSystem.dmg on desktop and press Restore.

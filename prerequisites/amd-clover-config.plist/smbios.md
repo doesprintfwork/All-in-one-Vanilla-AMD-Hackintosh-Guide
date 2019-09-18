@@ -17,9 +17,9 @@ description: Setting SMBIOS.
 11. Go to [this website](https://checkcoverage.apple.com/) to check if your serial number is valid or not. We want a _**invalid**_ serial number.
 12. If you get an invalid serial number, finish. If not, redo the whole proccess until you have a _**invalid**_ serial number.
 
-![Steps 1 - 10 \(Generating SMBIOS\)](../.gitbook/assets/ezgif-5-2d971096ef3a.gif)
+![Steps 1 - 10 \(Generating SMBIOS\)](../../.gitbook/assets/ezgif-5-2d971096ef3a.gif)
 
-![Steps 11 - 12 \(Checking Serial Number\)](../.gitbook/assets/ezgif-5-776e8fe4f7f4.gif)
+![Steps 11 - 12 \(Checking Serial Number\)](../../.gitbook/assets/ezgif-5-776e8fe4f7f4.gif)
 
 
 
