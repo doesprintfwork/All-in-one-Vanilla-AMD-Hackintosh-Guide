@@ -17,20 +17,22 @@
 * [AMD Clover config.plist](prerequisites/amd-clover-config.plist.md)
 * [SMBIOS](prerequisites/smbios.md)
 
+## Download
+
+* [Download the Installer](download/network-part-1.md)
+
 ## Network Installer Guide
 
-* [Preparing the installer - Part 1](network-installer-guide/network-part-1.md)
-* [Preparing the installer - Part 2](network-installer-guide/network-part-2/README.md)
+* [Preparing the installer - Part 1](network-installer-guide/network-part-2/README.md)
   * [From Windows](network-installer-guide/network-part-2/windows.md)
   * [From macOS](network-installer-guide/network-part-2/macos.md)
 
 ## Offline Installer Guide
 
-* [Preparing the installer - Part 1](offline-installer-guide/offline-part-1.md)
-* [Preparing the installer - Part 2](offline-installer-guide/offline-part-2/README.md)
+* [Preparing the installer - Part 1](offline-installer-guide/offline-part-2/README.md)
   * [From Windows](offline-installer-guide/offline-part-2/windows.md)
   * [From macOS](offline-installer-guide/offline-part-2/macos.md)
-* [Preparing the installer - Part 3](offline-installer-guide/offline-part-3/README.md)
+* [Preparing the installer - Part 2](offline-installer-guide/offline-part-3/README.md)
   * [From Windows](offline-installer-guide/offline-part-3/windows.md)
   * [From macOS](offline-installer-guide/offline-part-3/macos.md)
 

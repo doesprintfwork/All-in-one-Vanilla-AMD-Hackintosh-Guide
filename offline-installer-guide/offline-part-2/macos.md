@@ -4,7 +4,7 @@ description: Pack the installer to an app with my script.
 
 # From macOS
 
-1. Put the cloned folder into the downloaded macOS Installer files folder \(i.e.: `gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
+1. Put the cloned MakeInstallmacOS folder into the downloaded macOS Installer files folder \(i.e.: `gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
 2. Run `python3 <drag and drop PackAppMacOS.py here>`
 3. Choose A.
 4. Choose the version you are installing.

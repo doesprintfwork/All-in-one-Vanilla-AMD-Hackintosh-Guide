@@ -1,2 +1,2 @@
-# Preparing the installer - Part 3
+# Preparing the installer - Part 2
 

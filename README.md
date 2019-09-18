@@ -13,3 +13,11 @@ This guide is based on Intel Vanilla Hackintosh Guides with some more directions
 3. Offline Installer Guide is UPDATED too.**
 {% endhint %}
 
+{% hint style="success" %}
+**Translation Progess: 45%**
+
+**Translated: From this page to Offline Installer Guide / Preparing the installer - Part / From Windows**
+
+\*\*\*\*[**Link**](https://kb.hackintoshisfun.ml/clover/v/traditional-chinese/) **to the Traditional Chinese Version Release**
+{% endhint %}
+
