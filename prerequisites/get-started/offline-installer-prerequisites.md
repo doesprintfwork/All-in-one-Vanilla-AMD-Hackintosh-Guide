@@ -5,7 +5,7 @@
 ### 一般
 
 * 下載 [MakeInstallmacOS](https://github.com/doesprintfwork/MakeInstallmacOS)
-* [**PYTHON 3.4 or above（推薦：3.7）**](https://www.python.org/downloads/)\*\*\*\*
+* [**PYTHON 3.4 or above（推薦：3.7, 並選擇加到路徑 Path）**](https://www.python.org/downloads/)\*\*\*\*
 
 ### 在 macOS 中製作安裝器
 
