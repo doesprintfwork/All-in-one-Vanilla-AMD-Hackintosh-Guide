@@ -1,5 +1,5 @@
 ---
-description: Pack the installer to an app with my script.
+description: 把檔案包裝成應用程序
 ---
 
 # 從 macOS

@@ -17,20 +17,22 @@
 * [AMD Clover config.plist](prerequisites/amd-clover-config.plist.md)
 * [SMBIOS](prerequisites/smbios.md)
 
+## 下載安裝器 <a id="download-installer"></a>
+
+* [下載](download-installer/network-part-1.md)
+
 ## 線上安裝 <a id="network-installer-guide"></a>
 
-* [準備安裝 - 第一部分](network-installer-guide/network-part-1.md)
-* [準備安裝 - 第二部分](network-installer-guide/network-part-2/README.md)
+* [準備安裝 - 第一部分](network-installer-guide/network-part-2/README.md)
   * [從 Windows](network-installer-guide/network-part-2/windows.md)
   * [從 macOS](network-installer-guide/network-part-2/macos.md)
 
 ## 離線安裝 <a id="offline-installer-guide"></a>
 
-* [準備安裝 - 第一部分](offline-installer-guide/offline-part-1.md)
-* [準備安裝 - 第二部分](offline-installer-guide/offline-part-2/README.md)
+* [準備安裝 - 第一部分](offline-installer-guide/offline-part-2/README.md)
   * [從 Windows](offline-installer-guide/offline-part-2/windows.md)
   * [從 macOS](offline-installer-guide/offline-part-2/macos.md)
-* [準備安裝 - 第三部分](offline-installer-guide/offline-part-3/README.md)
+* [準備安裝 - 第二部分](offline-installer-guide/offline-part-3/README.md)
   * [從 Windows](offline-installer-guide/offline-part-3/windows.md)
   * [從 macOS](offline-installer-guide/offline-part-3/macos.md)
 

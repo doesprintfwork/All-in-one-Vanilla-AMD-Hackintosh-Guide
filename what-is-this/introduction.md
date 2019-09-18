@@ -15,6 +15,6 @@ Vanilla （原裝）故名思意，就是像原裝一樣，並不會有一些多
 **如果你需要協助的話，在我的**[ **Github Repo**](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) **裡創建一個 Issue 或在 AMD OS X Discord Server 裡找我吧 （Nickname: printf doesn't work）**
 
 {% hint style="danger" %}
-**免責聲明：我並不會對任何的資料損失承擔任何形式的責任，請在格式化任何東西前備份**
+**免責聲明：我並不會對任何的資料損失承擔任何形式的責任，請在刪除或格式化任何東西前備份**
 {% endhint %}
 
