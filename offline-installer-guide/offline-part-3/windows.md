@@ -7,7 +7,7 @@
 3. 到 Options &gt; Configuration 按 Check Now 此步讓程式自動取得最新版本的 Clover
 4. 選擇在列表中的 USB 並按 Format
 5. 程式會把你的 USB 分成兩個分區 1. CLOVER \(EFI 分區， BDU 會自動安裝 Clover\) 2. HFS+ （主要安裝文件分區）
-6. Once it is done, do not close the window
+6. 完成後，不要關閉視窗並到下一階段
 
 ![](../../.gitbook/assets/ezgif-4-b59bb851e67a.gif)
 
