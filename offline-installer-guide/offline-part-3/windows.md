@@ -1,16 +1,12 @@
----
-description: We are going to restore files to your USB.
----
-
 # 從 Windows
 
-## Phase 1 -- Format, Partition, and Install Clover to your USB
+## 階段一 -- 格式化、分區並安裝 Clover 在你的 USB 上
 
-1. Plug in your USB if you haven't plug it in yet
-2. Open BDU
-3. Go to Options &gt; Configuration and press Check Now. By doing this, we make sure we have the latest Clover
-4. Choose your USB listed in the List and press Format
-5. The app will start to format your disk into 2 partition: 1. CLOVER \(the EFI partition. BDU will auto install Clover to it\) 2. HFS+ \(for your Installer Resources\)
+1. 插入你的 USB
+2. 開啟 BDU \(Bootdisk Utility\)
+3. 到 Options &gt; Configuration 按 Check Now 此步讓程式自動取得最新版本的 Clover
+4. 選擇在列表中的 USB 並按 Format
+5. 程式會把你的 USB 分成兩個分區 1. CLOVER \(EFI 分區， BDU 會自動安裝 Clover\) 2. HFS+ （主要安裝文件分區）
 6. Once it is done, do not close the window
 
 ![](../../.gitbook/assets/ezgif-4-b59bb851e67a.gif)
