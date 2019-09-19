@@ -4,10 +4,10 @@ description: 把檔案包裝成應用程序
 
 # 從 macOS
 
-1. Put the cloned folder into the downloaded macOS Installer files folder \(i.e.: `gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
-2. Run `python3 <drag and drop PackAppMacOS.py here>`
-3. Choose A.
-4. Choose the version you are installing.
-5. The script should be packing your files to a Installer app. This may take time, be patient!
-6. When it is done, proceed to [next part](../offline-part-3/macos.md).
+1. 把已下載到的 MakeInstallmacOS 資料夾放到以下位置：`gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
+2. 在 CMD 中執行 `python <拖曳 PackAppmacOS.py 到此處>`
+3. 選 A
+4. 選擇版本
+5. 程式會把檔案包裝成應用用程序
+6. 完成後，請到 [準備安裝 - 第二部分 / 從 macOS](../offline-part-3/macos.md)
 
