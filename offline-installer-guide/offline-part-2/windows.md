@@ -4,7 +4,7 @@ description: 把檔案放到 SharedSupport 裡
 
 # 從 Windows
 
-1. 把已下載到的 MakeInstallmacOS 資料夾放到以下位置：`gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
+1. 把 PackAppWin.py 從已下載的 MakeInstallmacOS repo 中放到以下位置：`gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
 2. 在 CMD 中執行 `python <拖曳 PackAppWin.py 到此處>`
 3. 選 P
 4. 程式會把所需的檔案放到新增的 `SharedSupport` 資料夾裡
