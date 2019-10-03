@@ -1,28 +1,19 @@
 # 從 Windows
 
-## 階段一 -- 格式化、分區並安裝 Clover 在你的 USB 上
+## 階段一 -- 把檔案複製到 USB 中
 
 1. 插入你的 USB
-2. 開啟 BDU \(Bootdisk Utility\)
-3. 到 Options &gt; Configuration 按 Check Now 此步讓程式自動取得最新版本的 Clover
-4. 選擇在列表中的 USB 並按 Format
-5. 程式會把你的 USB 分成兩個分區 1. CLOVER \(EFI 分區， BDU 會自動安裝 Clover\) 2. HFS+ （主要安裝文件分區）
-6. 完成後，不要關閉視窗並到下一階段
+2. 在 gibMacOS 資料夾中運行 MakeInstall.bat
+3. 在視窗中，你的 USB 應被列出。輸入你的 USB 代號後按 Enter
+4. 格式化你的 USB 後，程序會要求你輸入檔案的路徑，只需在以下的檔案：`gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx - xx.xx.x macOS xxxx/RecoveryHDMetaDmg.pkg`
 
-![](../../.gitbook/assets/ezgif-4-b59bb851e67a.gif)
+    按下 Shift 加右鍵，複製成路徑並到視窗中貼上後按 Enter
 
-## Phase 2 -- Extract and Restore Files from BaseSystem.dmg
+5. 程序會開始解壓安裝檔並把檔案還原到你的 USB 上，並會自動安裝 Clover
 
-1. Go to BDU &gt; Tools &gt; Extract HFS \(HFS+\) from DMG-file.
-2. Select the BaseSystem.dmg from the downloaded folder.
-3. Choose Desktop as the Destination folder.
-4. It will start to extract the 4.hfs file from BaseSystem.dmg. Be patient.
-5. Once it is finished, the command promt window should be automatically closed.
-6. Press the plus button next to the USB and choose Part 2.
-7. Press Restore and choose the extracted 4.hfs file.
-8. BDU will start to restore the files to your USB. Be patient.
+![](../../.gitbook/assets/ezgif-4-8fa1279bb84c.gif)
 
-## Phase 3 -- Extend the Volume and Convert to Full Installer
+## Phase 2 -- Extend the Volume and Convert to Full Installer
 
 1. Open Paragon Disk Manager
 2. Go to Partition Manager
