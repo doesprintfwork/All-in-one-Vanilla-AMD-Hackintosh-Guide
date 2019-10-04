@@ -14,7 +14,7 @@ This guide is based on Intel Vanilla Hackintosh Guides with some more directions
 {% endhint %}
 
 {% hint style="success" %}
-**Translation Progess: 45%**
+**Translation Progess: 52.5%**
 
 **Translated: From this page to Offline Installer Guide / Preparing the installer - Part / From Windows**
 

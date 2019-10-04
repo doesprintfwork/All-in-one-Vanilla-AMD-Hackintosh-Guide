@@ -4,20 +4,20 @@ description: We are going to restore files to your USB.
 
 # From Windows
 
-## Phase 1 -- Restore Files to your USB
+## Phase 1 -- Format, Partition, and Install Clover to your USB <a id="phase-1-format-partition-and-install-clover-to-your-usb"></a>
 
 1. Plug in your USB if you haven't plug it in yet
-2. Run MakeInstall.bat in gibMacOS
-3. A Command Prompt window should pop up. Your USB should be listed. Enter the number in front of your USB and press Enter
-4. It will format your USB. After that, shift + right click and copy the path of the downloaded macOS **Recovery** package `gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx - xx.xx.x macOS xxxx/RecoveryHDMetaDmg.pkg`
+2. Open BDU
+3. Go to Options &gt; Configuration and press Check Now. By doing this, we make sure we have the latest Clover
+4. Choose your USB listed in the List and press Format
+5. The app will start to format your disk into 2 partition: 1. CLOVER \(the EFI partition. BDU will auto install Clover to it\) 2. HFS+ \(for your Installer Resources\)
+6. Once it is done, do not close the window
 
-    to the cmd window and press enter
+## Phase 2 -- Extract and Restore Files from BaseSystem.dmg <a id="phase-2-extract-and-restore-files-from-basesystem-dmg"></a>
 
-5. It will start to extract the resources and restore them to your USB drive. This will take some time depending your USB speed. Be patient \(again\)! The script will automatically install Clover \(boot-loader\) to your USB after restoring the files
 
-![](../../.gitbook/assets/ezgif-4-8fa1279bb84c.gif)
 
-## Phase 2 -- Extend the Volume and Convert to Full Installer
+## Phase 3 -- Extend the Volume and Convert to Full Installer
 
 1. Open Paragon Disk Manager
 2. Go to Partition Manager
