@@ -13,6 +13,8 @@ description: We are going to restore files to your USB.
 5. The app will start to format your disk into 2 partition: 1. CLOVER \(the EFI partition. BDU will auto install Clover to it\) 2. HFS+ \(for your Installer Resources\)
 6. Once it is done, do not close the window
 
+![](../../.gitbook/assets/ezgif-4-b59bb851e67a.gif)
+
 ## Phase 2 -- Extract and Restore Files from BaseSystem.dmg <a id="phase-2-extract-and-restore-files-from-basesystem-dmg"></a>
 
 1. Go to BDU &gt; Tools &gt; Extract HFS \(HFS+\) from DMG-file.
@@ -23,6 +25,8 @@ description: We are going to restore files to your USB.
 6. Press the plus button next to the USB and choose Part 2.
 7. Press Restore and choose the extracted 4.hfs file.
 8. BDU will start to restore the files to your USB. Be patient.
+
+
 
 ## Phase 3 -- Extend the Volume and Convert to Full Installer
 
