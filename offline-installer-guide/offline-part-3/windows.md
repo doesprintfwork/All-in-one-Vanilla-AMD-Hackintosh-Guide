@@ -9,6 +9,8 @@
 5. 程式會把你的 USB 分成兩個分區 1. CLOVER \(EFI 分區， BDU 會自動安裝 Clover\) 2. HFS+ （主要安裝文件分區）
 6. 完成後，不要關閉視窗並到下一階段
 
+![](../../.gitbook/assets/ezgif-4-b59bb851e67a.gif)
+
 ## Phase 2 -- Extract and Restore Files from BaseSystem.dmg <a id="phase-2-extract-and-restore-files-from-basesystem-dmg"></a>
 
 1. Go to BDU &gt; Tools &gt; Extract HFS \(HFS+\) from DMG-file.
