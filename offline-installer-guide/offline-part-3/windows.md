@@ -11,7 +11,7 @@
 
 ![](../../.gitbook/assets/ezgif-4-b59bb851e67a.gif)
 
-## Phase 2 -- Extract and Restore Files from BaseSystem.dmg <a id="phase-2-extract-and-restore-files-from-basesystem-dmg"></a>
+## 階段二 -- 從 BaseSystem.dmg 中解壓縮文件並還原到 USB <a id="phase-2-extract-and-restore-files-from-basesystem-dmg"></a>
 
 1. Go to BDU &gt; Tools &gt; Extract HFS \(HFS+\) from DMG-file.
 2. Select the BaseSystem.dmg from the downloaded folder.
