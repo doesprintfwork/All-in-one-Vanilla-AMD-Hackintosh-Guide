@@ -15,7 +15,14 @@ description: We are going to restore files to your USB.
 
 ## Phase 2 -- Extract and Restore Files from BaseSystem.dmg <a id="phase-2-extract-and-restore-files-from-basesystem-dmg"></a>
 
-
+1. Go to BDU &gt; Tools &gt; Extract HFS \(HFS+\) from DMG-file.
+2. Select the BaseSystem.dmg from the downloaded folder.
+3. Choose Desktop as the Destination folder.
+4. It will start to extract the 4.hfs file from BaseSystem.dmg. Be patient.
+5. Once it is finished, the command promt window should be automatically closed.
+6. Press the plus button next to the USB and choose Part 2.
+7. Press Restore and choose the extracted 4.hfs file.
+8. BDU will start to restore the files to your USB. Be patient.
 
 ## Phase 3 -- Extend the Volume and Convert to Full Installer
 
