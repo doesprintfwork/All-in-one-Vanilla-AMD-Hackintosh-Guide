@@ -1,7 +1,3 @@
----
-description: Config.plist for AMD CPUs
----
-
 # AMD Clover config.plist
 
 ## Before anything
@@ -9,15 +5,15 @@ description: Config.plist for AMD CPUs
 * Please get the patches.plist \([Ryzen](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/17h/patches.plist), [FX](https://raw.githubusercontent.com/AMD-OSX/AMD_Vanilla/master/15h_16h/patches.plist)\) from AMD OS X Github \(Right click, Save Page As, Remember to change the suffix to .plist\)
 * Open patches.plist with Clover Configurator \(CCG\) or [Clover Cloud Editor](http://cloudclovereditor.altervista.org/cce/index.php) \(CCE\).
 
-{% hint style="info" %}
-**If you are using CCE**, please go to home page and set _`Show Find/Replace/TgtBridge values as:`_to_`Hex`_because the following CCE screenshots are in Hex.
-{% endhint %}
+?> **If you are using CCE**, please go to home page and set _`Show Find/Replace/TgtBridge values as:`_to_`Hex`_because the following CCE screenshots are in Hex.
 
-## ACPI
+---
 
-### RAW XML
+# ACPI
 
-```markup
+## RAW XML
+
+```XML
 <key>ACPI</key>
 <dict>
 	<key>DSDT</key>
@@ -56,7 +52,7 @@ description: Config.plist for AMD CPUs
 </dict>
 ```
 
-### **Explanations**
+## **Explanations**
 
 **Patches:**
 
@@ -72,15 +68,17 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 * This can fix audio after installing AppleALC and applying a correct layout ID.
 
-### CCE Screenshot
+## CCE Screenshot
 
 ![](../../.gitbook/assets/acpi.png)
 
-## Boot
+---
 
-### RAW XML
+# Boot
 
-```markup
+## RAW XML
+
+```XML
 <key>Boot</key>
 <dict>
 	<key>Arguments</key>
@@ -94,7 +92,7 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 </dict>
 ```
 
-### Explanations
+## Explanations
 
 **Arguments:**
 
@@ -111,23 +109,29 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 
 **Legacy \(PBR\)** - let Clover use PBR to boot legacy system.
 
-### CCE Screenshot
+## CCE Screenshot
 
 ![](../../.gitbook/assets/boot.jpg)
 
-## Boot Graphics \(which doesn't matter much\)
+---
+
+# Boot Graphics
 
 We have nothing to do here. You can tweak it if Clover doesn't show correctly.
 
-## CPU
+---
+
+# CPU
 
 We have nothing to do here also.
 
-## Devices
+---
 
-### RAW XML
+# Devices
 
-```markup
+## RAW XML
+
+```XML
 <key>Devices</key>
 <dict>
 	<key>Audio</key>
@@ -145,24 +149,28 @@ We have nothing to do here also.
 </dict>
 ```
 
-### Explanations
+## Explanations
 
 * **Reset HDA** - Puts the codec back in a neutral state between OS reboots. This prevents some issues with no audio after booting to another OS and then back.
 * **USB** - Under this section, we ensure that _Inject_ and _FixOwnership_ are selected to avoid issues with hanging at a half-printed line somewhere around the `Enabling Legacy Matching` verbose line. You can also get past that by enabling _XHCI Hand Off_ in BIOS.
 
-### CCE Screenshot
+## CCE Screenshot
 
 ![](../../.gitbook/assets/devices.png)
 
-## Disable Drivers <a id="disable-drivers"></a>
+---
+
+# Disable Drivers
 
 We have nothing to do here.
 
-## GUI
+---
 
-### RAW XML
+# GUI
 
-```markup
+## RAW XML
+
+```XML
 <key>GUI</key>
 <dict>
 	<key>Scan</key>
@@ -177,21 +185,23 @@ We have nothing to do here.
 </dict>
 ```
 
-### Explanation
+## Explanation
 
 **Scan:**
 
 The only settings I've tweaked on this page are the _Scan_ settings. I've selected _Custom_, then checked everything except _Legacy_ and _Kernel_. This just omits some of the unbootable entries in Clover to clean up the menu.
 
-### CCE Screenshot
+## CCE Screenshot
 
 ![](../../.gitbook/assets/graphics.png)
 
-## Graphics
+---
 
-### RAW XML
+# Graphics
 
-```markup
+## RAW XML
+
+```XML
 <key>Graphics</key>
 <dict>
 	<key>Inject</key>
@@ -201,23 +211,27 @@ The only settings I've tweaked on this page are the _Scan_ settings. I've select
 </dict>
 ```
 
-**Please refer to** [**GPU Buyers Guide**](https://khronokernel-3.gitbook.io/catalina-gpu-buyers-guide/) **and see which settings do you need for your GPU.**
+**Please refer to** [GPU Buyers Guide](https://khronokernel-3.gitbook.io/catalina-gpu-buyers-guide/) **and see which settings do you need for your GPU. Skip this if you are using a Maxwell or later NVidia GPU**
 
-## Kernel And Kexts Patches
+---
+
+# Kernel And Kexts Patches
 
 The patches.plist \(which you are editing\) already has all of the patches you want to have. Those patches are used to patch the native Kernel.
 
 * **AppleRTC \(enabled\)** - this ensures that we don't have a BIOS reset on reboot.
 
-### CCE Screenshot
+## CCE Screenshot
 
 ![](../../.gitbook/assets/kernel-and-kext-patches.png)
 
-## Rt Variables and SMBIOS
+---
 
-### RAW XML \(Rt Variables\)
+# Rt Variables and SMBIOS
 
-```markup
+## RAW XML \(Rt Variables\)
+
+```XML
 <key>RtVariables</key>
 <dict>
 	<key>BooterConfig</key>
@@ -229,7 +243,7 @@ The patches.plist \(which you are editing\) already has all of the patches you w
 </dict>
 ```
 
-### Explanation
+## Explanation
 
 **RT Variables:** \(From CorpNewt's Vanilla Guide\)
 
@@ -239,15 +253,17 @@ _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which
 
 **SMBIOS:** Skip this first
 
-### CCE Screenshot
+## CCE Screenshot
 
 ![](../../.gitbook/assets/annotation-2019-06-21-101320.png)
 
-## System Parameters
+---
 
-### RAW XML
+# System Parameters
 
-```markup
+## RAW XML
+
+```XML
 <key>SystemParameters</key>
 <dict>
 	<key>InjectKexts</key>
@@ -257,7 +273,7 @@ _BooterConfig_ gets set to `0x28`, and _CsrActiveConfig_ is set to `0x3e7` which
 </dict>
 ```
 
-### **Explanations**
+## **Explanations**
 
 **Inject Kexts:**
 
@@ -275,13 +291,15 @@ This setting tells clover to set the SmUUID as the `system-id` at boot - which i
 
 **NvidiaWeb:**
 
-This setting will force `nvda_drv=1` on every boot, this is recommended for users with non-functional NVRAM ****\(EmuVariableUEFI\) or issues switching from the default macOS drivers to the Nvidia WebDrivers.
+This setting will force `nvda_drv=1` on every boot, this is recommended for users with non-functional NVRAM \(EmuVariableUEFI\) or issues switching from the default macOS drivers to the Nvidia WebDrivers.
 
-### CCE Screenshot
+## CCE Screenshot
 
 ![](../../.gitbook/assets/system-parameters.png)
 
-## Save and Exit
+---
+
+# Save and Exit
 
 At this point, you can do _File -&gt; Save_ to save the config.plist \(or go back to home page and download your config.plist if you are using CCE\). Keep it to somewhere you'll remember.
 

@@ -1,7 +1,3 @@
----
-description: Download the installer image.
----
-
 # Download the Installer
 
 ## Get the macOS Installer from gibMacOS
@@ -12,9 +8,7 @@ description: Download the installer image.
 4. Press Enter and it should start downloading. Be patient while downloading the files. - With `Recovery Only` turned **on**, it will **only download 1 file** - Without `Recovery Only` , it will download 11 files.
 5. Once it finishes downloading, you can proceed to the [~~Network Installer Guide~~](../network-installer-guide/network-part-2/) ~~or~~ [Offline Installer Guide](../offline-installer-guide/offline-part-2/)
 
-{% hint style="danger" %}
-**Only choose 10.13.6 or 10.14.6. Other versions are not supported.**
-{% endhint %}
+!> **Only choose 10.13.6 or 10.14.6. Other versions are not supported.**
 
 ![](../.gitbook/assets/gibmacos-macos-1.gif)
 

@@ -6,16 +6,11 @@
 
 * <big><b>Prerequisites</b></big>
     * [Get Started](prerequisites/get-started/README.md)
-        * [General Prerequisites](prerequisites/get-started/general-prerequisites.md)
-        * [Network Installer Prerequisites](prerequisites/get-started/network-installer-prerequisites.md)
-        * [Offline Installer Prerequisites](prerequisites/get-started/offline-installer-prerequisites.md)
-        * [Requirements](prerequisites/get-started/requirements.md)
-        * [Gathering Kexts](prerequisites/get-started/gathering-kexts.md)
     * [AMD Clover config.plist](prerequisites/amd-clover-config.plist/README.md)
-        * [SMBIOS](prerequisites/amd-clover-config.plist/smbios.md)
+    * [SMBIOS](prerequisites/amd-clover-config.plist/smbios.md)
 
 * <big><b>Download</b></big>
-    * [Download the Installer](download/network-part-1.md)
+    * [Download the Installer](download/download.md)
 
 * <big><b>Network Installer Guide</b></big>
     * [Preparing the installer - Part 1](network-installer-guide/network-part-2/README.md)

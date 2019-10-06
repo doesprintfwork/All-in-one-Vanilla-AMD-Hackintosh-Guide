@@ -10,8 +10,8 @@ Niresh \(distro's\) is an all in one installer which runs on all hardware. Altho
 
 Vanilla, meaning the most native way. In this way, you will learn how things work and that will be easier for debugging. And there will be less unnecessary drivers and kexts than Niresh \(distro's\).
 
-**For multi-booting, read** [**this**](https://hackintosh-multiboot.gitbook.io/hackintosh-multiboot/) **first.**
+**For multi-booting, read** [this](https://hackintosh-multiboot.gitbook.io/hackintosh-multiboot/) **first.**
 
-**If you need any help, feel free to create an Issue on my** [**Github Repo**](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) **OR ask me in the AMD OS X Discord Server.**
+**If you need any help, feel free to create an Issue on my** [Github Repo](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) **OR ask me in the AMD OS X Discord Server.**
 
 !> **DISCLAIMER: I AM NOT RESPONSIBLE FOR ANY DATA LOSS. BACKUP BEFORE FORMATTING ANYTHING.**
