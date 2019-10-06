@@ -19,5 +19,7 @@ This guide is based on Intel Vanilla Hackintosh Guides with some more directions
 **Translated: From this page to Offline Installer Guide / Preparing the installer - Part / From Windows**
 
 \*\*\*\*[**Link**](https://kb.hackintoshisfun.ml/clover/v/traditional-chinese/) **to the Traditional Chinese Version Release**
+
+This guide will move to Docsify for more functions
 {% endhint %}
 
