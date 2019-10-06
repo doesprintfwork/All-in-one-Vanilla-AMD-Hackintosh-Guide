@@ -1,7 +1,3 @@
----
-description: Configuring the Bios settings
----
-
 # Actual Installation - Part 1
 
 ### Go into Bios and configure these settings:

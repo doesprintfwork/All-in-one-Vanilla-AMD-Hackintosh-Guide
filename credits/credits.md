@@ -1,7 +1,3 @@
----
-description: CREDITS!
----
-
 # Credits
 
 ### Here are the credits to who helped me. They are awesome!
@@ -16,4 +12,3 @@ description: CREDITS!
 * **Shaneee** - For his original Vanilla AMD Hackintosh Guide. [Link](https://vanilla.amd-osx.com) to his guide.
 * **MykolaG \(u/dracoflar, khronokernel\)** - For the help of the AMD Config.plist guide and the [GPU Buyers Guide](https://khronokernel-3.gitbook.io/catalina-gpu-buyers-guide/). [His guides](https://github.com/khronokernel) are awesome. Make sure to check them out!
 * **And many more kind people** - For proofreading my guide.
-

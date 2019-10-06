@@ -1,8 +1,6 @@
----
-description: Still WIP.
----
-
 # FAQs
+
+Still WIP.
 
 ## Q: I'm stuck at Apple Logo
 

@@ -1,16 +1,10 @@
----
-description: Post installation
----
-
 # Posty!!!
 
 ## General
 
 Download link for [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 
-{% hint style="info" %}
-If the newest link doesn't work, download an older one instead.
-{% endhint %}
+?> If the newest link doesn't work, download an older one instead.
 
 ### Mount EFI
 
@@ -33,17 +27,15 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 4. Press `Change Install Location..`.
 5. Choose the hard disk you have your macOS installed and press `Continue`.
 6. Press `Customize` and Choose these settings:
-
-   `Clover for UEFI booting only  
-   Install Clover in the ESP  
-  
-   Recommended Drivers:  
-    - ApfsDriverLoader  
-    - AptioMemoryFix  
-    - HFSPlus  
-  
-   Install RC Scripts on target volume (or Install RC Scripts on other volumes)`
-
+    ```
+    Clover for UEFI booting only
+    Install Clover in the ESP
+    Recommended Drivers:  
+    - ApfsDriverLoader
+    - AptioMemoryFix
+    - HFSPlus
+    Install RC Scripts on target volume (or Install RC Scripts on other volumes)
+    ```
 7. Press Install.
 8. When it finish, a partition call EFI should be mounted.
 9. Mount your USB EFI partition.
@@ -59,7 +51,7 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 3. Download the latest release of [gfxutil](https://github.com/acidanthera/gfxutil/releases)
 4. Open Terminal
 5. Drag and drop the downloaded gfxutil to the Terminal Window and type `-f HDEF`
-6. **If you do not have output, read** [**how to change AZAL to HDEF**](posty.md#change-azal-to-hdef) **first and run again.**
+6. **If you do not have output, read** [how to change AZAL to HDEF](/post-installation/posty.md#change-azal-to-hdef) **first and run again.**
 7. The output should be something like this: `PciRoot(0x0)/Pci(0x1f,0x3)`
 8. Go to the Specification page of your Motherboard on the official site and find the Audio Codec on your board.
 9. Go to [this page](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) and find your layout of your Codec. A layout should be a _**NUMBER.**_ A Codec should have more than one Layout ID. But if it isn't listed out, unfortunately you need to use VoodooHDA.
@@ -77,17 +69,13 @@ We'll need to install Clover to your hard disk. Without that, you won't be able 
 | :--- | :--- | :--- | :--- |
 | PciRoot\(0x0\)/Pci\(0x1f,0x3\) | layout-id | 07 | DATA |
 
-{% hint style="info" %}
-Note: You'll loss 3.5mm Audio Input \(Microphone\) support. But VoodooHDA will fix it. NO FX SUPPORT
-{% endhint %}
+?> Note: You'll loss 3.5mm Audio Input \(Microphone\) support. But VoodooHDA will fix it. NO FX SUPPORT
 
 #### VoodooHDA
 
 * Nothing to do. Audio should work OOB.
 
-{% hint style="info" %}
-Note: Worse audio quality than AppleALC.
-{% endhint %}
+?> Note: Worse audio quality than AppleALC.
 
 #### Change AZAL to HDEF
 
