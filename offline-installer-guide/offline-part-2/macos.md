@@ -4,7 +4,7 @@ description: 把檔案包裝成應用程序
 
 # 從 macOS
 
-1. 把 ****PackAppWin.py 從已下載的 MakeInstallmacOS repo 中放到以下位置：`gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
+1. 把 ****PackAppmacOS.py 從已下載的 MakeInstallmacOS repo 中放到以下位置：`gibMacOS/macOS Downloads/publicrelease/xxx-xxxxx blah blah blah`\)
 2. 在 CMD 中執行 `python3 <拖曳 PackAppmacOS.py 到此處>`
 3. 選 A
 4. 選擇版本
