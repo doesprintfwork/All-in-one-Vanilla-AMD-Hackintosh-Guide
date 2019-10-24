@@ -1,5 +1,5 @@
 ---
-description: Pack the installer to an app with my script.
+description: Pack the installer to an app.
 ---
 
 # From macOS
