@@ -16,7 +16,8 @@ All the kexts shown here \(except SmallTreeIntel82576\) are available for downlo
 
 * [_Lilu.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455053&cid=FE4038DA929BFB23) _-_ this kext acts as a loader for other kexts. More specifically it can patch kexts, processes and libraries.
 * [_Whatevergreen.kext_ ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455095&cid=FE4038DA929BFB23)_-_ this kext fixes a lot of GPU related issues.
-* [NullCPUPowerManagement.kext](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD chips.**_
+* [_NullCPUPowerManagement.kext_](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) **- This kext disables CPU power management,** _**as that is not supported on AMD chips.**_
+* \_\_[_AppleMCEReporterDisabler.kext_](https://github.com/AMD-OSX/AMD_Vanilla/raw/master/Extra/AppleMCEReporterDisabler.kext.zip) - this kext disables AppleIntelMCEReporter which may cause panic on startup _**\(ONLY NEEDED ON CATALINA\)**_
 
 ### Ethernet \(Choose the one you need\)
 

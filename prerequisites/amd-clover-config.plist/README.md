@@ -24,17 +24,7 @@ description: Config.plist for AMD CPUs
 	<dict>
 		<key>Fixes</key>
 		<dict>
-			<key>DeleteUnused</key>
-			<true/>
-			<key>FixHPET</key>
-			<true/>
-			<key>FixRTC</key>
-			<true/>
 			<key>FixShutdown</key>
-			<true/>
-			<key>FixTMR</key>
-			<true/>
-			<key>FixIPIC</key>
 			<true/>
 		</dict>
 		<key>Patches</key>
@@ -67,10 +57,6 @@ The first thing we'll go over is the _Patches_ section. This section allows us t
 **Enable Fix Shutdown**
 
 * This can fix some shutdown issues like reboot instead of shutting down. But this might also cause shutdown issues on some board. So if you are having some issues with shutting down, disable this.
-
-**Enable Fix IPIC, TMR, HPET and RTC**
-
-* This can fix audio after installing AppleALC and applying a correct layout ID.
 
 ### CCE Screenshot
 
